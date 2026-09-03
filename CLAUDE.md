@@ -181,6 +181,34 @@ src/               one script, one job
 
 ---
 
+---
+
+## The upstream fix, and why it matters for the memo
+
+OSPI already publishes **Multilingual Family Communication Templates in 40+ languages**, free, for any district to use:
+
+https://ospi.k12.wa.us/student-success/access-opportunity-education/migrant-and-multilingual-education/multilingual-education-program/multilingual-family-communication-templates
+
+Verified as including **Amharic, Tigrinya, Pashto, Dari, Farsi, Arabic, French, Somali, Punjabi, Ukrainian, Marshallese, Karen, Khmer** and others.
+
+The templates are not marketing leaflets. They cover **Home Language Surveys, program placement notices, continued-eligibility and exit letters, WIDA testing notifications, and ELD program waiver forms.** Those are the consequential documents.
+
+**Every one of the languages scoring written_tier 0 in the Phase 1 inventory has a template already published.**
+
+This is the single most important framing asset in the project. It converts the finding from "there is a gap" into "there is a gap, the fix already exists upstream, it is free, and it is not being used." A memo that says the first thing gets filed. A memo that says the second thing is actionable.
+
+Preserve this framing in the memo and the README. Do not let the recommendation soften into "districts should consider improving language access."
+
+### A related finding worth keeping
+
+Highline's translation widget is Google Translate **restricted to 7 languages**: Dari, Ukrainian, Vietnamese, Spanish, Thai, Russian, Somali.
+
+The unrestricted default covers 135+. So Highline actively configured its tool to serve fewer languages than it shipped with, and the excluded set includes Amharic (164 families) while the included set contains Thai (35 families across all six districts).
+
+Highline's own homepage names Amharic, Punjabi, Arabic and Khmer among its most common family languages. None of those four are in its widget. Its board Policy 4218 promises free translation of vital documents in any language, and an Amharic-reading parent has no way to discover that promise exists.
+
+That contradiction, inside one district's own website, is the sharpest single example in the dataset.
+
 ## Open items
 
 - Pick the memo recipient. King County Office of Equity and Social Justice, OSPI's multilingual education office, a city council, or a nonprofit. This changes which numbers lead and should be decided before Phase 4 finishes.
