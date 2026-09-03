@@ -1,0 +1,39 @@
+variable,label
+C16001_001E,Total:
+C16001_002E,Speak only English
+C16001_003E,Spanish:
+C16001_004E,"Spanish:!!Speak English ""very well"""
+C16001_005E,"Spanish:!!Speak English less than ""very well"""
+C16001_006E,"French, Haitian, or Cajun:"
+C16001_007E,"French, Haitian, or Cajun:!!Speak English ""very well"""
+C16001_008E,"French, Haitian, or Cajun:!!Speak English less than ""very well"""
+C16001_009E,German or other West Germanic languages:
+C16001_010E,"German or other West Germanic languages:!!Speak English ""very well"""
+C16001_011E,"German or other West Germanic languages:!!Speak English less than ""very well"""
+C16001_012E,"Russian, Polish, or other Slavic languages:"
+C16001_013E,"Russian, Polish, or other Slavic languages:!!Speak English ""very well"""
+C16001_014E,"Russian, Polish, or other Slavic languages:!!Speak English less than ""very well"""
+C16001_015E,Other Indo-European languages:
+C16001_016E,"Other Indo-European languages:!!Speak English ""very well"""
+C16001_017E,"Other Indo-European languages:!!Speak English less than ""very well"""
+C16001_018E,Korean:
+C16001_019E,"Korean:!!Speak English ""very well"""
+C16001_020E,"Korean:!!Speak English less than ""very well"""
+C16001_021E,"Chinese (incl. Mandarin, Cantonese):"
+C16001_022E,"Chinese (incl. Mandarin, Cantonese):!!Speak English ""very well"""
+C16001_023E,"Chinese (incl. Mandarin, Cantonese):!!Speak English less than ""very well"""
+C16001_024E,Vietnamese:
+C16001_025E,"Vietnamese:!!Speak English ""very well"""
+C16001_026E,"Vietnamese:!!Speak English less than ""very well"""
+C16001_027E,Tagalog (incl. Filipino):
+C16001_028E,"Tagalog (incl. Filipino):!!Speak English ""very well"""
+C16001_029E,"Tagalog (incl. Filipino):!!Speak English less than ""very well"""
+C16001_030E,Other Asian and Pacific Island languages:
+C16001_031E,"Other Asian and Pacific Island languages:!!Speak English ""very well"""
+C16001_032E,"Other Asian and Pacific Island languages:!!Speak English less than ""very well"""
+C16001_033E,Arabic:
+C16001_034E,"Arabic:!!Speak English ""very well"""
+C16001_035E,"Arabic:!!Speak English less than ""very well"""
+C16001_036E,Other and unspecified languages:
+C16001_037E,"Other and unspecified languages:!!Speak English ""very well"""
+C16001_038E,"Other and unspecified languages:!!Speak English less than ""very well"""

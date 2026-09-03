@@ -1,0 +1,129 @@
+variable,label
+B16001_001E,Total:
+B16001_002E,Speak only English
+B16001_003E,Spanish:
+B16001_004E,"Spanish:!!Speak English ""very well"""
+B16001_005E,"Spanish:!!Speak English less than ""very well"""
+B16001_006E,French (incl. Cajun):
+B16001_007E,"French (incl. Cajun):!!Speak English ""very well"""
+B16001_008E,"French (incl. Cajun):!!Speak English less than ""very well"""
+B16001_009E,Haitian:
+B16001_010E,"Haitian:!!Speak English ""very well"""
+B16001_011E,"Haitian:!!Speak English less than ""very well"""
+B16001_012E,Italian:
+B16001_013E,"Italian:!!Speak English ""very well"""
+B16001_014E,"Italian:!!Speak English less than ""very well"""
+B16001_015E,Portuguese:
+B16001_016E,"Portuguese:!!Speak English ""very well"""
+B16001_017E,"Portuguese:!!Speak English less than ""very well"""
+B16001_018E,German:
+B16001_019E,"German:!!Speak English ""very well"""
+B16001_020E,"German:!!Speak English less than ""very well"""
+B16001_021E,"Yiddish, Pennsylvania Dutch or other West Germanic languages:"
+B16001_022E,"Yiddish, Pennsylvania Dutch or other West Germanic languages:!!Speak English ""very well"""
+B16001_023E,"Yiddish, Pennsylvania Dutch or other West Germanic languages:!!Speak English less than ""very well"""
+B16001_024E,Greek:
+B16001_025E,"Greek:!!Speak English ""very well"""
+B16001_026E,"Greek:!!Speak English less than ""very well"""
+B16001_027E,Russian:
+B16001_028E,"Russian:!!Speak English ""very well"""
+B16001_029E,"Russian:!!Speak English less than ""very well"""
+B16001_030E,Polish:
+B16001_031E,"Polish:!!Speak English ""very well"""
+B16001_032E,"Polish:!!Speak English less than ""very well"""
+B16001_033E,Serbo-Croatian:
+B16001_034E,"Serbo-Croatian:!!Speak English ""very well"""
+B16001_035E,"Serbo-Croatian:!!Speak English less than ""very well"""
+B16001_036E,Ukrainian or other Slavic languages:
+B16001_037E,"Ukrainian or other Slavic languages:!!Speak English ""very well"""
+B16001_038E,"Ukrainian or other Slavic languages:!!Speak English less than ""very well"""
+B16001_039E,Armenian:
+B16001_040E,"Armenian:!!Speak English ""very well"""
+B16001_041E,"Armenian:!!Speak English less than ""very well"""
+B16001_042E,"Persian (incl. Farsi, Dari):"
+B16001_043E,"Persian (incl. Farsi, Dari):!!Speak English ""very well"""
+B16001_044E,"Persian (incl. Farsi, Dari):!!Speak English less than ""very well"""
+B16001_045E,Gujarati:
+B16001_046E,"Gujarati:!!Speak English ""very well"""
+B16001_047E,"Gujarati:!!Speak English less than ""very well"""
+B16001_048E,Hindi:
+B16001_049E,"Hindi:!!Speak English ""very well"""
+B16001_050E,"Hindi:!!Speak English less than ""very well"""
+B16001_051E,Urdu:
+B16001_052E,"Urdu:!!Speak English ""very well"""
+B16001_053E,"Urdu:!!Speak English less than ""very well"""
+B16001_054E,Punjabi:
+B16001_055E,"Punjabi:!!Speak English ""very well"""
+B16001_056E,"Punjabi:!!Speak English less than ""very well"""
+B16001_057E,Bengali:
+B16001_058E,"Bengali:!!Speak English ""very well"""
+B16001_059E,"Bengali:!!Speak English less than ""very well"""
+B16001_060E,"Nepali, Marathi, or other Indic languages:"
+B16001_061E,"Nepali, Marathi, or other Indic languages:!!Speak English ""very well"""
+B16001_062E,"Nepali, Marathi, or other Indic languages:!!Speak English less than ""very well"""
+B16001_063E,Other Indo-European languages:
+B16001_064E,"Other Indo-European languages:!!Speak English ""very well"""
+B16001_065E,"Other Indo-European languages:!!Speak English less than ""very well"""
+B16001_066E,Telugu:
+B16001_067E,"Telugu:!!Speak English ""very well"""
+B16001_068E,"Telugu:!!Speak English less than ""very well"""
+B16001_069E,Tamil:
+B16001_070E,"Tamil:!!Speak English ""very well"""
+B16001_071E,"Tamil:!!Speak English less than ""very well"""
+B16001_072E,"Malayalam, Kannada, or other Dravidian languages:"
+B16001_073E,"Malayalam, Kannada, or other Dravidian languages:!!Speak English ""very well"""
+B16001_074E,"Malayalam, Kannada, or other Dravidian languages:!!Speak English less than ""very well"""
+B16001_075E,"Chinese (incl. Mandarin, Cantonese):"
+B16001_076E,"Chinese (incl. Mandarin, Cantonese):!!Speak English ""very well"""
+B16001_077E,"Chinese (incl. Mandarin, Cantonese):!!Speak English less than ""very well"""
+B16001_078E,Japanese:
+B16001_079E,"Japanese:!!Speak English ""very well"""
+B16001_080E,"Japanese:!!Speak English less than ""very well"""
+B16001_081E,Korean:
+B16001_082E,"Korean:!!Speak English ""very well"""
+B16001_083E,"Korean:!!Speak English less than ""very well"""
+B16001_084E,Hmong:
+B16001_085E,"Hmong:!!Speak English ""very well"""
+B16001_086E,"Hmong:!!Speak English less than ""very well"""
+B16001_087E,Vietnamese:
+B16001_088E,"Vietnamese:!!Speak English ""very well"""
+B16001_089E,"Vietnamese:!!Speak English less than ""very well"""
+B16001_090E,Khmer:
+B16001_091E,"Khmer:!!Speak English ""very well"""
+B16001_092E,"Khmer:!!Speak English less than ""very well"""
+B16001_093E,"Thai, Lao, or other Tai-Kadai languages:"
+B16001_094E,"Thai, Lao, or other Tai-Kadai languages:!!Speak English ""very well"""
+B16001_095E,"Thai, Lao, or other Tai-Kadai languages:!!Speak English less than ""very well"""
+B16001_096E,Other languages of Asia:
+B16001_097E,"Other languages of Asia:!!Speak English ""very well"""
+B16001_098E,"Other languages of Asia:!!Speak English less than ""very well"""
+B16001_099E,Tagalog (incl. Filipino):
+B16001_100E,"Tagalog (incl. Filipino):!!Speak English ""very well"""
+B16001_101E,"Tagalog (incl. Filipino):!!Speak English less than ""very well"""
+B16001_102E,"Ilocano, Samoan, Hawaiian, or other Austronesian languages:"
+B16001_103E,"Ilocano, Samoan, Hawaiian, or other Austronesian languages:!!Speak English ""very well"""
+B16001_104E,"Ilocano, Samoan, Hawaiian, or other Austronesian languages:!!Speak English less than ""very well"""
+B16001_105E,Arabic:
+B16001_106E,"Arabic:!!Speak English ""very well"""
+B16001_107E,"Arabic:!!Speak English less than ""very well"""
+B16001_108E,Hebrew:
+B16001_109E,"Hebrew:!!Speak English ""very well"""
+B16001_110E,"Hebrew:!!Speak English less than ""very well"""
+B16001_111E,"Amharic, Somali, or other Afro-Asiatic languages:"
+B16001_112E,"Amharic, Somali, or other Afro-Asiatic languages:!!Speak English ""very well"""
+B16001_113E,"Amharic, Somali, or other Afro-Asiatic languages:!!Speak English less than ""very well"""
+B16001_114E,"Yoruba, Twi, Igbo, or other languages of Western Africa:"
+B16001_115E,"Yoruba, Twi, Igbo, or other languages of Western Africa:!!Speak English ""very well"""
+B16001_116E,"Yoruba, Twi, Igbo, or other languages of Western Africa:!!Speak English less than ""very well"""
+B16001_117E,"Swahili or other languages of Central, Eastern, and Southern Africa:"
+B16001_118E,"Swahili or other languages of Central, Eastern, and Southern Africa:!!Speak English ""very well"""
+B16001_119E,"Swahili or other languages of Central, Eastern, and Southern Africa:!!Speak English less than ""very well"""
+B16001_120E,Navajo:
+B16001_121E,"Navajo:!!Speak English ""very well"""
+B16001_122E,"Navajo:!!Speak English less than ""very well"""
+B16001_123E,Other Native languages of North America:
+B16001_124E,"Other Native languages of North America:!!Speak English ""very well"""
+B16001_125E,"Other Native languages of North America:!!Speak English less than ""very well"""
+B16001_126E,Other and unspecified languages:
+B16001_127E,"Other and unspecified languages:!!Speak English ""very well"""
+B16001_128E,"Other and unspecified languages:!!Speak English less than ""very well"""
