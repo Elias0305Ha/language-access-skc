@@ -272,6 +272,16 @@ python src/fetch_google_translate_languages.py  # 249 widget languages
 python src/build_transit_inventory.py           # Metro and Sound Transit
 ```
 
+Phase 3, city sector:
+
+```
+python src/probe_agency_sites.py       # profiles all 8 city websites
+python src/build_city_inventory.py     # applies the classification rule
+```
+
+`probe_agency_sites.py` is reusable: add rows to its AGENCIES list for the
+legal, food and health sectors rather than writing new fetchers.
+
 Requires `geopandas`, `beautifulsoup4` and `pypdf`. Every fetch script skips a file already on disk, so the sequence is safe to rerun and makes no network requests on a second run.
 
 Requires a Census API key in `.env` as `CENSUS_API_KEY`. Run `python src/check_key.py` to verify it.
