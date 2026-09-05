@@ -263,7 +263,16 @@ python src/parse_kcls_interpreters.py       # in-language pathway and video/audi
 python src/build_kcls_inventory.py          # applies the classification rule
 ```
 
-Requires `geopandas` and `beautifulsoup4`. Every fetch script skips a file already on disk, so the sequence is safe to rerun and makes no network requests on a second run.
+Phase 3, transit sector:
+
+```
+python src/fetch_kingcounty_sitemap.py          # 11,587 page URLs, all /en/
+python src/audit_kingcounty_locales.py          # are the locale paths translated?
+python src/fetch_google_translate_languages.py  # 249 widget languages
+python src/build_transit_inventory.py           # Metro and Sound Transit
+```
+
+Requires `geopandas`, `beautifulsoup4` and `pypdf`. Every fetch script skips a file already on disk, so the sequence is safe to rerun and makes no network requests on a second run.
 
 Requires a Census API key in `.env` as `CENSUS_API_KEY`. Run `python src/check_key.py` to verify it.
 
