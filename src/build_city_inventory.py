@@ -41,6 +41,7 @@ SECTOR = "city"
 PROFILES = Path("data/raw/agency_site_profiles.json")
 GOOGLE = Path("data/raw/google_translate_languages.json")
 OUT = Path("data/inventory/city_inventory.csv")
+QUALITY = Path("data/inventory/quality_checks.csv")
 
 # Canonical study-area name -> ISO code as the widgets write it.
 # Built by hand because the widgets use bare ISO codes and the demand
@@ -89,6 +90,16 @@ def main():
     profiles = json.loads(PROFILES.read_text(encoding="utf-8"))
     google = json.loads(GOOGLE.read_text(encoding="utf-8"))["languages"]
     google_codes = {c.lower() for c in google}
+
+    # Native-speaker quality verdicts. Recorded, never used to change a
+    # tier: see CLASSIFICATION_RULE 5.10 for why downgrading only the
+    # language we can read would bias the dataset against that language.
+    quality = {}
+    if QUALITY.exists():
+        q = pd.read_csv(QUALITY)
+        for _, r in q.iterrows():
+            quality[(r["agency_id"], r["language"])] = r["verdict"]
+        print(f"quality checks on file: {len(quality)}")
 
     demand = pd.read_csv("data/processed/demand_by_district.csv")
     universe = sorted(set(demand["language"]))
@@ -177,6 +188,8 @@ def main():
                 "site_page_count": p.get("sitemap_page_count", 0),
                 "evidence_url": pages[0] if pages else p.get("final_url", p["base_url"]),
                 "capture_date": today,
+                "quality_verdict": quality.get((p["agency_id"], lang),
+                                               "unchecked" if pages else ""),
                 "notes": " | ".join(notes),
                 "assigned_by": "EH", "assignment_method": "derived",
             })

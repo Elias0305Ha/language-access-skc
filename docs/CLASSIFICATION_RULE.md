@@ -180,6 +180,37 @@ Added in v2.0:
 
 *Observed at KCLS: video and audio interpreting reaches 20 of 22 study-area locations, phone reaches all of them, and only five languages are available outside weekday hours. Three facts, one tier.*
 
+### 5.10 A page exists in the language but a native speaker judges it poor
+
+**Decision: record the verdict in a separate column. Do not change the tier.**
+
+This looks wrong at first, so the reasoning matters.
+
+The tier 3 test is "human-produced or reviewed." A native speaker reporting that a page reads as unreviewed machine output is direct evidence that the test is not met, and the instinct is to downgrade the row to tier 1.
+
+**Downgrading would introduce a worse bias than it removes.** Quality can only be judged in languages someone on the project can read. In practice that is Amharic. Every other language is scored on structural signals: does a page exist, is it human-produced, is it a real translation rather than an English page under a translated title.
+
+If poor-quality Amharic is downgraded while unverifiable Punjabi, Khmer and Marshallese pages keep tier 3, then **the one language subject to expert scrutiny is punished for being scrutinised.** The dataset would systematically understate provision in exactly the language the analyst can read, and a reviewer comparing Amharic against Punjabi would be comparing two different standards.
+
+**The rule:**
+
+> Quality verdicts are recorded in `data/inventory/quality_checks.csv` and surfaced as a `quality_verdict` column. Tiers stay as structurally assigned. Phase 4 reports the gap index both ways, unadjusted and quality-adjusted, as a sensitivity test.
+
+That keeps a real finding visible without letting uneven verification silently distort the ranking.
+
+**Verdict values:** `human`, `poor`, `machine`, `unchecked`.
+
+*First application, 2026-09-05, both by native-speaker review:*
+
+| Agency | Language | Verdict |
+|---|---|---|
+| City of Burien | Amharic | `human`, genuine translation of consequential documents |
+| King County | Amharic | `poor`, "not direct translations and not well translated" |
+
+Burien's Amharic pages cover the public safety levy, immigration resources and emergency information. Those are consequential documents in the same category as the school placement letters this project is built around, and no school district in the study area publishes their equivalent in Amharic.
+
+**This is the honest scope of the finding:** two agencies, one language, checked by one reader. It is worth more than it looks, because it is the only direct evidence in the project that structural detection and actual quality can disagree. It is also a reminder that every unchecked tier 3 row in this dataset carries the same unmeasured risk.
+
 ---
 
 ## 6. Evidence required per row

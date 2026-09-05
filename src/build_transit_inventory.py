@@ -79,8 +79,20 @@ ST_I_SPEAK_URL = ("https://www.soundtransit.org/sites/default/files/documents/"
                   "i-speak-language-assistance-2019.pdf")
 ST_I_SPEAK_DATE = "2019-07-05"
 
-METRO_INTERPRETER_URL = ("https://kingcounty.gov/en/legacy/depts/transportation/"
-                         "metro/contact-us/need-an-interpreter.aspx")
+METRO_INTERPRETER_URL = "https://kingcounty.gov/en/dept/metro/contact-us"
+
+# Metro's interpreter line is not a separate service. It is option 1 on
+# the general call centre number, so it inherits the call centre's hours.
+# Verified on the current contact page, which states:
+#   "Open 6 am to 6 pm for trip planning and lost and found calls.
+#    Open 8 am to 5 pm for fare/pass information and customer comments.
+#    Closed on weekends and holidays"
+# Buses run on weekends. The only route to a human in another language
+# does not. Recorded as availability rather than folded into the tier,
+# per rule 5.9.
+METRO_ORAL_AVAILABILITY = "weekdays"
+METRO_CALL_CENTRE_HOURS = ("6am-6pm trip planning, 8am-5pm fares, "
+                           "closed weekends and holidays")
 METRO_WIDGET_URL = "https://kingcounty.gov/en/dept/metro"
 ST_TITLE_VI_URL = ("https://www.soundtransit.org/get-to-know-us/"
                    "office-civil-rights-equity-inclusion/title-vi-civil-rights/"
@@ -147,6 +159,9 @@ def main():
             m_notes.append("Tier 2 rests entirely on the unrestricted Google "
                            "Translate widget. The interpreter line instruction "
                            "at 206-553-3000 is published in English only")
+            m_notes.append("The interpreter line is option 1 on the general "
+                           "call centre number and shares its hours: " +
+                           METRO_CALL_CENTRE_HOURS)
         else:
             m_notes.append("Not covered by the widget and no in-language "
                            "pathway, so there is no published route to the "
@@ -161,6 +176,8 @@ def main():
             "translated_page_slugs": METRO_TRANSLATED.get(lang, ""),
             "evidence_url": (("https://kingcounty.gov/en" + METRO_TRANSLATED[lang])
                              if lang in METRO_TRANSLATED else METRO_INTERPRETER_URL),
+            "oral_availability": METRO_ORAL_AVAILABILITY if m_oral else "",
+            "oral_hours": METRO_CALL_CENTRE_HOURS if m_oral else "",
             "capture_date": today,
             "notes": " | ".join(m_notes),
             "assigned_by": "EH", "assignment_method": "derived",
@@ -195,6 +212,8 @@ def main():
             "translated_page_count": 2 if in_card else 0,
             "translated_page_slugs": "i-speak-card; 2021-progress-report" if in_card else "",
             "evidence_url": ST_I_SPEAK_URL if in_card else ST_TITLE_VI_URL,
+            "oral_availability": "",
+            "oral_hours": "",
             "capture_date": today,
             "notes": " | ".join(s_notes),
             "assigned_by": "EH", "assignment_method": "derived",
