@@ -58,18 +58,28 @@ Census integration and the apportionment validation.
 
 Written up in `docs/METHODOLOGY.md`.
 
-### Phase 3: next
+### Phase 3: in progress, 1 of 6 sectors done
 
 Multi-sector supply inventory. **All seven sectors**, sequenced cheapest first:
 
-1. Library (King County Library System is one organisation covering many branches)
-2. Transit (King County Metro, Sound Transit)
+1. ~~Library (King County Library System)~~ **done, 2026-09-03**
+2. Transit (King County Metro, Sound Transit) **next**
 3. City government (eight cities)
 4. Legal aid
 5. Food assistance
 6. Health clinics (most decentralised, most expensive, goes last)
 
 Ships the public dataset on GitHub with a data dictionary.
+
+**Library sector result.** 51 KCLS locations pulled from their own JSON API with coordinates included, 22 inside the study area, assigned to districts by point-in-polygon against Census TIGER polygons. 140 scored language rows in `data/inventory/library_inventory.csv`.
+
+- **Of the 11 school district pairs scoring a flat 1.00 severity, 10 receive some provision from the library.** Tigrinya in Highline, 54 families, receives nothing from either sector. First true access desert.
+- KCLS runs **no translation widget at all**, so tier 1 is unreachable for it. Nine languages have an in-language interpreter request page and score oral tier 2. The rest score 0 despite Language Line covering 240+ languages by phone, because nobody can discover it.
+- Amharic: Highline schools publish nothing and offer no pathway. KCLS wrote its interpreter instructions in Amharic. Two public agencies, same neighbourhood, opposite answers. **This contrast is the memo.**
+
+**Tiers in this sector are `assignment_method = derived`**, applied by code to frozen evidence rather than hand-scored. Exactly reproducible. Schools remain `manual`.
+
+**The library schema is the standard for the five remaining sectors.** Agency-keyed, no `families` column, demand joins by geography in Phase 4. See `docs/DATA_DICTIONARY.md` §6.
 
 **Elias explicitly rejected cutting this to three sectors and was right to.** The cross-sector comparison is a finding in itself, and the access-desert map needs point density. Do not re-propose narrowing it.
 
@@ -213,5 +223,6 @@ That contradiction, inside one district's own website, is the sharpest single ex
 
 - Pick the memo recipient. King County Office of Equity and Social Justice, OSPI's multilingual education office, a city council, or a nonprofit. This changes which numbers lead and should be decided before Phase 4 finishes.
 - Archive evidence URLs at web.archive.org for the rows the memo names.
-- `DATA_DICTIONARY.md` does not exist yet. Phase 3 ships it.
+- `DATA_DICTIONARY.md` written 2026-09-05. Keep it current as each sector lands.
+- Bring `school_inventory.csv` onto the library schema: add `agency_id` and `assignment_method='manual'`. Additive, no rescoring.
 - No README yet.
