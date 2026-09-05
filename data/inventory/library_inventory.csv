@@ -1,0 +1,141 @@
+agency_id,agency_name,sector,language,written_tier,oral_tier,collection_tier,pathway_in_language,translated_page_count,translated_page_slugs,oral_locations_phone,oral_locations_video,oral_availability,collection_branches,collection_branch_names,evidence_url,capture_date,notes,assigned_by,assignment_method
+kcls,King County Library System,library,Acholi,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Aguacateco,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Akateko,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Albanian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,American Sign Language,0,2,0,True,0,,22,20,always,0,,https://kcls.org/interpreters/,2026-09-02,Signed language. Named on the interpreters page as always available. The written pathway test in rule 4 does not apply as written. See rule 5.6,EH,derived
+kcls,King County Library System,library,Amharic,3,2,2,True,1,interpreters-am,22,20,weekdays,2,Skyway; Valley View,http://kcls.org/interpreters-am/,2026-09-02,"Collection is children's materials only, at 2 study-area branch(es): Skyway, Valley View | 1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself | Interpreters weekdays only, per the agency's own FAQ",EH,derived
+kcls,King County Library System,library,Arabic,3,2,3,True,1,interpreters-ar,22,20,weekdays,8,Burien; Covington; Greenbridge; Kent; Renton; Tukwila; Valley View; Woodmont,http://kcls.org/interpreters-ar,2026-09-02,"1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself | Interpreters weekdays only, per the agency's own FAQ",EH,derived
+kcls,King County Library System,library,Armenian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Ayula-Bambara,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Azerbaijani,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bambara,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bangala,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bassa,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Belarusian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bengali,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bosnian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Bulgarian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Burmese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Carolinian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Catalan,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Cebuano,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Cham,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Chamorro,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Chin,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Chinese-Cantonese,3,0,3,False,2,interpreters-zh-ch; museum-passes-zh-cn,0,0,,11,Burien; Covington; Fairwood; Federal Way; Federal Way 320th; Kent; Renton; Renton Highlands; Skyway; Southcenter; White Center,https://kcls.org/collections-by-language-location/,2026-09-02,KCLS labels this collection 'Chinese' | 2 translated page(s); 2 carry a non-Latin heading. Latin-script headings need reading by eye,EH,derived
+kcls,King County Library System,library,Chinese-Fukienese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Chinese-Mandarin,3,2,3,True,2,interpreters-zh-ch; museum-passes-zh-cn,22,20,always,11,Burien; Covington; Fairwood; Federal Way; Federal Way 320th; Kent; Renton; Renton Highlands; Skyway; Southcenter; White Center,http://kcls.org/interpreters-zh-ch,2026-09-02,KCLS labels this collection 'Chinese' | 2 translated page(s); 2 carry a non-Latin heading. Latin-script headings need reading by eye,EH,derived
+kcls,King County Library System,library,Chinese-Taiwanese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Chuukese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Dari,0,0,3,False,0,,0,0,,3,Federal Way; Kent; Tukwila,https://kcls.org/collections-by-language-location/,2026-09-02,KCLS labels this collection 'Persian',EH,derived
+kcls,King County Library System,library,Dinka,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Dutch,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Egyptian-Arabic,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Eritai,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Estonian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Ewe,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Fallani,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Farsi,0,0,3,False,0,,0,0,,3,Federal Way; Kent; Tukwila,https://kcls.org/collections-by-language-location/,2026-09-02,KCLS labels this collection 'Persian',EH,derived
+kcls,King County Library System,library,French,0,0,3,False,0,,0,0,,2,Tukwila; Valley View,https://kcls.org/collections-by-language-location/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Fula,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Ga,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,German,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,"Greek, Modern",0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Gujarati,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Haitian Creole,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hausa,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hawaiian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hebrew,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Herero,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hindi,0,0,3,False,0,,0,0,,7,Covington; Fairwood; Federal Way; Kent; Renton; Tukwila; Woodmont,https://kcls.org/collections-by-language-location/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hmong,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Hungarian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Igbo,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Ilokano,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Indonesian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Italian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Japanese,0,0,3,False,0,,0,0,,2,Federal Way; Kent,https://kcls.org/collections-by-language-location/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kakwa,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kannada,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Karen,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Karenni,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kazakh,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Khmer,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kikuyu,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kinyarwanda,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kirgiz,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kirundi,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kmhmu,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kongo,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Korean,0,0,3,False,0,,0,0,,5,Fairwood; Federal Way; Federal Way 320th; Renton Highlands; Southcenter,https://kcls.org/collections-by-language-location/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kosraean,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Krahn,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Krio,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kru,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Kurdish,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Lao,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Latvian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Lingala,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Luganda,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Maay Maay,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Malay,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Malayalam,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mam,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mandingo,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mandinka,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Marathi,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Marquesan,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Marshallese,0,0,2,False,0,,0,0,,1,Auburn,https://kcls.org/collections-by-language-location/,2026-09-02,"Collection is children's materials only, at 1 study-area branch(es): Auburn",EH,derived
+kcls,King County Library System,library,Maya-Quiche,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mien,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mixteco,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Moldavian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Mongolian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Moore,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,"Nahuatl, Guerrero region",0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Nepali,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Nuer,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Oromo,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Palau,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Pashai,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Pashto,3,2,0,True,1,interpreters-pa,22,20,weekdays,0,,http://kcls.org/interpreters-pa,2026-09-02,"1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself | Interpreters weekdays only, per the agency's own FAQ",EH,derived
+kcls,King County Library System,library,Pere,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Polish,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Portuguese,0,0,3,False,0,,0,0,,1,Tukwila,https://kcls.org/collections-by-language-location/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Punjabi,0,0,3,False,0,,0,0,,4,Covington; Federal Way; Kent; Valley View,https://kcls.org/collections-by-language-location/,2026-09-02,KCLS labels this collection 'Punjabi/Panjabi',EH,derived
+kcls,King County Library System,library,Purepecha,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Rohingya,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Romanian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Russian,3,2,3,True,1,interpreters-ru,22,20,always,12,Algona-Pacific; Auburn; Covington; Des Moines; Fairwood; Federal Way; Federal Way 320th; Kent; Renton; Renton Highlands; Southcenter; Woodmont,http://kcls.org/interpreters-ru,2026-09-02,1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself,EH,derived
+kcls,King County Library System,library,Samoan,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Sao,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Serbo-Croation,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Shona,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Sinhalese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Slovenian,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Somali,3,2,3,True,1,interpreters-so,22,20,weekdays,10,Boulevard Park; Burien; Fairwood; Greenbridge; Kent; Renton; Skyway; Tukwila; Valley View; White Center,http://kcls.org/interpreters-so,2026-09-02,"1 translated page(s); 0 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself | Interpreters weekdays only, per the agency's own FAQ",EH,derived
+kcls,King County Library System,library,Soninke,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Sotho,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Spanish,3,2,3,True,20,ask-an-ambassador-es; authorevents-es; best-books-es; bookmatch-es; fiestas-es; interpreters-es; job-and-career-resources-es; learnenglish-es; library-cards-es; magazines-and-newspapers-es; movies-and-tv-es; museum-passes-es; readyreads-es; studentsupport-es; summer-earlylearners-es; summer-es; summer-kids-es; summer-teens-es; tax-help-es; welcoming-center-es,22,20,always,21,Algona-Pacific; Auburn; Boulevard Park; Burien; Covington; Des Moines; Fairwood; Federal Way; Federal Way 320th; Greenbridge; Kent; Kent Panther Lake; Muckleshoot; Renton; Renton Highlands; Skyway; Southcenter; Tukwila; Valley View; White Center; Woodmont,http://kcls.org/interpreters-es,2026-09-02,20 translated page(s); 3 carry a non-Latin heading. Latin-script headings need reading by eye,EH,derived
+kcls,King County Library System,library,Swahili,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tagalog,0,0,3,False,0,,0,0,,6,Auburn; Covington; Fairwood; Federal Way; Kent; Southcenter,https://kcls.org/collections-by-language-location/,2026-09-02,KCLS labels this collection 'Tagalog / Filipino',EH,derived
+kcls,King County Library System,library,Taishanese,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tajiki,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tamil,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tarasco,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tedim,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Telugu,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Thai,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tibetan,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tigrinya,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Tongan,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Turkish,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Twi,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Ukrainian,3,2,3,True,1,interpreters-uk,22,20,weekdays,6,Algona-Pacific; Covington; Federal Way; Federal Way 320th; Kent; Renton,http://kcls.org/interpreters-uk,2026-09-02,"1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself | Interpreters weekdays only, per the agency's own FAQ",EH,derived
+kcls,King County Library System,library,Urdu,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Uzbek,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Vietnamese,3,2,3,True,1,interpreters-vi,22,20,always,12,Burien; Des Moines; Fairwood; Federal Way; Greenbridge; Kent; Renton; Renton Highlands; Skyway; Southcenter; Tukwila; White Center,http://kcls.org/interpreters-vi,2026-09-02,1 translated page(s); 1 carry a non-Latin heading. Latin-script headings need reading by eye | The only page KCLS publishes in this language is the interpreter request page itself,EH,derived
+kcls,King County Library System,library,Wolof,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Yap,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived
+kcls,King County Library System,library,Yoruba,0,0,0,False,0,,0,0,,0,,https://kcls.org/interpreters/,2026-09-02,,EH,derived

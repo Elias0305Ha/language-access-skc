@@ -1,0 +1,30 @@
+language,slug,url,http_status,h1,h1_non_latin,capture_date
+Spanish,ask-an-ambassador-es,https://kcls.org/ask-an-ambassador-es/,200,Hable con un embajador,False,2026-09-02
+Spanish,authorevents-es,https://kcls.org/authorevents-es/,200,Charlas con autores,False,2026-09-02
+Spanish,best-books-es,https://kcls.org/best-books-es/,200,Best Books (Spanish),False,2026-09-02
+Spanish,bookmatch-es,https://kcls.org/bookmatch-es/,200,BookMatch,False,2026-09-02
+Spanish,fiestas-es,https://kcls.org/fiestas-es/,200,,False,2026-09-02
+Amharic,interpreters-am,https://kcls.org/interpreters-am/,200,አስተርጓሚዎች,True,2026-09-02
+Arabic,interpreters-ar,https://kcls.org/interpreters-ar/,200,المترجمون الفوريون,True,2026-09-02
+Spanish,interpreters-es,https://kcls.org/interpreters-es/,200,Intérpretes,False,2026-09-02
+Pashto,interpreters-pa,https://kcls.org/interpreters-pa/,200,ژباړونکي,True,2026-09-02
+Russian,interpreters-ru,https://kcls.org/interpreters-ru/,200,Переводчики,True,2026-09-02
+Somali,interpreters-so,https://kcls.org/interpreters-so/,200,Turjubaanada,False,2026-09-02
+Ukrainian,interpreters-uk,https://kcls.org/interpreters-uk/,200,Усні перекладачі,True,2026-09-02
+Vietnamese,interpreters-vi,https://kcls.org/interpreters-vi/,200,Thông dịch viên,True,2026-09-02
+Chinese,interpreters-zh-ch,https://kcls.org/interpreters-zh-ch/,200,口译服务,True,2026-09-02
+Spanish,job-and-career-resources-es,https://kcls.org/job-and-career-resources-es/,200,Recursos de trabajo y carrera,False,2026-09-02
+Spanish,learnenglish-es,https://kcls.org/learnenglish-es/,200,Aprendiendo inglés,False,2026-09-02
+Spanish,library-cards-es,https://kcls.org/library-cards-es/,200,Obtenga una tarjeta de biblioteca,False,2026-09-02
+Spanish,magazines-and-newspapers-es,https://kcls.org/magazines-and-newspapers-es/,200,Revistas y Periódicos,False,2026-09-02
+Spanish,movies-and-tv-es,https://kcls.org/movies-and-tv-es/,200,Películas y TV,False,2026-09-02
+Spanish,museum-passes-es,https://kcls.org/museum-passes-es/,200,Pases para museos y parques,False,2026-09-02
+Chinese,museum-passes-zh-cn,https://kcls.org/museum-passes-zh-cn/,200,博物馆和公园通票,True,2026-09-02
+Spanish,readyreads-es,https://kcls.org/readyreads-es/,200,Ready Reads (Spanish),False,2026-09-02
+Spanish,studentsupport-es,https://kcls.org/studentsupport-es/,200,Apoyo para estudiantes,False,2026-09-02
+Spanish,summer-earlylearners-es,https://kcls.org/summer-earlylearners-es/,200,Summer Reading – Early Learners En Espanol,True,2026-09-02
+Spanish,summer-es,https://kcls.org/summer-es/,200,Summer Reading 2026,False,2026-09-02
+Spanish,summer-kids-es,https://kcls.org/summer-kids-es/,200,Summer Reading – Kids En Espanol,True,2026-09-02
+Spanish,summer-teens-es,https://kcls.org/summer-teens-es/,200,Summer Reading – Teens En Espanol,True,2026-09-02
+Spanish,tax-help-es,https://kcls.org/tax-help-es/,200,"Ayuda, formularios e información tributaria",False,2026-09-02
+Spanish,welcoming-center-es,https://kcls.org/welcoming-center-es/,200,The Welcoming Center (Spanish),False,2026-09-02

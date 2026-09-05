@@ -1,7 +1,7 @@
 # Language Support Classification Rule
 
 **Project:** Language Access in South King County
-**Version:** 1.0
+**Version:** 2.0
 **Status:** Written before inventory collection began. Any change after collection starts must be logged in the Revision Log at the bottom and re-applied to all prior entries.
 
 ---
@@ -32,6 +32,29 @@ An agency serving 8 languages produces 8 rows, not 1. The tier is assigned per l
 | **0** | Nothing | The language is not offered, not listed, and there is no way to request service in it. |
 
 **Tiers are a ceiling, not a sum.** An agency with human-translated documents is Tier 3 even if it also has a Google Translate widget. Record the highest level reached.
+
+### 3.1 Modes
+
+A tier is assigned per **mode**, never once for an agency.
+
+| Mode | Column | Question it answers |
+|---|---|---|
+| Written | `written_tier` | Has the agency communicated with this community in writing, in their language? |
+| Oral | `oral_tier` | Can a speaker of this language talk to a human at this agency? |
+| Collection | `collection_tier` | Can a speaker of this language borrow material in it? |
+
+The written and oral split exists because a document and an interpreter serve different people. Renton publishes documents in "Chinese" without naming a variety: written Chinese serves both Cantonese and Mandarin readers, an interpreter does not.
+
+`collection_tier` was added in v2.0 for the library sector. It is null for sectors that hold no collections, which is most of them. Its scale is deliberately not the full 0 to 3:
+
+| Value | Meaning |
+|---|---|
+| 3 | Materials held for all ages |
+| 2 | Children's materials only |
+| 1 | **Not used.** There is no machine-translated book. |
+| 0 | No materials in this language |
+
+**Do not merge `collection_tier` into `written_tier`.** See §5.7.
 
 ---
 
@@ -107,6 +130,58 @@ The discrepancy is recorded in the row's notes field, because it is itself a fin
 
 ---
 
+### 5.6 Signed languages
+
+**Decision: apply §4 by the language's own modality, and flag the row.**
+
+American Sign Language has no written form. The §4 pathway test asks whether request instructions are readable in the language, which cannot be satisfied for ASL on any website.
+
+Reading the rule literally would score every agency 0 for ASL, including agencies that name ASL explicitly and provide it. That is a rule artefact, not a finding.
+
+For a signed language, the pathway test is satisfied by the agency **naming the language explicitly** as an available service. The row carries a note recording that §4 was applied in modified form.
+
+*Observed at KCLS, which names ASL among the five languages available whenever a branch is open.*
+
+### 5.7 Borrowable collections are not agency communications
+
+**Decision: `collection_tier`, never `written_tier`.**
+
+A library holding Amharic novels has not written anything to Amharic-speaking families. It has bought books. Both are real services and they are not the same service.
+
+Scoring collections as `written_tier = 3` would make "written tier 3" mean a translated enrollment form at a school district and a shelf of picture books at a library branch. The cross-sector comparison, which is the point of Phase 3, would then be comparing nothing.
+
+*Consequence at KCLS: 17 languages reach collection tier 3, while only 9 have any translated page at all, and for 8 of those 9 the sole translated page is the interpreter request page itself.*
+
+### 5.8 An agency with no machine translation widget cannot score tier 1
+
+**Decision: score 0, not 1.**
+
+Tier 1 requires automated translation of page text to be available. An agency running no widget offers none. A language with no in-language pathway at such an agency scores 0.
+
+This is worth stating because it inverts the usual reading. A widget looks like a floor under an agency's score, so the agency without one scores lower for languages it may genuinely serve by phone.
+
+*Observed at KCLS, which runs no widget anywhere on its site and contracts phone interpreting in 240+ languages. Nine languages have an in-language request page and score oral tier 2. The rest score 0, because a speaker has no published route to discover a service that demonstrably exists for them.*
+
+### 5.9 Depth belongs in its own column, not in the tier
+
+**Decision: extend the row, never the scale.**
+
+The same pattern as §5.3. When a service varies in depth, record the depth beside the tier rather than inventing intermediate tiers.
+
+Added in v2.0:
+
+| Column | Values | Records |
+|---|---|---|
+| `oral_locations_phone` | count | Locations offering phone interpreting |
+| `oral_locations_video` | count | Locations offering video or audio interpreting |
+| `oral_availability` | `always`, `weekdays` | Whether the language is available whenever the agency is open |
+| `translated_page_count` | count | Distinct translated pages found |
+| `collection_branches` | count | Branches holding material in this language |
+
+*Observed at KCLS: video and audio interpreting reaches 20 of 22 study-area locations, phone reaches all of them, and only five languages are available outside weekday hours. Three facts, one tier.*
+
+---
+
 ## 6. Evidence required per row
 
 No tier is assigned without a record supporting it.
@@ -124,6 +199,31 @@ No tier is assigned without a record supporting it.
 | `pathway_in_language` | Boolean, whether §4 was satisfied |
 | `notes` | Ambiguity, contradictions, anything a reviewer should see |
 | `assigned_by` | Analyst initials, in case a second coder is added |
+| `assignment_method` | `manual` or `derived`. See below. |
+
+### 6.1 Manual and derived assignment
+
+Added in v2.0.
+
+Some agencies publish their language provision as structured data. Where that is true, the rule is applied **by code against a frozen copy of that data**, and the row is marked `assignment_method = derived`.
+
+A derived row is stronger evidence than a hand-scored one, because rerunning the script reproduces the score exactly and the judgment is visible in the source. It removes the single-coder problem (§7.3) for that sector.
+
+A derived row is only as good as the mapping from the agency's language labels to canonical names. Those mappings live in a reference file with a stated reason per row, for example `data/reference/kcls_language_map.csv`, and are reviewable independently of the code.
+
+### 6.2 Rows are keyed by agency, not by geography
+
+Phase 1 rows were `(district, language)` and carried a `families` count, because OSPI reports demand by district and each district is its own agency.
+
+From Phase 3 the two stop coinciding. King County Library System is one agency across 22 study-area locations and six school districts. There is no families count that belongs on a KCLS row.
+
+Therefore:
+
+- The inventory holds supply only. No demand column.
+- Physical sites live in a separate locations table, with coordinates, and are joined to districts by point-in-polygon against Census TIGER unified school district polygons.
+- Demand meets supply in Phase 4, by geography, deliberately and once.
+
+**Do not filter locations by city name.** School district boundaries do not follow city boundaries anywhere in this study area. Four KCLS branches carry a Seattle mailing address while sitting in Highline or Renton school districts, and one of them, Skyway, is one of only two branches in the county holding Amharic material.
 
 **Capture date is mandatory.** Websites change. Without it, the dataset cannot be reproduced or defended six months from now.
 
@@ -141,6 +241,10 @@ Stated up front rather than discovered by a reviewer.
 
 4. **Point-in-time snapshot.** Each row reflects one date. The dataset is a photograph, not a monitor.
 
+5. **Absence is evidenced by sitemap, not by browsing.** A written tier of 0 means no translated page appears in the agency's own sitemap. A translated PDF sitting in a media library, unlinked from any page, would not be found. This is a downward bias of the same family as §7.1.
+
+6. **Derived rows inherit the agency's own errors.** KCLS states its collections twice on one page and contradicts itself in three places, recorded in `outputs/kcls_source_disagreements.csv`. Derived scoring propagates such contradictions rather than resolving them, which is correct, but it means a derived row is not automatically more accurate than a hand-scored one. It is more *reproducible*.
+
 ---
 
 ## Revision Log
@@ -148,3 +252,6 @@ Stated up front rather than discovered by a reviewer.
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-09-02 | Initial rule, written before inventory collection began. |
+| 2.0 | 2026-09-03 | Phase 3, library sector. Added §3.1 modes and the `collection_tier` column; §5.6 signed languages; §5.7 collections are not communications; §5.8 no widget means tier 0, not tier 1; §5.9 depth columns; §6.1 manual and derived assignment; §6.2 agency-keyed rows and the city-name warning; limitations 5 and 6. |
+
+**Note on versioning.** Before this entry the document header read 1.0 while the project notes referred to the rule as v2.0, and the log held only the 1.0 entry. No record of an intermediate revision survives. This entry sets the header and the log to 2.0 and describes only changes that can be verified in the current file. If a v1.x revision did occur, its content is not recoverable from the repository and is treated as lost rather than reconstructed from memory.

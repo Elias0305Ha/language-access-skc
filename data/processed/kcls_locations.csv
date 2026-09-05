@@ -1,0 +1,52 @@
+agency_id,location_id,location_name,location_name_raw,location_type,street,city,state,zip,lat,lon,web_url,district_geoid,district_name,in_study_area
+kcls,kcls-119,Enumclaw,Enumclaw,branch,1700 1st Street,Enumclaw,WA,98022,47.2035657,-121.98761289999999,https://kcls.org/locations/119,,,False
+kcls,kcls-154,Tukwila,Tukwila,branch,14380 Tukwila International Boulevard,Tukwila,WA,98168,47.4740802,-122.28445569999997,https://kcls.org/locations/154,5308130,Tukwila School District,True
+kcls,kcls-155,Kent Panther Lake,Kent Panther Lake,branch,20500 108th Avenue SE,Kent,WA,98031,47.4184091,-122.1967444,https://kcls.org/locations/155,5303960,Kent School District,True
+kcls,kcls-165,Normandy Park Lockers,Normandy Park Lockers,locker,801 SW 174th Street,Normandy Park,WA,98166,47.4455326,-122.3455602,https://kcls.org/locations/165,5303540,Highline School District,True
+kcls,kcls-1489,Algona-Pacific,Algona-Pacific,branch,255 Ellingson Road,Pacific,WA,98047,47.27086656059546,-122.24822483593749,https://kcls.org/locations/1489,5300300,Auburn School District,True
+kcls,kcls-1490,Auburn,Auburn,branch,1102 Auburn Way S,Auburn,WA,98002,47.2987505,-122.21801590000001,https://kcls.org/locations/1490,5300300,Auburn School District,True
+kcls,kcls-1491,Black Diamond,Black Diamond,branch,24707 Roberts Drive,Black Diamond,WA,98010,47.31197,-122.0126429,https://kcls.org/locations/1491,,,False
+kcls,kcls-1492,Bellevue,Bellevue,branch,1111 110th Avenue NE,Bellevue,WA,98004,47.6201601,-122.19433730000003,https://kcls.org/locations/1492,,,False
+kcls,kcls-1493,Bothell,Bothell,branch,18215 98th Avenue NE,Bothell,WA,98011,47.7602661,-122.21037639999997,https://kcls.org/locations/1493,,,False
+kcls,kcls-1494,Boulevard Park,Boulevard Park,branch,12015 Roseberg Avenue S,Seattle,WA,98168,47.4953817,-122.30778729999997,https://kcls.org/locations/1494,5303540,Highline School District,True
+kcls,kcls-1495,Burien,Burien,branch,400 SW 152nd Street,Burien,WA,98166,47.4671057,-122.33959449999998,https://kcls.org/locations/1495,5303540,Highline School District,True
+kcls,kcls-1496,Carnation,Carnation,branch,4804 Tolt Avenue,Carnation,WA,98014,47.6504691,-121.91249149999999,https://kcls.org/locations/1496,,,False
+kcls,kcls-1497,Covington,Covington,branch,27100 164th Avenue SE,Covington,WA,98042,47.359023,-122.1218331,https://kcls.org/locations/1497,5303960,Kent School District,True
+kcls,kcls-1499,Crossroads,Crossroads,branch,"15600 NE 8th Street, Suite K-11",Bellevue,WA,98008,47.61944551007605,-122.12770790262451,https://kcls.org/locations/1499,,,False
+kcls,kcls-1502,Des Moines,Des Moines,branch,21620 11th Avenue S,Des Moines,WA,98198,47.408173,-122.31943539999997,https://kcls.org/locations/1502,5303540,Highline School District,True
+kcls,kcls-1503,Duvall,Duvall,branch,15508 Main Street NE,Duvall,WA,98019,47.74028089999999,-121.98613790000002,https://kcls.org/locations/1503,,,False
+kcls,kcls-1505,Federal Way 320th,Federal Way 320th,branch,848 S 320th Street,Federal Way,WA,98003,47.3155306,-122.3209334,https://kcls.org/locations/1505,5302820,Federal Way School District,True
+kcls,kcls-1506,Fall City,Fall City,branch,33415 SE 42nd Place,Fall City,WA,98024,47.568746,-121.89393610000002,https://kcls.org/locations/1506,,,False
+kcls,kcls-1508,Fairwood,Fairwood,branch,17009 140th Avenue SE,Renton,WA,98058,47.4507033,-122.15440439999998,https://kcls.org/locations/1508,5307230,Renton School District,True
+kcls,kcls-1509,Federal Way,Federal Way,branch,34200  1st Way S,Federal Way,WA,98003,47.2944868,-122.3318314,https://kcls.org/locations/1509,5302820,Federal Way School District,True
+kcls,kcls-1510,Greenbridge,Greenbridge,branch,9720 8th Avenue SW,Seattle,WA,98106,47.5161164,-122.34511709999998,https://kcls.org/locations/1510,5303540,Highline School District,True
+kcls,kcls-1513,Issaquah,Issaquah,branch,10 W Sunset Way,Issaquah,WA,98027,47.5303935,-122.03696809999997,https://kcls.org/locations/1513,,,False
+kcls,kcls-1517,Kingsgate,Kingsgate,branch,12315 NE 143rd Street,Kirkland,WA,98034,47.72977299999999,-122.17633560000002,https://kcls.org/locations/1517,,,False
+kcls,kcls-1518,Kirkland,Kirkland,branch,308 Kirkland Avenue,Kirkland,WA,98033,47.6759865,-122.20294810000001,https://kcls.org/locations/1518,,,False
+kcls,kcls-1519,Kenmore,Kenmore,branch,6531 NE 181st Street,Kenmore,WA,98028,47.7593974,-122.25233830000002,https://kcls.org/locations/1519,,,False
+kcls,kcls-1520,Kent,Kent Closed. Holds Pickup at Kent Panther Lake.,closed,212 2nd Avenue N,Kent,WA,98032,47.3826063,-122.2342107,https://kcls.org/locations/1520,5303960,Kent School District,True
+kcls,kcls-1521,Lake Forest Park,Lake Forest Park,branch,17171  Bothell Way NE,Lake Forest Park,WA,98155,47.7542448,-122.28011779999997,https://kcls.org/locations/1521,,,False
+kcls,kcls-1522,Lake Hills,Lake Hills,branch,15590 Lake Hills Boulevard,Bellevue,WA,98007,47.603536,-122.1315697,https://kcls.org/locations/1522,,,False
+kcls,kcls-1525,Mercer Island,Mercer Island,branch,4400  88th Ave SE,Mercer Island,WA,98040,47.5669511,-122.22119179999999,https://kcls.org/locations/1525,,,False
+kcls,kcls-1526,Muckleshoot,Muckleshoot,branch,39917 Auburn Enumclaw Road SE,Auburn,WA,98092,47.2433182,-122.1129707,https://kcls.org/locations/1526,5300300,Auburn School District,True
+kcls,kcls-1527,Maple Valley,Maple Valley,branch,21844 SE 248th Street,Maple Valley,WA,98038,47.3801092,-122.04845769999997,https://kcls.org/locations/1527,,,False
+kcls,kcls-1528,North Bend,North Bend,branch,115 E 4th Street,North Bend,WA,98045,47.496795,-121.783299,https://kcls.org/locations/1528,,,False
+kcls,kcls-1529,Newport Way,Newport Way,branch,14250 SE Newport Way,Bellevue,WA,98006-1507,47.570467,-122.14908130000003,https://kcls.org/locations/1529,,,False
+kcls,kcls-1532,Richmond Beach,Richmond Beach,branch,19601 21st Avenue NW,Shoreline,WA,98177,47.7718783,-122.3849806,https://kcls.org/locations/1532,,,False
+kcls,kcls-1533,Redmond,Redmond,branch,15990 NE 85th Street,Redmond,WA,98052,47.6789086,-122.12807750000002,https://kcls.org/locations/1533,,,False
+kcls,kcls-1534,Sammamish,Sammamish,branch,825 228th Avenue SE,Sammamish,WA,98075,47.60030294813421,-122.03669356931152,https://kcls.org/locations/1534,,,False
+kcls,kcls-1535,Shoreline,Shoreline,branch,345 NE 175th Street,Shoreline,WA,98155,47.7555196,-122.32476589999999,https://kcls.org/locations/1535,,,False
+kcls,kcls-1536,Skykomish,Skykomish,branch,100 5th Street N,Skykomish,WA,98288,47.708482,-121.3609727,https://kcls.org/locations/1536,,,False
+kcls,kcls-1537,Snoqualmie,Snoqualmie,branch,7824 Center Boulevard SE,Snoqualmie,WA,98065,47.5298532,-121.87238560000003,https://kcls.org/locations/1537,,,False
+kcls,kcls-1538,Southcenter,Southcenter,branch,1386 Southcenter Mall,Tukwila,WA,98188,47.4587069,-122.26121469999998,https://kcls.org/locations/1538,5308130,Tukwila School District,True
+kcls,kcls-1540,Administrative Office - Service Center,Administrative Office - Service Center,admin,960 Newport Way NW,Issaquah,WA,98027,47.54052249999999,-122.0505541,https://kcls.org/locations/1540,,,False
+kcls,kcls-1541,Skyway,Skyway,branch,12601 76th Avenue S,Seattle,WA,98178,47.4901838,-122.2383256,https://kcls.org/locations/1541,5307230,Renton School District,True
+kcls,kcls-1545,Vashon,Vashon,branch,17210 Vashon Hwy SW.,Vashon Island,WA,98070,47.45086329999999,-122.4594478,https://kcls.org/locations/1545,,,False
+kcls,kcls-1546,Valley View,Valley View,branch,17850  Military Road S,Seatac,WA,98188,47.4432294,-122.27371010000002,https://kcls.org/locations/1546,5303540,Highline School District,True
+kcls,kcls-1547,White Center,White Center,branch,1409 SW 107th Street,Seattle,WA,98146,47.506889,-122.35292500000003,https://kcls.org/locations/1547,5303540,Highline School District,True
+kcls,kcls-1548,Woodinville,Woodinville,branch,17105 Avondale Road NE,Woodinville,WA,98072,47.7515682,-122.08190660000002,https://kcls.org/locations/1548,,,False
+kcls,kcls-1549,Woodmont,Woodmont,branch,26809 Pacific Highway S,Des Moines,WA,98198,47.3610092,-122.30837459999998,https://kcls.org/locations/1549,5302820,Federal Way School District,True
+kcls,kcls-1556,Renton,Renton,branch,100 Mill Avenue S,Renton,WA,98057,47.48191689999999,-122.2021034,https://kcls.org/locations/1556,5307230,Renton School District,True
+kcls,kcls-1557,Renton Highlands,Renton Highlands,branch,2801 NE 10th Street,Renton,WA,98056,47.4998031,-122.18125370000001,https://kcls.org/locations/1557,5307230,Renton School District,True
+kcls,kcls-1559,Redmond Ridge Library Express,Redmond Ridge Library Express,express,10735 Cedar Park Crescent NE,Redmond,WA,98053,47.6904624,-122.0437751,https://kcls.org/locations/1559,,,False
+kcls,kcls-1564,Newcastle,Newcastle,branch,12901 Newcastle Way,Newcastle,WA,98056,47.5377124,-122.1672107,https://kcls.org/locations/1564,,,False

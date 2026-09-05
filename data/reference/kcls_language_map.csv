@@ -1,0 +1,30 @@
+kcls_label,canonical_name,applies_to_modes,reason
+አማርኛ - Amharic,Amharic,"written,oral,collection",Direct match
+عربي - Arabic,Arabic,"written,oral,collection",Direct match
+Беларус - Belarusian,Belarusian,collection,Direct match
+中文 – Chinese,Chinese-Mandarin,"written,oral,collection","Written Chinese serves both varieties. Mandarin is named explicitly on the interpreter page as always available, so oral applies"
+中文 – Chinese,Chinese-Cantonese,"written,collection","Written Chinese serves Cantonese readers. Oral excluded: an interpreter is variety-specific and KCLS names only Mandarin. Same rule already applied to Renton in Phase 1"
+Français – French,French,collection,Direct match
+Deutsch – German,German,collection,Direct match
+ગુજરાતી – Gujarati,Gujarati,collection,Direct match
+עִברִית – Hebrew,Hebrew,collection,Direct match
+हिंदी – Hindi,Hindi,collection,Direct match
+Italiano – Italian,Italian,collection,Direct match
+日本語 – Japanese,Japanese,collection,Direct match
+한국어 – Korean,Korean,collection,Direct match
+मराठी – Marathi,Marathi,collection,Direct match
+Kajin M̧ajeļ – Marshallese,Marshallese,collection,Direct match
+فارسی – Persian,Farsi,collection,"Farsi is Persian. Direct match"
+فارسی – Persian,Dari,collection,"Dari and Farsi share a written standard, so Persian-language material is readable by Dari readers. Written and collection only, by the same rule used for Chinese. KCLS offers no Persian interpreter, so no oral claim is made either way"
+Português – Portuguese,Portuguese,collection,Direct match
+ਪੰਜਾਬੀ – Punjabi/Panjabi,Punjabi,collection,Alternate romanisation of the same language
+Pусский – Russian,Russian,"written,oral,collection",Direct match
+Soomaali – Somali,Somali,"written,oral,collection",Direct match
+Español – Spanish,Spanish,"written,oral,collection",Direct match
+Tagalog & Filipino – Tagalog / Filipino,Tagalog,collection,"Filipino is the standardised register of Tagalog. OSPI reports Tagalog"
+தமிழ் – Tamil,Tamil,collection,Direct match
+తెలుగు – Telugu,Telugu,collection,Direct match
+Українська – Ukrainian,Ukrainian,"written,oral,collection",Direct match
+اردو - Urdu,Urdu,collection,Direct match
+Tiếng Việt – Vietnamese,Vietnamese,"written,oral,collection",Direct match
+پښتو - Pashto,Pashto,"written,oral","KCLS publishes an interpreter page in Pashto. No Pashto collection. Their URL slug is 'pa' which is the ISO code for Punjabi; the page content is Pashto, so the label is followed, not the slug"

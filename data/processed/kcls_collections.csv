@@ -1,0 +1,273 @@
+agency_id,language_native,language_english,location_slug,location_name,is_physical,children_only,evidence_url,source_view
+kcls,አማርኛ,Amharic,valley-view,Valley View,True,True,https://kcls.org/locations/valley-view/,by_language
+kcls,አማርኛ,Amharic,skyway,Skyway,True,True,https://kcls.org/locations/skyway/,by_language
+kcls,عربي,Arabic,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,عربي,Arabic,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,عربي,Arabic,burien,Burien,True,False,https://kcls.org/locations/burien/,by_language
+kcls,عربي,Arabic,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,عربي,Arabic,greenbridge,Greenbridge,True,False,https://kcls.org/locations/greenbridge/,by_language
+kcls,عربي,Arabic,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,عربي,Arabic,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,عربي,Arabic,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,عربي,Arabic,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,عربي,Arabic,valley-view,Valley View,True,False,https://kcls.org/locations/valley-view/,by_language
+kcls,عربي,Arabic,woodinville,Woodinville,True,False,https://kcls.org/locations/woodinville/,by_language
+kcls,عربي,Arabic,woodmont,Woodmont,True,False,https://kcls.org/locations/woodmont/,by_language
+kcls,Беларус,Belarusian,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,中文,Chinese,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,中文,Chinese,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,中文,Chinese,burien,Burien,True,False,https://kcls.org/locations/burien/,by_language
+kcls,中文,Chinese,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,中文,Chinese,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,中文,Chinese,fall-city,Fall City,True,False,https://kcls.org/locations/fall-city/,by_language
+kcls,中文,Chinese,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,中文,Chinese,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,中文,Chinese,federal-way-320th,Federal Way 320th,True,False,https://kcls.org/locations/federal-way-320th/,by_language
+kcls,中文,Chinese,issaquah,Issaquah,True,False,https://kcls.org/locations/issaquah/,by_language
+kcls,中文,Chinese,kenmore,Kenmore,True,False,https://kcls.org/locations/kenmore/,by_language
+kcls,中文,Chinese,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,中文,Chinese,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,中文,Chinese,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,中文,Chinese,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,中文,Chinese,southcenter,Southcenter,True,False,https://kcls.org/locations/southcenter/,by_language
+kcls,中文,Chinese,maple-valley,Maple Valley,True,False,https://kcls.org/locations/maple-valley/,by_language
+kcls,中文,Chinese,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,中文,Chinese,newcastle,Newcastle,True,False,https://kcls.org/locations/newcastle/,by_language
+kcls,中文,Chinese,newport-way,Newport Way,True,False,https://kcls.org/locations/newport-way/,by_language
+kcls,中文,Chinese,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,中文,Chinese,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,中文,Chinese,renton-highlands,Renton Highlands,True,False,https://kcls.org/locations/renton-highlands/,by_language
+kcls,中文,Chinese,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,中文,Chinese,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,中文,Chinese,skyway,Skyway,True,False,https://kcls.org/locations/skyway/,by_language
+kcls,中文,Chinese,white-center,White Center,True,False,https://kcls.org/locations/white-center/,by_language
+kcls,中文,Chinese,woodinville,Woodinville,True,False,https://kcls.org/locations/woodinville/,by_language
+kcls,Français,French,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Français,French,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,Français,French,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,Français,French,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,Français,French,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,Français,French,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,Français,French,valley-view,Valley View,True,False,https://kcls.org/locations/valley-view/,by_language
+kcls,Deutsch,German,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Deutsch,German,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,Deutsch,German,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,ગુજરાતી,Gujarati,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,ગુજરાતી,Gujarati,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,ગુજરાતી,Gujarati,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,עִברִית,Hebrew,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,עִברִית,Hebrew,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,עִברִית,Hebrew,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,हिंदी,Hindi,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,हिंदी,Hindi,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,हिंदी,Hindi,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,हिंदी,Hindi,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,हिंदी,Hindi,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,हिंदी,Hindi,issaquah,Issaquah,True,False,https://kcls.org/locations/issaquah/,by_language
+kcls,हिंदी,Hindi,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,हिंदी,Hindi,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,हिंदी,Hindi,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,हिंदी,Hindi,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,हिंदी,Hindi,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,हिंदी,Hindi,maple-valley,Maple Valley,True,False,https://kcls.org/locations/maple-valley/,by_language
+kcls,हिंदी,Hindi,newcastle,Newcastle,True,False,https://kcls.org/locations/newcastle/,by_language
+kcls,हिंदी,Hindi,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,हिंदी,Hindi,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,हिंदी,Hindi,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,हिंदी,Hindi,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,हिंदी,Hindi,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,हिंदी,Hindi,woodmont,Woodmont,True,False,https://kcls.org/locations/woodmont/,by_language
+kcls,Italiano,Italian,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Italiano,Italian,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,日本語,Japanese,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,日本語,Japanese,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,日本語,Japanese,duvall,Duvall,True,False,https://kcls.org/locations/duvall/,by_language
+kcls,日本語,Japanese,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,日本語,Japanese,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,日本語,Japanese,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,日本語,Japanese,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,日本語,Japanese,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,日本語,Japanese,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,日本語,Japanese,maple-valley,Maple Valley,True,False,https://kcls.org/locations/maple-valley/,by_language
+kcls,日本語,Japanese,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,日本語,Japanese,newcastle,Newcastle,True,False,https://kcls.org/locations/newcastle/,by_language
+kcls,日本語,Japanese,newport-way,Newport Way,True,False,https://kcls.org/locations/newport-way/,by_language
+kcls,日本語,Japanese,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,日本語,Japanese,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,日本語,Japanese,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,日本語,Japanese,vashon,Vashon,True,False,https://kcls.org/locations/vashon/,by_language
+kcls,日本語,Japanese,woodinville,Woodinville,True,False,https://kcls.org/locations/woodinville/,by_language
+kcls,한국어,Korean,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,한국어,Korean,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,한국어,Korean,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,한국어,Korean,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,한국어,Korean,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,한국어,Korean,federal-way-320th,Federal Way 320th,True,False,https://kcls.org/locations/federal-way-320th/,by_language
+kcls,한국어,Korean,issaquah,Issaquah,True,False,https://kcls.org/locations/issaquah/,by_language
+kcls,한국어,Korean,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,한국어,Korean,maple-valley,Maple Valley,True,False,https://kcls.org/locations/maple-valley/,by_language
+kcls,한국어,Korean,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,한국어,Korean,newport-way,Newport Way,True,False,https://kcls.org/locations/newport-way/,by_language
+kcls,한국어,Korean,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,한국어,Korean,renton-highlands,Renton Highlands,True,False,https://kcls.org/locations/renton-highlands/,by_language
+kcls,한국어,Korean,richmond-beach,Richmond Beach,True,False,https://kcls.org/locations/richmond-beach/,by_language
+kcls,한국어,Korean,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,한국어,Korean,southcenter,Southcenter,True,False,https://kcls.org/locations/southcenter/,by_language
+kcls,मराठी,Marathi,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,मराठी,Marathi,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,मराठी,Marathi,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,मराठी,Marathi,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,Kajin M̧ajeļ,Marshallese,auburn,Auburn,True,True,https://kcls.org/locations/auburn/,by_language
+kcls,فارسی,Persian,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,فارسی,Persian,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,فارسی,Persian,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,فارسی,Persian,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,فارسی,Persian,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,فارسی,Persian,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,فارسی,Persian,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,Português,Portuguese,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,Português,Portuguese,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,Português,Portuguese,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,Português,Portuguese,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,Português,Portuguese,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,ਪੰਜਾਬੀ,Punjabi/Panjabi,valley-view,Valley View,True,False,https://kcls.org/locations/valley-view/,by_language
+kcls,Pусский,Russian,algona-pacific,Algona-Pacific,True,False,https://www.kcls.org/about-us/locations/algona-pacific-library,by_language
+kcls,Pусский,Russian,auburn,Auburn,True,False,https://www.kcls.org/about-us/locations/auburn-library,by_language
+kcls,Pусский,Russian,bellevue,Bellevue,True,False,https://www.kcls.org/about-us/locations/bellevue-library,by_language
+kcls,Pусский,Russian,bothell,Bothell,True,False,https://www.kcls.org/about-us/locations/bothell-library,by_language
+kcls,Pусский,Russian,covington,Covington,True,False,https://www.kcls.org/about-us/locations/covington-library,by_language
+kcls,Pусский,Russian,des-moines,Des Moines,True,False,https://www.kcls.org/about-us/locations/des-moines-library,by_language
+kcls,Pусский,Russian,duvall,Duvall,True,False,https://www.kcls.org/about-us/locations/duvall-library,by_language
+kcls,Pусский,Russian,fairwood,Fairwood,True,False,https://www.kcls.org/about-us/locations/fairwood-library,by_language
+kcls,Pусский,Russian,federal-way,Federal Way,True,False,https://www.kcls.org/about-us/locations/federal-way-library,by_language
+kcls,Pусский,Russian,federal-way-320th,Federal Way 320th,True,False,https://www.kcls.org/about-us/locations/federal-way-320th-library,by_language
+kcls,Pусский,Russian,issaquah,Issaquah,True,False,https://www.kcls.org/about-us/locations/issaquah-library,by_language
+kcls,Pусский,Russian,kenmore,Kenmore,True,False,https://www.kcls.org/about-us/locations/kenmore-library,by_language
+kcls,Pусский,Russian,kent,Kent,True,False,https://www.kcls.org/about-us/locations/kent-library,by_language
+kcls,Pусский,Russian,kingsgate,Kingsgate,True,False,https://www.kcls.org/about-us/locations/kingsgate-library,by_language
+kcls,Pусский,Russian,kirkland,Kirkland,True,False,https://www.kcls.org/about-us/locations/kirkland-library,by_language
+kcls,Pусский,Russian,lake-hills,Lake Hills,True,False,https://www.kcls.org/about-us/locations/lake-hills-library,by_language
+kcls,Pусский,Russian,crossroads,Crossroads,True,False,https://www.kcls.org/about-us/locations/crossroads-library,by_language
+kcls,Pусский,Russian,southcenter,Southcenter,True,False,https://www.kcls.org/about-us/locations/southcenter-library,by_language
+kcls,Pусский,Russian,outreach,Outreach,False,False,https://www.kcls.org/about-us/locations/outreach,by_language
+kcls,Pусский,Russian,redmond,Redmond,True,False,https://www.kcls.org/about-us/locations/redmond-library,by_language
+kcls,Pусский,Russian,renton,Renton,True,False,https://www.kcls.org/about-us/locations/renton-library,by_language
+kcls,Pусский,Russian,renton-highlands,Renton Highlands,True,False,https://www.kcls.org/about-us/locations/renton-highlands-library,by_language
+kcls,Pусский,Russian,richmond-beach,Richmond Beach,True,False,https://www.kcls.org/about-us/locations/richmond-beach-library,by_language
+kcls,Pусский,Russian,sammamish,Sammamish,True,False,https://www.kcls.org/about-us/locations/sammamish-library,by_language
+kcls,Pусский,Russian,shoreline,Shoreline,True,False,https://www.kcls.org/about-us/locations/shoreline-library,by_language
+kcls,Pусский,Russian,woodinville,Woodinville,True,False,https://www.kcls.org/about-us/locations/woodinville-library,by_language
+kcls,Pусский,Russian,woodmont,Woodmont,True,False,https://www.kcls.org/about-us/locations/woodmont-library,by_language
+kcls,Soomaali,Somali,boulevard-park,Boulevard Park,True,False,https://kcls.org/locations/boulevard-park/,by_language
+kcls,Soomaali,Somali,burien,Burien,True,False,https://kcls.org/locations/burien/,by_language
+kcls,Soomaali,Somali,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,Soomaali,Somali,greenbridge,Greenbridge,True,False,https://kcls.org/locations/greenbridge/,by_language
+kcls,Soomaali,Somali,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,Soomaali,Somali,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,Soomaali,Somali,skyway,Skyway,True,False,https://kcls.org/locations/skyway/,by_language
+kcls,Soomaali,Somali,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,Soomaali,Somali,valley-view,Valley View,True,False,https://kcls.org/locations/valley-view/,by_language
+kcls,Soomaali,Somali,white-center,White Center,True,False,https://kcls.org/locations/white-center/,by_language
+kcls,Español,Spanish,algona-pacific,Algona-Pacific,True,False,https://kcls.org/locations/algona-pacific/,by_language
+kcls,Español,Spanish,auburn,Auburn,True,False,https://kcls.org/locations/auburn/,by_language
+kcls,Español,Spanish,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Español,Spanish,black-diamond,Black Diamond,True,False,https://kcls.org/locations/black-diamond/,by_language
+kcls,Español,Spanish,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,Español,Spanish,boulevard-park,Boulevard Park,True,False,https://kcls.org/locations/boulevard-park/,by_language
+kcls,Español,Spanish,burien,Burien,True,False,https://kcls.org/locations/burien/,by_language
+kcls,Español,Spanish,carnation,Carnation,True,False,https://kcls.org/locations/carnation/,by_language
+kcls,Español,Spanish,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,Español,Spanish,des-moines,Des Moines,True,False,https://kcls.org/locations/des-moines/,by_language
+kcls,Español,Spanish,duvall,Duvall,True,False,https://kcls.org/locations/duvall/,by_language
+kcls,Español,Spanish,enumclaw,Enumclaw,True,False,https://kcls.org/locations/enumclaw/,by_language
+kcls,Español,Spanish,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,Español,Spanish,fall-city,Fall City,True,False,https://kcls.org/locations/fall-city/,by_language
+kcls,Español,Spanish,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,Español,Spanish,federal-way-320th,Federal Way 320th,True,False,https://kcls.org/locations/federal-way-320th/,by_language
+kcls,Español,Spanish,greenbridge,Greenbridge,True,False,https://kcls.org/locations/greenbridge/,by_language
+kcls,Español,Spanish,issaquah,Issaquah,True,False,https://kcls.org/locations/issaquah/,by_language
+kcls,Español,Spanish,kenmore,Kenmore,True,False,https://kcls.org/locations/kenmore/,by_language
+kcls,Español,Spanish,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,Español,Spanish,kent-panther-lake,Kent Panther Lake,True,False,https://kcls.org/locations/kent-panther-lake/,by_language
+kcls,Español,Spanish,kingsgate,Kingsgate,True,False,https://kcls.org/locations/kingsgate/,by_language
+kcls,Español,Spanish,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,Español,Spanish,lake-forest-park,Lake Forest Park,True,False,https://kcls.org/locations/lake-forest-park/,by_language
+kcls,Español,Spanish,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,Español,Spanish,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,Español,Spanish,southcenter,Southcenter,True,False,https://kcls.org/locations/southcenter/,by_language
+kcls,Español,Spanish,maple-valley,Maple Valley,True,False,https://kcls.org/locations/maple-valley/,by_language
+kcls,Español,Spanish,mercer-island,Mercer Island,True,False,https://kcls.org/locations/mercer-island/,by_language
+kcls,Español,Spanish,muckleshoot,Muckleshoot,True,False,https://kcls.org/locations/muckleshoot/,by_language
+kcls,Español,Spanish,newport-way,Newport Way,True,False,https://kcls.org/locations/newport-way/,by_language
+kcls,Español,Spanish,newcastle,Newcastle,True,False,https://kcls.org/locations/newcastle/,by_language
+kcls,Español,Spanish,north-bend,North Bend,True,False,https://kcls.org/locations/north-bend/,by_language
+kcls,Español,Spanish,outreach,Outreach,False,False,https://kcls.org/locations/outreach/,by_language
+kcls,Español,Spanish,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,Español,Spanish,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,Español,Spanish,renton-highlands,Renton Highlands,True,False,https://kcls.org/locations/renton-highlands/,by_language
+kcls,Español,Spanish,richmond-beach,Richmond Beach,True,False,https://kcls.org/locations/richmond-beach/,by_language
+kcls,Español,Spanish,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,Español,Spanish,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,Español,Spanish,skyway,Skyway,True,False,https://kcls.org/locations/skyway/,by_language
+kcls,Español,Spanish,snoqualmie,Snoqualmie,True,False,https://kcls.org/locations/snoqualmie/,by_language
+kcls,Español,Spanish,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,Español,Spanish,valley-view,Valley View,True,False,https://kcls.org/locations/valley-view/,by_language
+kcls,Español,Spanish,vashon,Vashon,True,False,https://kcls.org/locations/vashon/,by_language
+kcls,Español,Spanish,white-center,White Center,True,False,https://kcls.org/locations/white-center/,by_language
+kcls,Español,Spanish,woodinville,Woodinville,True,False,https://kcls.org/locations/woodinville/,by_language
+kcls,Español,Spanish,woodmont,Woodmont,True,False,https://kcls.org/locations/woodmont/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,auburn,Auburn,True,False,https://kcls.org/locations/auburn/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,Tagalog & Filipino,Tagalog / Filipino,southcenter,Southcenter,True,False,https://kcls.org/locations/southcenter/,by_language
+kcls,தமிழ்,Tamil,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,தமிழ்,Tamil,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,தமிழ்,Tamil,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,தமிழ்,Tamil,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,தமிழ்,Tamil,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,தமிழ்,Tamil,woodinville,Woodinville,True,False,https://kcls.org/locations/woodinville/,by_language
+kcls,తెలుగు,Telugu,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,తెలుగు,Telugu,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,తెలుగు,Telugu,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,తెలుగు,Telugu,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,తెలుగు,Telugu,sammamish,Sammamish,True,False,https://kcls.org/locations/sammamish/,by_language
+kcls,Українська,Ukrainian,algona-pacific,Algona-Pacific,True,False,https://kcls.org/locations/algona-pacific/,by_language
+kcls,Українська,Ukrainian,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Українська,Ukrainian,covington,Covington,True,False,https://kcls.org/locations/covington/,by_language
+kcls,Українська,Ukrainian,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,Українська,Ukrainian,federal-way-320th,Federal Way 320th,True,False,https://kcls.org/locations/federal-way-320th/,by_language
+kcls,Українська,Ukrainian,kenmore,Kenmore,True,False,https://kcls.org/locations/kenmore/,by_language
+kcls,Українська,Ukrainian,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,Українська,Ukrainian,kirkland,Kirkland,True,False,https://kcls.org/locations/kirkland/,by_language
+kcls,Українська,Ukrainian,outreach,Outreach,False,False,https://kcls.org/locations/outreach/,by_language
+kcls,Українська,Ukrainian,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,Українська,Ukrainian,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,اردو,Urdu,bothell,Bothell,True,False,https://kcls.org/locations/bothell/,by_language
+kcls,اردو,Urdu,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,Tiếng Việt,Vietnamese,bellevue,Bellevue,True,False,https://kcls.org/locations/bellevue/,by_language
+kcls,Tiếng Việt,Vietnamese,burien,Burien,True,False,https://kcls.org/locations/burien/,by_language
+kcls,Tiếng Việt,Vietnamese,des-moines,Des Moines,True,False,https://kcls.org/locations/des-moines/,by_language
+kcls,Tiếng Việt,Vietnamese,fairwood,Fairwood,True,False,https://kcls.org/locations/fairwood/,by_language
+kcls,Tiếng Việt,Vietnamese,federal-way,Federal Way,True,False,https://kcls.org/locations/federal-way/,by_language
+kcls,Tiếng Việt,Vietnamese,greenbridge,Greenbridge,True,False,https://kcls.org/locations/greenbridge/,by_language
+kcls,Tiếng Việt,Vietnamese,kent,Kent,True,False,https://kcls.org/locations/kent/,by_language
+kcls,Tiếng Việt,Vietnamese,lake-hills,Lake Hills,True,False,https://kcls.org/locations/lake-hills/,by_language
+kcls,Tiếng Việt,Vietnamese,crossroads,Crossroads,True,False,https://kcls.org/locations/crossroads/,by_language
+kcls,Tiếng Việt,Vietnamese,southcenter,Southcenter,True,False,https://kcls.org/locations/southcenter/,by_language
+kcls,Tiếng Việt,Vietnamese,outreach,Outreach,False,False,https://kcls.org/locations/outreach/,by_language
+kcls,Tiếng Việt,Vietnamese,redmond,Redmond,True,False,https://kcls.org/locations/redmond/,by_language
+kcls,Tiếng Việt,Vietnamese,renton,Renton,True,False,https://kcls.org/locations/renton/,by_language
+kcls,Tiếng Việt,Vietnamese,renton-highlands,Renton Highlands,True,False,https://kcls.org/locations/renton-highlands/,by_language
+kcls,Tiếng Việt,Vietnamese,shoreline,Shoreline,True,False,https://kcls.org/locations/shoreline/,by_language
+kcls,Tiếng Việt,Vietnamese,skyway,Skyway,True,False,https://kcls.org/locations/skyway/,by_language
+kcls,Tiếng Việt,Vietnamese,tukwila,Tukwila,True,False,https://kcls.org/locations/tukwila/,by_language
+kcls,Tiếng Việt,Vietnamese,white-center,White Center,True,False,https://kcls.org/locations/white-center/,by_language

@@ -1,0 +1,10 @@
+agency_id,language_english,language_native,pathway_in_language,evidence_url,slug
+kcls,Spanish,Español,True,http://kcls.org/interpreters-es,es
+kcls,Chinese,中文,True,http://kcls.org/interpreters-zh-ch,zh-ch
+kcls,Russian,Pусский,True,http://kcls.org/interpreters-ru,ru
+kcls,Vietnamese,Tiếng Việt,True,http://kcls.org/interpreters-vi,vi
+kcls,Somali,Soomaali,True,http://kcls.org/interpreters-so,so
+kcls,Amharic,አማርኛ,True,http://kcls.org/interpreters-am/,am
+kcls,Arabic,اللغة العربية,True,http://kcls.org/interpreters-ar,ar
+kcls,Pashto,پښتو,True,http://kcls.org/interpreters-pa,pa
+kcls,Ukrainian,Українська,True,http://kcls.org/interpreters-uk,uk

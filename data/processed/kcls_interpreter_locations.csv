@@ -1,0 +1,37 @@
+location_name,agency_id,video_audio_interpreting,district_name,in_study_area,location_type
+Algona-Pacific,kcls,True,Auburn School District,True,branch
+Auburn,kcls,True,Auburn School District,True,branch
+Bellevue,kcls,True,,False,branch
+Bothell,kcls,True,,False,branch
+Boulevard Park,kcls,True,Highline School District,True,branch
+Burien,kcls,True,Highline School District,True,branch
+Covington,kcls,True,Kent School District,True,branch
+Crossroads,kcls,True,,False,branch
+Des Moines,kcls,True,Highline School District,True,branch
+Enumclaw,kcls,True,,False,branch
+Fairwood,kcls,True,Renton School District,True,branch
+Federal Way,kcls,True,Federal Way School District,True,branch
+Federal Way 320th,kcls,True,Federal Way School District,True,branch
+Greenbridge,kcls,True,Highline School District,True,branch
+Kenmore,kcls,True,,False,branch
+Kent,kcls,True,Kent School District,True,closed
+Kent Panther Lake,kcls,True,Kent School District,True,branch
+Kingsgate,kcls,True,,False,branch
+Kirkland,kcls,True,,False,branch
+Lake Hills,kcls,True,,False,branch
+Newcastle,kcls,True,,False,branch
+Newport Way,kcls,True,,False,branch
+Redmond,kcls,True,,False,branch
+Renton,kcls,True,Renton School District,True,branch
+Renton Highlands,kcls,True,Renton School District,True,branch
+Sammamish,kcls,True,,False,branch
+Service Center,kcls,True,,False,
+Shoreline,kcls,True,,False,branch
+Skyway,kcls,True,Renton School District,True,branch
+Snoqualmie,kcls,True,,False,branch
+Southcenter,kcls,True,Tukwila School District,True,branch
+Tukwila,kcls,True,Tukwila School District,True,branch
+Valley View,kcls,True,Highline School District,True,branch
+White Center,kcls,True,Highline School District,True,branch
+Woodinville,kcls,True,,False,branch
+Woodmont,kcls,True,Federal Way School District,True,branch

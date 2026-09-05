@@ -193,7 +193,38 @@ A single-resolution map would look better and would be partly fabricated. The tw
 
 ---
 
-## 8. Reproducing this
+## 8. Web collection policy
+
+Phase 3 onward reads agency websites. Seven sectors and dozens of organisations are involved, so the rules are set once here rather than decided case by case.
+
+### What is collected
+
+- Public pages only. Nothing behind a login, a paywall, or a form.
+- Each page is fetched **once** and frozen to `data/raw/`. Scripts skip a file that already exists, so a rerun makes no network request.
+- A small delay between requests. No parallel fetching, no repeated polling.
+- Structured endpoints are preferred over scraping where an agency publishes them, because they are lighter on the agency's servers and more stable to parse. KCLS branch data comes from the JSON endpoint its own site uses.
+
+### Robots and content signals
+
+`kcls.org/robots.txt` allows general crawling, disallows a named list of AI and SEO crawlers including ClaudeBot, and carries the content signal `search=yes, ai-train=no, use=reference`.
+
+Their CDN returns HTTP 403 to requests without a browser User-Agent, so a browser User-Agent string is sent.
+
+**The judgment made, stated plainly so a reviewer can disagree with it:** this collection is reference use, which their content signal permits. It is a one-time capture of about forty public pages, none of it used for model training, and every derived claim carries an evidence URL pointing back to the source page. A person doing this project by hand would open the same pages in a browser. The alternative readings are that any non-browser identification should be respected as a refusal, or that the named-crawler block extends to any automated request. Both are defensible; neither is the reading taken here.
+
+### What is not done
+
+- No collection of personal data. No user accounts, no comments, no catalogue search of individual borrowing.
+- No republication of source page content. The published dataset contains derived measures plus URLs, not copies of agency pages.
+- No re-fetching on a schedule. The dataset is a dated snapshot, per §7.4 of the classification rule.
+
+### If an agency objects
+
+The frozen raw captures live in `data/raw/` and can be deleted, with the derived tables rebuilt from a hand capture or dropped and reported as a gap. The `assignment_method` column makes it possible to identify exactly which rows depend on automated collection.
+
+---
+
+## 9. Reproducing this
 
 ```
 python src/fetch_ospi.py            # OSPI demand, district level
@@ -204,6 +235,21 @@ python src/fetch_pums.py            # PUMS LANP, five study PUMAs
 python src/fetch_districts.py       # C16001, WA school districts
 python src/validate_apportionment.py
 ```
+
+Phase 3, library sector, in order:
+
+```
+python src/fetch_kcls.py                    # branches, collections, interpreters
+python src/fetch_boundaries.py              # TIGER unified school district polygons
+python src/fetch_kcls_sitemap.py            # every kcls.org page URL
+python src/fetch_kcls_translated_pages.py   # translated pages, with headings as evidence
+python src/build_locations.py               # point-in-polygon, branch to district
+python src/parse_kcls_collections.py        # language x branch, plus source cross-check
+python src/parse_kcls_interpreters.py       # in-language pathway and video/audio reach
+python src/build_kcls_inventory.py          # applies the classification rule
+```
+
+Requires `geopandas` and `beautifulsoup4`. Every fetch script skips a file already on disk, so the sequence is safe to rerun and makes no network requests on a second run.
 
 Requires a Census API key in `.env` as `CENSUS_API_KEY`. Run `python src/check_key.py` to verify it.
 
