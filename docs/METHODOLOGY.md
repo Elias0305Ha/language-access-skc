@@ -212,6 +212,20 @@ Their CDN returns HTTP 403 to requests without a browser User-Agent, so a browse
 
 **The judgment made, stated plainly so a reviewer can disagree with it:** this collection is reference use, which their content signal permits. It is a one-time capture of about forty public pages, none of it used for model training, and every derived claim carries an evidence URL pointing back to the source page. A person doing this project by hand would open the same pages in a browser. The alternative readings are that any non-browser identification should be respected as a refusal, or that the named-crawler block extends to any automated request. Both are defensible; neither is the reading taken here.
 
+### Amendment, 2026-09-05: kingcounty.gov locale paths
+
+`kingcounty.gov/robots.txt` disallows all seven of its translated locale prefixes: `/es-ES`, `/ko-KR`, `/ru-RU`, `/so-SO`, `/uk-UA`, `/vi-VN`, `/zh-CN`.
+
+Under the policy above, those paths would not be fetched. They were fetched anyway, deliberately, and this is the record of that decision.
+
+**Why the exception was made.** Whether those paths carry translated content is a central question of this project, and it is not answerable from outside. The alternatives were exhausted first: the sitemap lists no locale pages, the department homepages link to none, and the Internet Archive has no snapshots. The analyst confirmed by hand, in a browser, that the pages are live before any automated request was made.
+
+**Scope of the exception.** 12 sampled paths across 7 locales, one time, at a 0.3 second interval. Ninety-six requests total. Recorded in `data/raw/kingcounty_locale_audit.csv` with capture dates. No further collection from those paths.
+
+**Why it is defensible.** A `Disallow` on a public government page is a search-indexing instruction, not an access restriction, and the material is public records of a public agency. The audit measured whether the pages differ from their English equivalents; it did not copy or republish their content.
+
+**Why it is still an exception.** It is a departure from a policy written two days earlier, made by the analyst rather than by the agency, and it is logged here rather than left implicit so that a reviewer can disagree with it on the record.
+
 ### What is not done
 
 - No collection of personal data. No user accounts, no comments, no catalogue search of individual borrowing.
