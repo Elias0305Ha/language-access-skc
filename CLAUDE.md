@@ -58,13 +58,18 @@ Census integration and the apportionment validation.
 
 Written up in `docs/METHODOLOGY.md`.
 
-### Phase 3: in progress, 1 of 6 sectors done
+### Phase 3: in progress, 3 of 6 sectors done
+
+**RESUME HERE: legal aid is the next sector.** Add its agencies to the
+`AGENCIES` list in `src/probe_agency_sites.py` and run it, then write
+`src/build_legal_inventory.py` modelled on `build_city_inventory.py`.
+The profiler is reusable; do not write new fetchers per sector.
 
 Multi-sector supply inventory. **All seven sectors**, sequenced cheapest first:
 
 1. ~~Library (King County Library System)~~ **done, 2026-09-03**
-2. Transit (King County Metro, Sound Transit) **next**
-3. City government (eight cities)
+2. ~~Transit (King County Metro, Sound Transit)~~ **done, 2026-09-05**
+3. ~~City government (eight cities)~~ **done, 2026-09-05**
 4. Legal aid
 5. Food assistance
 6. Health clinics (most decentralised, most expensive, goes last)
@@ -79,7 +84,37 @@ Ships the public dataset on GitHub with a data dictionary.
 
 **Tiers in this sector are `assignment_method = derived`**, applied by code to frozen evidence rather than hand-scored. Exactly reproducible. Schools remain `manual`.
 
-**The library schema is the standard for the five remaining sectors.** Agency-keyed, no `families` column, demand joins by geography in Phase 4. See `docs/DATA_DICTIONARY.md` §6.
+**The library schema is the standard for the remaining sectors.** Agency-keyed, no `families` column, demand joins by geography in Phase 4. See `docs/DATA_DICTIONARY.md` §6.
+
+**Transit sector result.** 276 rows, `data/inventory/transit_inventory.csv`.
+
+- Sound Transit publishes an "I Speak" card in 6 languages, covering 23,627 families with a real in-language document. Metro reaches tier 3 in **one** language: Tagalog, 353 families.
+- Metro's interpreter line is option 1 on the general call centre number and shares its hours: **closed weekends and holidays**. Buses run on weekends.
+- Sound Transit's Title VI threshold is 25,000+ speakers and ~1% of a 1,087 sq mi three-county district. No South King County language can reach it. Same structural point as the Phase 2 result: big geography erases small communities.
+
+**City sector result.** 1,104 rows, `data/inventory/city_inventory.csv`.
+
+- Only three of eight cities publish anything in another language. **Tukwila** (Spanish, Dari, Vietnamese, Somali, Burmese, Nepali), **Burien** (Spanish, Vietnamese, Amharic), **Auburn** (Spanish, Ukrainian).
+- Tukwila is the smallest city and the only agency anywhere in the project publishing in Dari, the largest unserved language at 3,040 families.
+- **Des Moines** publishes nothing and has no interpreter page: no discoverable pathway in any language.
+- **City of Renton curates its widget to 17 languages, including Italian and Indonesian, and omits Dari** — the top severity-1.00 language in Renton School District.
+
+### The quality finding, and why it matters more than any script here
+
+Structural detection can prove a page **exists** in a language. It cannot prove a human wrote it. Elias read the Amharic pages and the two verdicts split:
+
+| Agency | Verdict | Effect |
+|---|---|---|
+| City of Burien | `human` | tier 3 upheld |
+| King County | `machine`, obvious Google Translate | tier 3 → tier 1 |
+
+**This reversed an earlier claim in these notes.** King County's 247 language-named pages across 34 languages were described as human translation and contrasted favourably with Metro. One language was checkable and it was machine output. The other 33 are under suspicion and unverifiable by anyone on this project.
+
+Rule 5.10 now separates `machine` (identification, changes the tier) from `poor` (quality, does not). Verdicts live in `data/inventory/quality_checks.csv`.
+
+**Of 11 tier-3 city rows, exactly 1 has been read by someone who could read it.** Keep that ratio visible; it belongs in the README.
+
+**Bias directions do not cancel.** Limitation 1: English-only web presence understates capacity. Limitation 7: undetected machine translation overstates it. Both are live.
 
 **Elias explicitly rejected cutting this to three sectors and was right to.** The cross-sector comparison is a finding in itself, and the access-desert map needs point density. Do not re-propose narrowing it.
 
