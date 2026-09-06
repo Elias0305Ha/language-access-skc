@@ -12,13 +12,19 @@ The finding this sector produces is structural, and it mirrors the OSPI
 multilingual templates in the schools sector:
 
   WashingtonLawHelp, the statewide legal self-help library run by the
-  Northwest Justice Project, publishes substantial human-translated legal
-  documents in 13 languages, INCLUDING Dari, Khmer and Marshallese.
-  Not one other organisation in this sector publishes in any language
-  except Spanish.
+  Northwest Justice Project, publishes human-translated legal documents
+  in 12 languages, INCLUDING Dari, Khmer and Marshallese. Not one other
+  organisation in this sector publishes in any language except Spanish.
 
-  So the material exists, statewide, free, in exactly the languages the
-  study area needs and local providers do not offer.
+  The depth is thin outside Spanish and must be stated that way. Spanish
+  has 314 documents. Dari has 3, Khmer 2, Marshallese 1. Those few are
+  substantial (protection orders, domestic violence, power of attorney,
+  family court) but they are a handful, not a library.
+
+  The finding is still that the material exists, statewide and free, in
+  languages no local provider offers. It is NOT that these communities
+  are well served. Amharic, Somali, Tigrinya, Pashto and Punjabi have
+  nothing here at all.
 
 Detection note. This sector broke the detector built for cities. Cities
 name a translated page by language slug (…/emergency_information_amharic).
@@ -54,8 +60,30 @@ LOCALE_TO_CANON = {
     "pa": "Punjabi", "ur": "Urdu", "my": "Burmese", "ne": "Nepali",
 }
 
-# A locale directory with only a sitemap page in it is not a translation.
-MIN_PAGES_FOR_TIER3 = 3
+# Count DOCUMENTS, not pages. Every locale directory on WashingtonLawHelp
+# contains a landing page, a sitemap page, and roughly twenty topics/…
+# pages that are translated category labels rather than legal content.
+# Counting URLs put Dari at 25 and Marshallese at 22. The site's own
+# language menu says 3 and 1. The site is right: verified by listing the
+# URLs, where 25 = 1 landing + 1 sitemap + 20 topics + 3 documents.
+#
+# Caught by the analyst reading the language menu in a browser, which is
+# JavaScript-built and invisible to the sitemap.
+NON_CONTENT_SEGMENTS = ("topics", "sitemap")
+
+
+def is_document(url, locale):
+    """True for an actual translated document, not navigation."""
+    tail = url.split(f"/{locale}/", 1)[-1] if f"/{locale}/" in url else ""
+    if not tail:
+        return False                      # the bare locale landing page
+    return tail.split("/")[0] not in NON_CONTENT_SEGMENTS
+
+
+# Rule 5.3: a single translated document meets tier 3, with depth recorded
+# separately in translated_page_count. So the threshold is one DOCUMENT,
+# now that navigation is no longer being counted as one.
+MIN_PAGES_FOR_TIER3 = 1
 
 # Findings that are not visible in a sitemap and were read off the page.
 # Each carries the URL it came from so a reviewer can check it.
@@ -132,7 +160,7 @@ def main():
             parts = u.split("//", 1)[-1].split("/")
             seg = parts[1].lower() if len(parts) > 1 else ""
             canon = LOCALE_TO_CANON.get(seg)
-            if canon:
+            if canon and is_document(u, seg):
                 by_lang.setdefault(canon, []).append(u)
         # ...and by language-named slug, the city pattern, in case both appear
         for slug, us in (p.get("language_named_pages") or {}).items():
@@ -196,10 +224,9 @@ def main():
             notes = []
             if pages:
                 notes.append(f"{len(pages)} page(s) or document(s) in this language")
-                if len(pages) < MIN_PAGES_FOR_TIER3 and lang not in phone:
-                    notes.append(f"Below the {MIN_PAGES_FOR_TIER3}-page threshold "
-                                 f"for tier 3; a locale directory holding only a "
-                                 f"sitemap is not a translation")
+                notes.append("Count is documents only. Navigation and topic "
+                             "category pages are excluded; counting them "
+                             "overstated this figure roughly eightfold")
             if lang in phone:
                 notes.append(f"Dedicated help line published in this language: {phone[lang]}")
             if restricted_set is not None:
