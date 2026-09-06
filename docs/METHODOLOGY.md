@@ -290,6 +290,13 @@ python src/build_legal_inventory.py
 AGENCIES list for the food and health sectors rather than writing new
 fetchers. It profiles only agencies not already in the output file.
 
+Phase 3, food assistance sector:
+
+```
+python src/probe_agency_sites.py       # incremental
+python src/build_food_inventory.py
+```
+
 **Detection caveat carried forward.** Slug-based detection
 (`…/emergency_information_amharic`) is how governments name translated
 pages. Nonprofits often use locale path prefixes (`…/fa-af/…`) instead.

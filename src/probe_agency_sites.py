@@ -98,6 +98,26 @@ AGENCIES = [
     # with no translation, which is a different claim entirely.
     ("legal_ccsww",      "Catholic Community Services of Western Washington",
      "legal", "https://ccsww.org"),
+
+    # Food assistance. Selection: food banks physically serving the six
+    # study districts, plus the two regional distributors that supply them
+    # and the two state channels people must go through to get SNAP.
+    # The state channels matter most: a food bank hands you groceries in
+    # any language, but a benefits APPLICATION is a consequential document
+    # in the same sense as a school placement letter.
+    ("food_auburn",      "The Auburn Food Bank",  "food", "https://www.theauburnfoodbank.org"),
+    ("food_kent",        "Kent Food Bank and Emergency Services", "food", "https://kentfoodbank.org"),
+    ("food_desmoines",   "Des Moines Area Food Bank", "food", "https://myfoodbank.org"),
+    ("food_msc",         "Multi-Service Center (Federal Way)", "food", "https://mschelps.org"),
+    ("food_highline",    "Highline Area Food Bank", "food", "https://highlineareafoodbank.org"),
+    ("food_whitecenter", "White Center Food Bank", "food", "https://www.whitecenterfoodbank.org"),
+    ("food_tukwila",     "Tukwila Pantry",        "food", "https://www.tukwilapantry.org"),
+    ("food_renton_sa",   "Salvation Army Renton", "food", "https://renton.salvationarmy.org"),
+    ("food_nwharvest",   "Northwest Harvest",     "food", "https://www.northwestharvest.org"),
+    ("food_foodlifeline", "Food Lifeline",        "food", "https://foodlifeline.org"),
+    ("food_dshs",        "DSHS Basic Food (SNAP)", "food", "https://www.dshs.wa.gov"),
+    ("food_waconnection", "Washington Connection (benefits application)",
+     "food", "https://www.washingtonconnection.org"),
 ]
 
 # Language-named slugs, the pattern that found 247 translated pages on
