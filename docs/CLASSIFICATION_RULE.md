@@ -180,36 +180,36 @@ Added in v2.0:
 
 *Observed at KCLS: video and audio interpreting reaches 20 of 22 study-area locations, phone reaches all of them, and only five languages are available outside weekday hours. Three facts, one tier.*
 
-### 5.10 A page exists in the language but a native speaker judges it poor
+### 5.10 A native speaker reads a page that structural detection scored tier 3
 
-**Decision: record the verdict in a separate column. Do not change the tier.**
-
-This looks wrong at first, so the reasoning matters.
-
-The tier 3 test is "human-produced or reviewed." A native speaker reporting that a page reads as unreviewed machine output is direct evidence that the test is not met, and the instinct is to downgrade the row to tier 1.
-
-**Downgrading would introduce a worse bias than it removes.** Quality can only be judged in languages someone on the project can read. In practice that is Amharic. Every other language is scored on structural signals: does a page exist, is it human-produced, is it a real translation rather than an English page under a translated title.
-
-If poor-quality Amharic is downgraded while unverifiable Punjabi, Khmer and Marshallese pages keep tier 3, then **the one language subject to expert scrutiny is punished for being scrutinised.** The dataset would systematically understate provision in exactly the language the analyst can read, and a reviewer comparing Amharic against Punjabi would be comparing two different standards.
-
-**The rule:**
-
-> Quality verdicts are recorded in `data/inventory/quality_checks.csv` and surfaced as a `quality_verdict` column. Tiers stay as structurally assigned. Phase 4 reports the gap index both ways, unadjusted and quality-adjusted, as a sensitivity test.
-
-That keeps a real finding visible without letting uneven verification silently distort the ranking.
+Structural detection can only establish that a page **exists** in a language. It cannot establish that a human wrote it. A reader of the language can. Those verdicts are recorded in `data/inventory/quality_checks.csv` and surfaced as a `quality_verdict` column.
 
 **Verdict values:** `human`, `poor`, `machine`, `unchecked`.
 
-*First application, 2026-09-05, both by native-speaker review:*
+The two non-trivial verdicts are handled differently, and the difference matters.
 
-| Agency | Language | Verdict |
-|---|---|---|
-| City of Burien | Amharic | `human`, genuine translation of consequential documents |
-| King County | Amharic | `poor`, "not direct translations and not well translated" |
+**`machine`: change the tier to 1.**
+
+This is not a quality opinion, it is an identification of what the page is. §5.1 already settles machine translation at tier 1. A native speaker recognising Google Translate output is applying an existing rule to evidence only they can see, not inventing a new standard.
+
+**`poor`: record it, leave the tier alone.**
+
+A human translation that reads badly still meets the tier 3 test, which asks whether a human produced or reviewed it, not whether they did it well. Downgrading on quality would also introduce a bias worse than the one it removes: quality can only be judged in languages someone on the project reads, in practice Amharic. Penalising poor Amharic while unverifiable Punjabi, Khmer and Marshallese keep tier 3 would punish the one language subject to expert scrutiny.
+
+*Applications, 2026-09-05, both by native-speaker review:*
+
+| Agency | Language | Verdict | Effect |
+|---|---|---|---|
+| City of Burien | Amharic | `human` | tier 3 upheld |
+| King County | Amharic | `machine` | tier 3 → tier 1 |
 
 Burien's Amharic pages cover the public safety levy, immigration resources and emergency information. Those are consequential documents in the same category as the school placement letters this project is built around, and no school district in the study area publishes their equivalent in Amharic.
 
-**This is the honest scope of the finding:** two agencies, one language, checked by one reader. It is worth more than it looks, because it is the only direct evidence in the project that structural detection and actual quality can disagree. It is also a reminder that every unchecked tier 3 row in this dataset carries the same unmeasured risk.
+King County's, by contrast, were identified as Google Translate output rendered straight from the English source. Note what was **not** available as corroboration: the Google Translate disclaimer on those pages is King County's site-wide banner and appears on English pages too. The native-speaker identification is the only evidence, and it is recorded as such.
+
+**The generalisation risk, stated rather than buried.** King County publishes 247 language-named pages across 34 languages. One language was checkable and it was machine output. A department that machine-translates Amharic did not hand-translate Khmer. The other 33 languages are therefore under suspicion and cannot be verified by anyone on this project. See limitation 7.
+
+**Direction of the resulting bias.** Because machine output can only be detected in Amharic, undetected machine translation elsewhere means this dataset **overstates** provision in languages nobody could check. That is the opposite direction from §7.1, where an English-only web presence understates capacity. Both are live, and they do not cancel.
 
 ---
 
@@ -273,6 +273,8 @@ Stated up front rather than discovered by a reviewer.
 4. **Point-in-time snapshot.** Each row reflects one date. The dataset is a photograph, not a monitor.
 
 5. **Absence is evidenced by sitemap, not by browsing.** A written tier of 0 means no translated page appears in the agency's own sitemap. A translated PDF sitting in a media library, unlinked from any page, would not be found. This is a downward bias of the same family as §7.1.
+
+7. **A tier 3 row is only as good as who could read it.** Structural detection proves a page exists in a language, not that a human wrote it. Exactly one language in this project can be verified by a reader, Amharic, and the first two checks split: Burien genuine, King County machine output. Every unverified tier 3 row carries that same unmeasured risk, and King County's 247 language-named pages across 34 languages are under specific suspicion on the strength of the one that could be checked. The resulting bias **overstates** provision, which is the opposite direction from limitation 1.
 
 6. **Derived rows inherit the agency's own errors.** KCLS states its collections twice on one page and contradicts itself in three places, recorded in `outputs/kcls_source_disagreements.csv`. Derived scoring propagates such contradictions rather than resolving them, which is correct, but it means a derived row is not automatically more accurate than a hand-scored one. It is more *reproducible*.
 

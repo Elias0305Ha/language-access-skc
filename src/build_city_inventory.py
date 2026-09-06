@@ -91,9 +91,13 @@ def main():
     google = json.loads(GOOGLE.read_text(encoding="utf-8"))["languages"]
     google_codes = {c.lower() for c in google}
 
-    # Native-speaker quality verdicts. Recorded, never used to change a
-    # tier: see CLASSIFICATION_RULE 5.10 for why downgrading only the
-    # language we can read would bias the dataset against that language.
+    # Native-speaker quality verdicts, rule 5.10.
+    #   'machine' -> tier 1. Not an opinion about quality, an
+    #                identification of what the page is. Rule 5.1 already
+    #                puts machine translation at tier 1.
+    #   'poor'    -> tier unchanged. A badly written human translation
+    #                still meets the tier 3 test, and downgrading it would
+    #                penalise the only language anyone here can read.
     quality = {}
     if QUALITY.exists():
         q = pd.read_csv(QUALITY)
@@ -152,10 +156,22 @@ def main():
                 covered = iso.lower() in google_codes
 
             pages = translated.get(lang, [])
+            verdict = quality.get((p["agency_id"], lang),
+                                  "unchecked" if pages else "")
             written = 3 if pages else (1 if covered else 0)
+            if pages and verdict == "machine":
+                # Rule 5.10: identified machine output cannot be tier 3.
+                written = 1
+                notes_prefix = ("Native speaker identifies these pages as "
+                                "machine translation, so tier 3 is not met. "
+                                "Downgraded to 1 under rules 5.1 and 5.10")
+            else:
+                notes_prefix = None
             oral = 2 if (covered and has_access_page) else 0
 
             notes = []
+            if notes_prefix:
+                notes.append(notes_prefix)
             if pages:
                 notes.append(f"{len(pages)} page(s) published in this language")
             if restricted_set is not None:
@@ -176,7 +192,7 @@ def main():
                 "sector": SECTOR, "language": lang,
                 "written_tier": written, "oral_tier": oral, "collection_tier": "",
                 "pathway_in_language": covered and has_access_page,
-                "pathway_type": ("in_language_document" if pages
+                "pathway_type": ("in_language_document" if (pages and verdict != "machine")
                                  else "machine_widget" if (covered and has_access_page)
                                  else "none"),
                 "widget": ",".join(p.get("widgets") or []),
@@ -188,8 +204,7 @@ def main():
                 "site_page_count": p.get("sitemap_page_count", 0),
                 "evidence_url": pages[0] if pages else p.get("final_url", p["base_url"]),
                 "capture_date": today,
-                "quality_verdict": quality.get((p["agency_id"], lang),
-                                               "unchecked" if pages else ""),
+                "quality_verdict": verdict,
                 "notes": " | ".join(notes),
                 "assigned_by": "EH", "assignment_method": "derived",
             })
