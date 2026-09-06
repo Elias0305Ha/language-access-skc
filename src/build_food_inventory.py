@@ -13,16 +13,40 @@ the same measure, so both are included and the difference is recorded:
   an application. That form is a consequential document in exactly the
   sense a school placement letter is, and it is the thing worth measuring.
 
-The finding, which DSHS proves against its own data:
+The finding, which DSHS proves against itself.
 
-  DSHS publishes a monthly report of benefit households by primary
-  language. It also publishes form 14-001, Application for Cash or Food
-  Assistance, in 12 non-English languages. The two lists do not match.
+An earlier version of this analysis said DSHS "does not translate" into
+Amharic, Ukrainian, Tigrinya, Punjabi or Arabic. That was wrong, and the
+correction makes the finding sharper rather than weaker. DSHS translates
+into all of them, and into Marshallese, Karen, Oromo, Lingala and Wolof
+besides. It simply does not do it for the application.
 
-  18,731 households on cash, food or medical assistance speak a language
-  the application is not published in. The largest is Ukrainian at 5,881
-  households, the fifth most common language among DSHS's own clients.
-  Tamil has a form and does not appear in the top 29 client languages.
+Comparing forms from the same agency, same forms library, same year:
+
+    form     non-English  what it is
+    -------  -----------  -------------------------------------------
+    02-611            32  Statement of Understanding, Mid-Certification
+                          Review. A compliance acknowledgement.
+    02-528            25  Fair Hearing Withdrawal. The form you sign to
+                          GIVE UP your appeal.
+    01-205            15  ABAWD work-requirement activity report.
+    14-001            12  Application for Cash or Food Assistance.
+                          The form that gets you food.
+
+The application has the FEWEST languages of the four.
+
+21 languages get the mid-certification statement and not the
+application, covering 17,940 households where DSHS publishes a count.
+Among them: Ukrainian 5,881, Arabic 2,447, Punjabi 1,632, Amharic 1,615,
+Tigrinya 1,144. Marshallese and Karen get it too, and both are at or near
+zero in every other sector of this project.
+
+Stated plainly: DSHS will explain how to withdraw your appeal in Amharic,
+Tigrinya, Punjabi, Ukrainian and Arabic. It will not tell you how to
+apply for food in any of them.
+
+This is not a capacity finding. The vendors, budget and process plainly
+exist. It is a choice about which document is worth translating.
 
 Output: data/inventory/food_inventory.csv
 """
@@ -82,6 +106,21 @@ DSHS_CLIENT_LANGUAGES = {
 }
 DSHS_REPORT_URL = ("https://www.dshs.wa.gov/esa/"
                    "cash-food-and-medical-households-primary-language")
+
+# Other DSHS forms, for the within-agency comparison. The point of this
+# table is that translation capacity is not the constraint.
+DSHS_OTHER_FORMS = {
+    "02-611": ("Statement of Understanding: Mid-Certification Review", 32),
+    "02-528": ("Fair Hearing Withdrawal", 25),
+    "01-205": ("ABAWD Activity Report", 15),
+}
+# Languages on 02-611 but not on the application, mapped to canonical names.
+IN_MCR_NOT_IN_APPLICATION = [
+    "Ukrainian", "Arabic", "Punjabi", "Amharic", "Portuguese", "Tigrinya",
+    "French", "Tagalog", "Romanian", "Burmese", "Swahili", "Haitian Creole",
+    "Oromo", "Hindi", "Karen", "Marshallese", "Lingala", "Nepali",
+    "Bosnian", "Wolof", "Turkish",
+]
 
 # Northwest Harvest, from its sitemap: three language-named pages.
 NWHARVEST_PAGES = {"Chinese-Mandarin": 1, "Russian": 1, "Vietnamese": 1}
@@ -181,11 +220,19 @@ def main():
                 notes.append(FOODBANK_CAVEAT)
 
             households = DSHS_CLIENT_LANGUAGES.get(lang, "")
-            if aid == "food_dshs" and households and not docs:
-                notes.append(f"DSHS's own June 2026 report counts {households:,} "
-                             f"households on cash, food or medical assistance "
-                             f"whose primary language is this one, and does not "
-                             f"publish the application form in it")
+            if aid == "food_dshs" and not docs:
+                if households:
+                    notes.append(f"DSHS's own June 2026 report counts {households:,} "
+                                 f"households on cash, food or medical assistance "
+                                 f"whose primary language is this one, and it does "
+                                 f"not publish the application form in it")
+                if lang in IN_MCR_NOT_IN_APPLICATION:
+                    notes.append("DSHS DOES publish form 02-611, the "
+                                 "Mid-Certification Review statement, in this "
+                                 "language, and form 02-528, Fair Hearing "
+                                 "Withdrawal, in most of these. Translation "
+                                 "capacity is not the constraint; the "
+                                 "application is simply not translated")
 
             rows.append({
                 "agency_id": aid, "agency_name": p["agency_name"],
@@ -220,6 +267,17 @@ def main():
         print(f"  {n}")
     print("\nnot assessed:")
     print(f"  {sorted(set(df[df['assignment_method']=='unreachable']['agency_name'])) or 'none'}")
+
+    print("\nWITHIN-AGENCY COMPARISON, DSHS forms library")
+    print(f"   {'14-001 Application for Cash or Food Assistance':52}"
+          f"{len(set(DSHS_FORM_LANGUAGES.values())):>4} non-English")
+    for num, (title, n) in DSHS_OTHER_FORMS.items():
+        print(f"   {num + ' ' + title:52}{n:>4} non-English")
+    print(f"\n   languages on 02-611 but not on the application: "
+          f"{len(IN_MCR_NOT_IN_APPLICATION)}")
+    known = {l: DSHS_CLIENT_LANGUAGES[l] for l in IN_MCR_NOT_IN_APPLICATION
+             if l in DSHS_CLIENT_LANGUAGES}
+    print(f"   households in them where DSHS reports a count: {sum(known.values()):,}")
 
     # The headline, computed rather than asserted.
     # The client report writes "Chinese"; the form list writes
