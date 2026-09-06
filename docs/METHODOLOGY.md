@@ -279,8 +279,23 @@ python src/probe_agency_sites.py       # profiles all 8 city websites
 python src/build_city_inventory.py     # applies the classification rule
 ```
 
-`probe_agency_sites.py` is reusable: add rows to its AGENCIES list for the
-legal, food and health sectors rather than writing new fetchers.
+Phase 3, legal aid sector:
+
+```
+python src/probe_agency_sites.py       # incremental: profiles only new agencies
+python src/build_legal_inventory.py
+```
+
+`probe_agency_sites.py` is reusable and incremental: add rows to its
+AGENCIES list for the food and health sectors rather than writing new
+fetchers. It profiles only agencies not already in the output file.
+
+**Detection caveat carried forward.** Slug-based detection
+(`…/emergency_information_amharic`) is how governments name translated
+pages. Nonprofits often use locale path prefixes (`…/fa-af/…`) instead.
+Running slug detection alone across legal aid reported zero translated
+pages at every organisation, which was a fact about the detector rather
+than the sector. Both patterns must be checked in the remaining sectors.
 
 Requires `geopandas`, `beautifulsoup4` and `pypdf`. Every fetch script skips a file already on disk, so the sequence is safe to rerun and makes no network requests on a second run.
 

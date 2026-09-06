@@ -72,6 +72,32 @@ AGENCIES = [
     ("city_renton",      "City of Renton",      "city", "https://www.rentonwa.gov"),
     ("city_seatac",      "City of SeaTac",      "city", "https://www.seatacwa.gov"),
     ("city_tukwila",     "City of Tukwila",     "city", "https://www.tukwilawa.gov"),
+
+    # Legal aid. Unlike cities there is no fixed roster, so the selection
+    # is a judgment and is recorded here rather than left implicit.
+    # Included: organisations providing free civil legal help to South
+    # King County residents, either from an office in the study area or
+    # county/state-wide. Excluded: criminal defence (a different right,
+    # with its own interpreter mandate), private firms, and referral
+    # directories that provide no service themselves.
+    ("legal_nwjustice",  "Northwest Justice Project", "legal", "https://nwjustice.org"),
+    # The statewide legal self-help library, run by NJP. Matters
+    # disproportionately: if free translated legal materials already exist
+    # here, then a local provider offering none is the same shape of
+    # finding as the OSPI multilingual templates in the schools sector.
+    ("legal_walawhelp",  "WashingtonLawHelp",         "legal", "https://www.washingtonlawhelp.org"),
+    ("legal_kcba",       "King County Bar Association", "legal", "https://www.kcba.org"),
+    ("legal_elap",       "Eastside Legal Assistance Program", "legal", "https://elap.org"),
+    ("legal_nwirp",      "NW Immigrant Rights Project", "legal", "https://www.nwirp.org"),
+    ("legal_solidground", "Solid Ground",             "legal", "https://www.solid-ground.org"),
+    ("legal_colectiva",  "Colectiva Legal del Pueblo", "legal", "https://colectivalegal.org"),
+    ("legal_teamchild",  "TeamChild",                 "legal", "https://www.teamchild.org"),
+    ("legal_entrehermanos", "Entre Hermanos",         "legal", "https://entrehermanos.org"),
+    # Catholic Community Services (Tenant Law Center) returns 403 to every
+    # header set tried. Recorded as unreachable rather than as an agency
+    # with no translation, which is a different claim entirely.
+    ("legal_ccsww",      "Catholic Community Services of Western Washington",
+     "legal", "https://ccsww.org"),
 ]
 
 # Language-named slugs, the pattern that found 247 translated pages on
@@ -257,11 +283,22 @@ def profile(agency_id, name, sector, base):
 
 
 def main():
-    if OUT.exists():
-        print(f"skip  {OUT}  (already on disk). Delete it to re-profile.")
-        return
+    # Incremental by design. Each new sector adds rows to AGENCIES; an
+    # all-or-nothing skip would mean refetching every previously profiled
+    # site to add one, which is wasted traffic against other people's
+    # servers. Delete an agency's entry from the JSON to re-profile it.
     out = []
-    for a in AGENCIES:
+    done = set()
+    if OUT.exists():
+        out = json.loads(OUT.read_text(encoding="utf-8"))
+        done = {r["agency_id"] for r in out}
+        print(f"already profiled: {len(done)}")
+    if OUT_URLS.exists():
+        ALL_URLS.update(json.loads(OUT_URLS.read_text(encoding="utf-8")))
+
+    todo = [a for a in AGENCIES if a[0] not in done]
+    print(f"to profile now: {len(todo)}")
+    for a in todo:
         try:
             out.append(profile(*a))
         except Exception as e:
@@ -273,6 +310,15 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\nwrote {OUT}  ({len(out)} agencies)")
+
+    # Keep every sitemap URL. Later sectors, the Phase 4 evidence archive
+    # and any re-detection all need them, and refetching a sitemap to
+    # answer a new question is wasted traffic against someone else's
+    # server.
+    OUT_URLS.write_text(json.dumps(ALL_URLS, ensure_ascii=False, indent=0),
+                        encoding="utf-8")
+    print(f"wrote {OUT_URLS}  ({sum(len(v) for v in ALL_URLS.values())} URLs "
+          f"across {len(ALL_URLS)} agencies)")
 
     print("\nsummary")
     print(f"{'agency':22}{'pages':>7}{'widget':>18}{'restricted':>12}{'lang pages':>12}")
