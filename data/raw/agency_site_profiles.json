@@ -1579,5 +1579,420 @@
   "locale_prefixes_in_sitemap": [],
   "language_access_pages": [],
   "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_healthpoint",
+  "agency_name": "HealthPoint",
+  "sector": "health",
+  "base_url": "https://healthpointchc.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.healthpointchc.org/",
+  "redirects_to": "https://www.healthpointchc.org/",
+  "widgets": [
+   "google_translate"
+  ],
+  "widget_restricted_to": null,
+  "robots_status": 404,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 404,
+  "sitemap_page_count": 0,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [],
+  "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_seamar",
+  "agency_name": "Sea Mar Community Health Centers",
+  "sector": "health",
+  "base_url": "https://www.seamar.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.seamar.org",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 404,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 404,
+  "sitemap_page_count": 0,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [],
+  "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_ichs",
+  "agency_name": "International Community Health Services",
+  "sector": "health",
+  "base_url": "https://www.ichs.com",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.ichs.com",
+  "widgets": [
+   "google_translate"
+  ],
+  "widget_restricted_to": [
+   "am",
+   "ar",
+   "my",
+   "zh-CN",
+   "zh-TW",
+   "hi",
+   "ja",
+   "km",
+   "ko",
+   "lo",
+   "ne",
+   "fa",
+   "pa",
+   "ru",
+   "so",
+   "es",
+   "tl",
+   "th",
+   "vi"
+  ],
+  "robots_status": 200,
+  "robots_disallow": [],
+  "robots_sitemaps": [
+   "https://www.ichs.com/sitemap.xml"
+  ],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 457,
+  "language_named_pages": {
+   "amharic": [
+    "https://www.ichs.com/know-your-rights-resources-amharic"
+   ],
+   "korean": [
+    "https://www.ichs.com/know-your-rights-resources-korean"
+   ],
+   "russian": [
+    "https://www.ichs.com/know-your-rights-resources-russian"
+   ],
+   "chinese": [
+    "https://www.ichs.com/know-your-rights-resources-simplified-chinese"
+   ],
+   "spanish": [
+    "https://www.ichs.com/know-your-rights-resources-spanish"
+   ],
+   "vietnamese": [
+    "https://www.ichs.com/know-your-rights-resources-vietnamese"
+   ]
+  },
+  "language_named_page_count": 6,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [
+   "https://www.ichs.com/interpreter-services"
+  ],
+  "language_access_page_count": 1
+ },
+ {
+  "agency_id": "health_neighborcare",
+  "agency_name": "Neighborcare Health",
+  "sector": "health",
+  "base_url": "https://neighborcare.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://neighborcare.org",
+  "widgets": [
+   "google_translate"
+  ],
+  "widget_restricted_to": null,
+  "robots_status": 404,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 404,
+  "sitemap_page_count": 0,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [],
+  "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_globaltolocal",
+  "agency_name": "Global to Local",
+  "sector": "health",
+  "base_url": "https://globaltolocal.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.globaltolocal.org/",
+  "redirects_to": "https://www.globaltolocal.org/",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 200,
+  "robots_disallow": [
+   "/wp/wp-admin/",
+   "/wp/wp-content/uploads/wpo/wpo-plugins-tables-list.json",
+   "Sitemap:"
+  ],
+  "robots_sitemaps": [
+   "https://www.globaltolocal.org/sitemap_index.xml"
+  ],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 61,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [],
+  "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_valleymed",
+  "agency_name": "Valley Medical Center",
+  "sector": "health",
+  "base_url": "https://valleymed.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.valleymed.org/",
+  "redirects_to": "https://www.valleymed.org/",
+  "widgets": [
+   "google_translate"
+  ],
+  "widget_restricted_to": null,
+  "robots_status": 200,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 1920,
+  "language_named_pages": {
+   "thai": [
+    "https://valleymed.org/find-a-provider/t/don-q-thai"
+   ],
+   "spanish": [
+    "https://valleymed.org/patients--visitors/billing-and-insurance/washington-health-benefit-exchange/apple-health-expansion-spanish"
+   ]
+  },
+  "language_named_page_count": 2,
+  "locale_prefixes_in_sitemap": [
+   "lp"
+  ],
+  "language_access_pages": [
+   "https://valleymed.org/clinician-news/2020/06/informatics-update--using-an-interpreter-with-telehealth-visits",
+   "https://valleymed.org/patients--visitors/resources-to-manage-your-health/interpreter-services"
+  ],
+  "language_access_page_count": 2
+ },
+ {
+  "agency_id": "health_multicare",
+  "agency_name": "MultiCare Health System",
+  "sector": "health",
+  "base_url": "https://www.multicare.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.multicare.org",
+  "widgets": [
+   "gtranslate"
+  ],
+  "widget_restricted_to": [
+   "en",
+   "es"
+  ],
+  "robots_status": 200,
+  "robots_disallow": [
+   "/es/",
+   "/es/*?*",
+   "/*?*"
+  ],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 5225,
+  "language_named_pages": {
+   "french": [
+    "https://www.multicare.org/provider/holly-thomason-french/"
+   ]
+  },
+  "language_named_page_count": 1,
+  "locale_prefixes_in_sitemap": [
+   "lp"
+  ],
+  "language_access_pages": [
+   "https://www.multicare.org/patient-resources/interpreter-services/"
+  ],
+  "language_access_page_count": 1
+ },
+ {
+  "agency_id": "health_vmfh",
+  "agency_name": "Virginia Mason Franciscan Health",
+  "sector": "health",
+  "base_url": "https://www.vmfh.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.vmfh.org",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 200,
+  "robots_disallow": [
+   "/*page-not-found*",
+   "/errors/",
+   "/*jcr:content*"
+  ],
+  "robots_sitemaps": [
+   "https://www.vmfh.org/sitemap.xml",
+   "https://www.vmfh.org/providers-sitemap.xml",
+   "https://www.vmfh.org/locations-sitemap.xml"
+  ],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 3308,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [
+   "https://www.vmfh.org/patient-and-visitor-information/language-and-interpreter-services"
+  ],
+  "language_access_page_count": 1
+ },
+ {
+  "agency_id": "health_hca",
+  "agency_name": "WA Health Care Authority (Apple Health)",
+  "sector": "health",
+  "base_url": "https://www.hca.wa.gov",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.hca.wa.gov",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 404,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 1687,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [
+   "https://www.hca.wa.gov/about-hca/data-and-reports/interpreter-services-data-dashboard",
+   "https://www.hca.wa.gov/about-hca/interpreter-services",
+   "https://www.hca.wa.gov/about-hca/language-access",
+   "https://www.hca.wa.gov/about-hca/news/announcements/spoken-language-interpreter-services-contract-update",
+   "https://www.hca.wa.gov/billers-providers-partners/program-information-providers/interpreter-services-providers",
+   "https://www.hca.wa.gov/billers-providers-partners/program-information-providers/sign-language-interpreters",
+   "https://www.hca.wa.gov/billers-providers-partners/program-information-providers/spoken-language-interpreters",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/lep-services",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-503-0110-washington-apple-health-limited-english-proficient-lep-services",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0120-interpreter-services-hearings",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0130-limited-english-proficient-parties-notice-requirements",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0135-interpreters",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0140-waiving-interpreter-services",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0145-interpreter-requirements",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/wac-182-526-0150-hearing-decisions-involving-limited-english-proficient-parties",
+   "https://www.hca.wa.gov/free-or-low-cost-health-care/i-need-medical-dental-or-vision-care/interpreter-services-clients"
+  ],
+  "language_access_page_count": 16
+ },
+ {
+  "agency_id": "health_planfinder",
+  "agency_name": "Washington Healthplanfinder",
+  "sector": "health",
+  "base_url": "https://www.wahealthplanfinder.org",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://www.wahealthplanfinder.org",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 200,
+  "robots_disallow": [],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 0,
+  "language_named_pages": {},
+  "language_named_page_count": 0,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [],
+  "language_access_page_count": 0
+ },
+ {
+  "agency_id": "health_doh",
+  "agency_name": "WA Department of Health",
+  "sector": "health",
+  "base_url": "https://doh.wa.gov",
+  "capture_date": "2026-09-07",
+  "home_status": 200,
+  "final_url": "https://doh.wa.gov",
+  "widgets": [],
+  "widget_restricted_to": null,
+  "robots_status": 200,
+  "robots_disallow": [
+   "/core/",
+   "/profiles/",
+   "/README.md",
+   "/composer/Metapackage/README.txt",
+   "/composer/Plugin/ProjectMessage/README.md",
+   "/composer/Plugin/Scaffold/README.md",
+   "/composer/Plugin/VendorHardening/README.txt",
+   "/composer/Template/README.txt",
+   "/modules/README.txt",
+   "/sites/README.txt",
+   "/themes/README.txt",
+   "/web.config",
+   "/admin/",
+   "/comment/reply/",
+   "/filter/tips",
+   "/node/add/",
+   "/search/",
+   "/user/register",
+   "/user/password",
+   "/user/login",
+   "/user/logout",
+   "/media/oembed",
+   "/*/media/oembed",
+   "/index.php/admin/",
+   "/index.php/comment/reply/",
+   "/index.php/filter/tips",
+   "/index.php/node/add/",
+   "/index.php/search/",
+   "/index.php/user/password",
+   "/index.php/user/register",
+   "/index.php/user/login",
+   "/index.php/user/logout",
+   "/index.php/media/oembed",
+   "/index.php/*/media/oembed"
+  ],
+  "robots_sitemaps": [],
+  "robots_blocks_ai_crawlers": false,
+  "sitemap_status": 200,
+  "sitemap_page_count": 3776,
+  "language_named_pages": {
+   "russian": [
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/flu-and-pregnancy-russian",
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/flu-russian",
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/high-risk-russian"
+   ],
+   "vietnamese": [
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/flu-and-pregnancy-vietnamese",
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/flu-vietnamese",
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/high-risk-vietnamese"
+   ],
+   "spanish": [
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/flu/high-risk-spanish",
+    "https://doh.wa.gov/you-and-your-family/illness-and-disease-z/norovirus/norovirus-spanish"
+   ]
+  },
+  "language_named_page_count": 8,
+  "locale_prefixes_in_sitemap": [],
+  "language_access_pages": [
+   "https://doh.wa.gov/about-us/executive-offices/health-and-science/environmental-public-health/rulemaking/policy-and-interpretive-statements-environmental-public-health",
+   "https://doh.wa.gov/about-us/rulemaking/policy-and-interpretive-statement-activity",
+   "https://doh.wa.gov/community-and-environment/drinking-water/drinking-water-emergencies/public-notification/translations-public-notification",
+   "https://doh.wa.gov/data-and-statistical-reports/healthcare-washington/hospital-and-patient-data/hospital-patient-information-and-charity-care/charity-care-interpretive-and-policy-statements",
+   "https://doh.wa.gov/licenses-permits-and-certificates/professions-new-renew-or-update/home-care-aide/individual-interpreter-program",
+   "https://doh.wa.gov/public-health-provider-resources/emergency-preparedness/medicationhealth-care-centers/signs/interpretation-tools"
+  ],
+  "language_access_page_count": 6
  }
 ]

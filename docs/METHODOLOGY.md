@@ -297,6 +297,13 @@ python src/probe_agency_sites.py       # incremental
 python src/build_food_inventory.py
 ```
 
+Phase 3, health sector:
+
+```
+python src/probe_agency_sites.py       # incremental
+python src/build_health_inventory.py
+```
+
 **Detection caveat carried forward.** Slug-based detection
 (`…/emergency_information_amharic`) is how governments name translated
 pages. Nonprofits often use locale path prefixes (`…/fa-af/…`) instead.

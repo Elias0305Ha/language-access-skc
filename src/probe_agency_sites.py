@@ -118,6 +118,30 @@ AGENCIES = [
     ("food_dshs",        "DSHS Basic Food (SNAP)", "food", "https://www.dshs.wa.gov"),
     ("food_waconnection", "Washington Connection (benefits application)",
      "food", "https://www.washingtonconnection.org"),
+
+    # Health. Selection: the safety-net providers a low-income,
+    # limited-English resident of the study area actually uses, plus the
+    # two state channels that gate coverage. Excluded: private insurers
+    # and specialty practices, which serve a different population.
+    #
+    # Public Health Seattle and King County is handled in the builder
+    # rather than here: it lives under kingcounty.gov, whose sitemap is
+    # already frozen, and probing it separately would report 11,587 pages
+    # for a single department.
+    ("health_healthpoint", "HealthPoint", "health", "https://healthpointchc.org"),
+    ("health_seamar",      "Sea Mar Community Health Centers", "health", "https://www.seamar.org"),
+    ("health_ichs",        "International Community Health Services", "health", "https://www.ichs.com"),
+    ("health_neighborcare", "Neighborcare Health", "health", "https://neighborcare.org"),
+    ("health_globaltolocal", "Global to Local", "health", "https://globaltolocal.org"),
+    ("health_valleymed",   "Valley Medical Center", "health", "https://valleymed.org"),
+    ("health_multicare",   "MultiCare Health System", "health", "https://www.multicare.org"),
+    ("health_vmfh",        "Virginia Mason Franciscan Health", "health", "https://www.vmfh.org"),
+    # State channels. Apple Health (Medicaid) eligibility and the
+    # insurance marketplace application are the consequential documents
+    # in this sector, the analogue of SNAP form 14-001.
+    ("health_hca",         "WA Health Care Authority (Apple Health)", "health", "https://www.hca.wa.gov"),
+    ("health_planfinder",  "Washington Healthplanfinder", "health", "https://www.wahealthplanfinder.org"),
+    ("health_doh",         "WA Department of Health", "health", "https://doh.wa.gov"),
 ]
 
 # Language-named slugs, the pattern that found 247 translated pages on
