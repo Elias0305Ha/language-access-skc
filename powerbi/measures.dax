@@ -1,0 +1,101 @@
+// Power BI measures for Language Access in South King County
+// Paste each into a new measure. Grouped by what they answer.
+
+// ---------- demand ----------
+Families =
+SUM ( dim_language[families_total] )
+
+Families in Selection =
+SUM ( fact_gap[families] )
+
+// ---------- provision ----------
+// A tier 3 is a human-translated document. Everything below it is a
+// machine widget, a request line, or nothing.
+Agencies at Tier 3 =
+CALCULATE (
+    DISTINCTCOUNT ( fact_provision[agency_id] ),
+    fact_provision[written_tier] = 3
+)
+
+Best Written Tier =
+MAX ( fact_provision[written_tier] )
+
+// The share of tier-3 claims nobody has read. This is the number that
+// should be visible on the front page of the report, not buried.
+Unverified Tier 3 Share =
+VAR Claims =
+    CALCULATE ( COUNTROWS ( fact_provision ), fact_provision[written_tier] = 3 )
+VAR Verified =
+    CALCULATE (
+        COUNTROWS ( fact_provision ),
+        fact_provision[written_tier] = 3,
+        fact_provision[tier_verified] = "verified_human"
+    )
+RETURN
+    DIVIDE ( Claims - Verified, Claims )
+
+// ---------- the gap ----------
+// The index is reported two ways. Never show one without the other.
+Gap Score (Optimistic) =
+CALCULATE ( SUM ( fact_gap[gap_score] ), fact_gap[reading] = "optimistic" )
+
+Gap Score (Conservative) =
+CALCULATE ( SUM ( fact_gap[gap_score] ), fact_gap[reading] = "conservative" )
+
+Families With No Written Provision =
+CALCULATE (
+    SUM ( fact_gap[families_no_written_anywhere] ),
+    fact_gap[reading] = "optimistic"
+)
+
+Families With No Local Document (Optimistic) =
+CALCULATE (
+    SUM ( fact_gap[families_no_local_document] ),
+    fact_gap[reading] = "optimistic"
+)
+
+Families With No Local Document (Conservative) =
+CALCULATE (
+    SUM ( fact_gap[families_no_local_document] ),
+    fact_gap[reading] = "conservative"
+)
+
+// The honest headline: a range, not a point estimate.
+No Local Document Range =
+VAR Lo = [Families With No Local Document (Optimistic)]
+VAR Hi = [Families With No Local Document (Conservative)]
+RETURN FORMAT ( Lo, "#,0" ) & " to " & FORMAT ( Hi, "#,0" ) & " families"
+
+// ---------- access ----------
+Service Points =
+DISTINCTCOUNT ( fact_service_point[location_id] )
+
+Service Points Serving Language =
+DISTINCTCOUNT ( bridge_point_language[location_id] )
+
+Access Deserts =
+CALCULATE (
+    COUNTROWS ( fact_access_desert ),
+    fact_access_desert[is_access_desert] = TRUE ()
+)
+
+Families In Access Deserts =
+CALCULATE (
+    SUM ( fact_access_desert[families] ),
+    fact_access_desert[is_access_desert] = TRUE ()
+)
+
+// ---------- the ordinance ----------
+// KCC 2.15.030.B requires translation into the top six languages "based
+// on the County's tier map". The tier map rests on 2016 Census data.
+Families Not On KC Tier Map =
+CALCULATE ( SUM ( dim_language[families_total] ), dim_language[on_tier_map] = FALSE () )
+
+Families Where Translation Is Required =
+CALCULATE ( SUM ( dim_language[families_total] ), dim_language[kc_tier] = 1 )
+
+Families Where Translation Is Optional =
+[Families] - [Families Where Translation Is Required]
+
+Share Where Translation Is Optional =
+DIVIDE ( [Families Where Translation Is Optional], [Families] )

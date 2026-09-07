@@ -1,0 +1,52 @@
+agency_id,agency_name,sector,service_scope,king_county_authority,languages_scored,languages_at_tier3,assessment,assessed
+city_auburn,City of Auburn,city,city,False,138,2,derived,True
+city_burien,City of Burien,city,city,False,138,3,derived,True
+city_desmoines,City of Des Moines,city,city,False,138,0,derived,True
+city_federalway,City of Federal Way,city,city,False,138,0,derived,True
+city_kent,City of Kent,city,city,False,138,0,derived,True
+city_renton,City of Renton,city,city,False,138,0,derived,True
+city_seatac,City of SeaTac,city,city,False,138,0,derived,True
+city_tukwila,City of Tukwila,city,city,False,138,6,derived,True
+food_auburn,The Auburn Food Bank,food,city,False,138,0,derived,True
+food_desmoines,Des Moines Area Food Bank,food,city,False,138,0,derived,True
+food_dshs,DSHS Basic Food (SNAP),food,state,False,138,14,derived,True
+food_foodlifeline,Food Lifeline,food,regional,False,138,0,derived,True
+food_highline,Highline Area Food Bank,food,city,False,138,0,derived,True
+food_kent,Kent Food Bank and Emergency Services,food,city,False,138,0,unreachable,False
+food_msc,Multi-Service Center (Federal Way),food,city,False,138,0,derived,True
+food_nwharvest,Northwest Harvest,food,regional,False,138,3,derived,True
+food_renton_sa,Salvation Army Renton,food,city,False,138,0,derived,True
+food_tukwila,Tukwila Pantry,food,city,False,138,0,derived,True
+food_waconnection,Washington Connection (benefits application),food,state,False,138,0,derived,True
+food_whitecenter,White Center Food Bank,food,city,False,138,0,derived,True
+health_doh,WA Department of Health,health,state,False,138,3,derived,True
+health_dph,Public Health Seattle and King County,health,county,True,138,26,derived,True
+health_globaltolocal,Global to Local,health,city,False,138,0,derived,True
+health_hca,WA Health Care Authority (Apple Health),health,state,False,138,0,derived,True
+health_healthpoint,HealthPoint,health,regional,False,138,0,derived,True
+health_ichs,International Community Health Services,health,regional,False,138,6,derived,True
+health_multicare,MultiCare Health System,health,regional,False,138,1,derived,True
+health_neighborcare,Neighborcare Health,health,regional,False,138,0,derived,True
+health_planfinder,Washington Healthplanfinder,health,state,False,138,26,derived,True
+health_seamar,Sea Mar Community Health Centers,health,regional,False,138,0,derived,True
+health_valleymed,Valley Medical Center,health,city,False,138,2,derived,True
+health_vmfh,Virginia Mason Franciscan Health,health,regional,False,138,0,derived,True
+kcls,King County Library System,library,county,False,140,10,derived,True
+kcmetro,King County Metro,transit,county,True,138,1,derived,True
+legal_ccsww,Catholic Community Services of Western Washington,legal,regional,False,138,0,unreachable,False
+legal_colectiva,Colectiva Legal del Pueblo,legal,regional,False,138,0,derived,True
+legal_elap,Eastside Legal Assistance Program,legal,county,False,138,1,derived,True
+legal_entrehermanos,Entre Hermanos,legal,regional,False,138,0,derived,True
+legal_kcba,King County Bar Association,legal,county,False,138,0,derived,True
+legal_nwirp,NW Immigrant Rights Project,legal,regional,False,138,1,derived,True
+legal_nwjustice,Northwest Justice Project,legal,state,False,138,0,derived,True
+legal_solidground,Solid Ground,legal,county,False,138,0,derived,True
+legal_teamchild,TeamChild,legal,regional,False,138,0,derived,True
+legal_walawhelp,WashingtonLawHelp,legal,state,False,138,12,derived,True
+school_auburn,Auburn School District,schools,district,False,10,10,manual,True
+school_federalway,Federal Way School District,schools,district,False,10,8,manual,True
+school_highline,Highline School District,schools,district,False,10,0,manual,True
+school_kent,Kent School District,schools,district,False,10,0,manual,True
+school_renton,Renton School District,schools,district,False,10,7,manual,True
+school_tukwila,Tukwila School District,schools,district,False,10,6,manual,True
+sound_transit,Sound Transit,transit,regional,False,138,7,derived,True

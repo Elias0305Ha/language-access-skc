@@ -1,0 +1,141 @@
+language,families_total,kc_tier,kc_status,on_tier_map,demand_rank
+Spanish,19569,1.0,translation REQUIRED,True,1
+Dari,3040,,NOT ON THE TIER MAP,False,2
+Vietnamese,2033,2.0,translation recommended,True,3
+Ukrainian,1781,2.0,translation recommended,True,4
+Pashto,1127,,NOT ON THE TIER MAP,False,5
+Somali,1078,2.0,translation recommended,True,6
+Russian,873,2.0,translation recommended,True,7
+Punjabi,785,3.0,translation encouraged,True,8
+Arabic,620,2.0,translation recommended,True,9
+Marshallese,446,,NOT ON THE TIER MAP,False,10
+Amharic,432,2.0,translation recommended,True,11
+Chinese-Cantonese,412,2.0,translation recommended,True,12
+Tagalog,353,3.0,translation encouraged,True,13
+Portuguese,337,,NOT ON THE TIER MAP,False,14
+Farsi,328,3.0,translation encouraged,True,15
+French,295,,NOT ON THE TIER MAP,False,16
+Khmer,292,3.0,translation encouraged,True,17
+Burmese,249,3.0,translation encouraged,True,18
+Chinese-Mandarin,248,2.0,translation recommended,True,19
+Tigrinya,175,3.0,translation encouraged,True,20
+Turkish,161,,NOT ON THE TIER MAP,False,21
+Nepali,150,3.0,translation encouraged,True,22
+Korean,139,2.0,translation recommended,True,23
+Swahili,128,,NOT ON THE TIER MAP,False,24
+Hindi,116,3.0,translation encouraged,True,25
+Samoan,111,3.0,translation encouraged,True,26
+Chuukese,111,,NOT ON THE TIER MAP,False,26
+Oromo,84,3.0,translation encouraged,True,28
+Romanian,73,,NOT ON THE TIER MAP,False,29
+Lao,71,,NOT ON THE TIER MAP,False,30
+Lingala,62,,NOT ON THE TIER MAP,False,31
+Kosraean,52,,NOT ON THE TIER MAP,False,32
+Kurdish,51,,NOT ON THE TIER MAP,False,33
+Urdu,51,,NOT ON THE TIER MAP,False,33
+Tongan,46,,NOT ON THE TIER MAP,False,35
+Haitian Creole,46,,NOT ON THE TIER MAP,False,35
+Japanese,43,3.0,translation encouraged,True,37
+Ilokano,43,,NOT ON THE TIER MAP,False,37
+Thai,35,,NOT ON THE TIER MAP,False,39
+American Sign Language,34,,NOT ON THE TIER MAP,False,40
+Soninke,29,,NOT ON THE TIER MAP,False,41
+Wolof,28,,NOT ON THE TIER MAP,False,42
+Mien,28,,NOT ON THE TIER MAP,False,42
+Karen,24,,NOT ON THE TIER MAP,False,44
+Dinka,24,,NOT ON THE TIER MAP,False,44
+Bengali,23,,NOT ON THE TIER MAP,False,46
+Kinyarwanda,23,,NOT ON THE TIER MAP,False,46
+Cham,21,,NOT ON THE TIER MAP,False,48
+Cebuano,20,,NOT ON THE TIER MAP,False,49
+Telugu,19,,NOT ON THE TIER MAP,False,50
+Fula,19,,NOT ON THE TIER MAP,False,50
+Tamil,19,,NOT ON THE TIER MAP,False,50
+Tedim,17,,NOT ON THE TIER MAP,False,53
+Uzbek,17,,NOT ON THE TIER MAP,False,53
+Bosnian,16,,NOT ON THE TIER MAP,False,55
+Gujarati,16,,NOT ON THE TIER MAP,False,55
+Taishanese,16,,NOT ON THE TIER MAP,False,55
+Palau,14,,NOT ON THE TIER MAP,False,58
+Maay Maay,14,,NOT ON THE TIER MAP,False,58
+Malayalam,14,,NOT ON THE TIER MAP,False,58
+Hmong,13,,NOT ON THE TIER MAP,False,61
+Kirundi,12,,NOT ON THE TIER MAP,False,62
+Mongolian,11,,NOT ON THE TIER MAP,False,63
+Indonesian,11,,NOT ON THE TIER MAP,False,63
+Chinese-Taiwanese,10,,NOT ON THE TIER MAP,False,65
+Albanian,9,,NOT ON THE TIER MAP,False,66
+Chamorro,9,,NOT ON THE TIER MAP,False,66
+Luganda,8,,NOT ON THE TIER MAP,False,68
+Mandingo,8,,NOT ON THE TIER MAP,False,68
+Hawaiian,7,,NOT ON THE TIER MAP,False,70
+Kikuyu,7,,NOT ON THE TIER MAP,False,70
+Nuer,7,,NOT ON THE TIER MAP,False,70
+Chin,7,,NOT ON THE TIER MAP,False,70
+Ayula-Bambara,6,,NOT ON THE TIER MAP,False,74
+Bulgarian,6,,NOT ON THE TIER MAP,False,74
+Rohingya,6,,NOT ON THE TIER MAP,False,74
+Karenni,5,,NOT ON THE TIER MAP,False,77
+German,5,,NOT ON THE TIER MAP,False,77
+Tarasco,5,,NOT ON THE TIER MAP,False,77
+Fallani,5,,NOT ON THE TIER MAP,False,77
+Twi,5,,NOT ON THE TIER MAP,False,77
+Malay,4,,NOT ON THE TIER MAP,False,82
+Hausa,4,,NOT ON THE TIER MAP,False,82
+Italian,4,,NOT ON THE TIER MAP,False,82
+Igbo,4,,NOT ON THE TIER MAP,False,82
+Mandinka,4,,NOT ON THE TIER MAP,False,82
+Maya-Quiche,4,,NOT ON THE TIER MAP,False,82
+Mam,4,,NOT ON THE TIER MAP,False,82
+Marathi,4,,NOT ON THE TIER MAP,False,82
+Yap,4,,NOT ON THE TIER MAP,False,82
+Kakwa,4,,NOT ON THE TIER MAP,False,82
+Moore,4,,NOT ON THE TIER MAP,False,82
+Bangala,4,,NOT ON THE TIER MAP,False,82
+Eritai,3,,NOT ON THE TIER MAP,False,94
+Akateko,3,,NOT ON THE TIER MAP,False,94
+"Greek, Modern",3,,NOT ON THE TIER MAP,False,94
+Azerbaijani,3,,NOT ON THE TIER MAP,False,94
+Armenian,3,,NOT ON THE TIER MAP,False,94
+Serbo-Croation,3,,NOT ON THE TIER MAP,False,94
+Dutch,3,,NOT ON THE TIER MAP,False,94
+Polish,3,,NOT ON THE TIER MAP,False,94
+Aguacateco,2,,NOT ON THE TIER MAP,False,102
+Sinhalese,2,,NOT ON THE TIER MAP,False,102
+Estonian,2,,NOT ON THE TIER MAP,False,102
+Bambara,2,,NOT ON THE TIER MAP,False,102
+Egyptian-Arabic,2,,NOT ON THE TIER MAP,False,102
+Yoruba,2,,NOT ON THE TIER MAP,False,102
+Shona,2,,NOT ON THE TIER MAP,False,102
+Tajiki,2,,NOT ON THE TIER MAP,False,102
+Purepecha,2,,NOT ON THE TIER MAP,False,102
+Latvian,2,,NOT ON THE TIER MAP,False,102
+Marquesan,2,,NOT ON THE TIER MAP,False,102
+Mixteco,2,,NOT ON THE TIER MAP,False,102
+Kongo,2,,NOT ON THE TIER MAP,False,102
+Kannada,2,,NOT ON THE TIER MAP,False,102
+Hungarian,2,,NOT ON THE TIER MAP,False,102
+Ewe,2,,NOT ON THE TIER MAP,False,102
+Chinese-Fukienese,2,,NOT ON THE TIER MAP,False,102
+Kmhmu,2,,NOT ON THE TIER MAP,False,102
+Kazakh,2,,NOT ON THE TIER MAP,False,102
+Krahn,2,,NOT ON THE TIER MAP,False,102
+Krio,2,,NOT ON THE TIER MAP,False,102
+Pere,2,,NOT ON THE TIER MAP,False,102
+Sotho,2,,NOT ON THE TIER MAP,False,102
+Acholi,1,,NOT ON THE TIER MAP,False,125
+Herero,1,,NOT ON THE TIER MAP,False,125
+Catalan,1,,NOT ON THE TIER MAP,False,125
+Carolinian,1,,NOT ON THE TIER MAP,False,125
+Bassa,1,,NOT ON THE TIER MAP,False,125
+Ga,1,,NOT ON THE TIER MAP,False,125
+Kru,1,,NOT ON THE TIER MAP,False,125
+Kirgiz,1,,NOT ON THE TIER MAP,False,125
+Moldavian,1,,NOT ON THE TIER MAP,False,125
+Pashai,1,,NOT ON THE TIER MAP,False,125
+"Nahuatl, Guerrero region",1,,NOT ON THE TIER MAP,False,125
+Slovenian,1,,NOT ON THE TIER MAP,False,125
+Sao,1,,NOT ON THE TIER MAP,False,125
+Tibetan,1,,NOT ON THE TIER MAP,False,125
+Belarusian,0,,NOT ON THE TIER MAP,False,139
+Hebrew,0,,NOT ON THE TIER MAP,False,139

@@ -316,6 +316,14 @@ python src/fetch_transit_stops.py              # GTFS service points
 python src/build_access_map_layers.py          # map layers, access deserts
 ```
 
+Phase 5, Power BI model:
+
+```
+python src/build_powerbi_model.py              # star schema into powerbi/
+```
+
+Then follow `powerbi/BUILD_GUIDE.md` in Power BI Desktop.
+
 **Detection caveat carried forward.** Slug-based detection
 (`…/emergency_information_amharic`) is how governments name translated
 pages. Nonprofits often use locale path prefixes (`…/fa-af/…`) instead.

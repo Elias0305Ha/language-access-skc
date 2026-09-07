@@ -1,0 +1,887 @@
+district,language,families,reading,best_written_tier,best_written_tier_local_only,best_oral_tier,agencies_at_tier3,verified_tier3,best_provider,providers_at_tier3,written_gap,oral_gap,gap_score,severity,families_no_written_anywhere,families_no_local_written,families_no_local_document
+Highline School District,Spanish,5408,conservative,2,2,2,12,0,City of Burien,City of Burien; City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System,3244.8,1081.6,2595.8,0.48,0,0,5408
+Kent School District,Spanish,3724,conservative,2,2,2,11,0,Public Health Seattle and King County,City of Auburn; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,2234.4,744.8,1787.5,0.48,0,0,3724
+Federal Way School District,Spanish,3480,conservative,2,2,2,11,0,Federal Way School District,DSHS Basic Food (SNAP); Eastside Legal Assistance Program; Federal Way School District; International Community Health Services; King County Library System; NW Immigrant Rights Project,2088.0,696.0,1670.4,0.48,0,0,3480
+Auburn School District,Spanish,3432,conservative,2,2,2,12,0,Auburn School District,Auburn School District; City of Auburn; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System,2059.2,686.4,1647.4,0.48,0,0,3432
+Renton School District,Spanish,2695,conservative,2,2,2,12,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,1617.0,539.0,1293.6,0.48,0,0,2695
+Kent School District,Dari,962,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,577.2,192.4,461.8,0.48,0,0,962
+Federal Way School District,Dari,863,conservative,2,2,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,517.8,172.6,414.2,0.48,0,0,863
+Auburn School District,Ukrainian,737,conservative,2,2,2,5,0,Auburn School District,Auburn School District; City of Auburn; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,442.2,147.4,353.8,0.48,0,0,737
+Tukwila School District,Spanish,830,conservative,2,2,3,12,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,498.0,0.0,348.6,0.42,0,0,830
+Auburn School District,Dari,679,conservative,2,2,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,407.4,135.8,325.9,0.48,0,0,679
+Renton School District,Vietnamese,635,conservative,2,2,2,11,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,381.0,127.0,304.8,0.48,0,0,635
+Kent School District,Ukrainian,537,conservative,2,2,2,4,0,Public Health Seattle and King County,City of Auburn; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,322.2,107.4,257.8,0.48,0,0,537
+Kent School District,Vietnamese,535,conservative,2,2,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,321.0,107.0,256.8,0.48,0,0,535
+Kent School District,Punjabi,500,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,300.0,100.0,240.0,0.48,0,0,500
+Highline School District,Vietnamese,459,conservative,2,2,2,11,0,City of Burien,City of Burien; City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest,275.4,91.8,220.3,0.48,0,0,459
+Kent School District,Somali,405,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,243.0,81.0,194.4,0.48,0,0,405
+Federal Way School District,Ukrainian,373,conservative,2,2,2,4,0,Federal Way School District,Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,223.8,74.6,179.0,0.48,0,0,373
+Kent School District,Russian,352,conservative,2,2,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,211.2,70.4,169.0,0.48,0,0,352
+Kent School District,Pashto,351,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,210.6,70.2,168.5,0.48,0,0,351
+Auburn School District,Marshallese,342,conservative,2,2,2,3,0,Auburn School District,Auburn School District; Public Health Seattle and King County; WashingtonLawHelp,205.2,68.4,164.2,0.48,0,0,342
+Federal Way School District,Pashto,283,conservative,2,2,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,169.8,56.6,135.8,0.48,0,0,283
+Kent School District,Arabic,270,conservative,2,2,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,162.0,54.0,129.6,0.48,0,0,270
+Auburn School District,Pashto,229,conservative,2,2,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,137.4,45.8,109.9,0.48,0,0,229
+Highline School District,Somali,215,conservative,2,2,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,129.0,43.0,103.2,0.48,0,0,215
+Highline School District,Dari,203,conservative,2,2,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,121.8,40.6,97.4,0.48,0,0,203
+Renton School District,Dari,199,conservative,2,2,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,119.4,39.8,95.5,0.48,0,0,199
+Federal Way School District,Russian,197,conservative,2,2,2,10,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,118.2,39.4,94.6,0.48,0,0,197
+Renton School District,Chinese-Cantonese,189,conservative,2,2,2,6,0,Renton School District,DSHS Basic Food (SNAP); King County Library System; Renton School District; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,113.4,37.8,90.7,0.48,0,0,189
+Kent School District,Chinese-Cantonese,177,conservative,2,2,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,106.2,35.4,85.0,0.48,0,0,177
+Auburn School District,Russian,176,conservative,2,2,2,10,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,105.6,35.2,84.5,0.48,0,0,176
+Kent School District,Tagalog,166,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,99.6,33.2,79.7,0.48,0,0,166
+Tukwila School District,Portuguese,157,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,94.2,31.4,75.4,0.48,0,0,157
+Auburn School District,Punjabi,152,conservative,2,2,2,3,0,Auburn School District,Auburn School District; Public Health Seattle and King County; Washington Healthplanfinder,91.2,30.4,73.0,0.48,0,0,152
+Kent School District,Turkish,109,conservative,1,1,2,0,0,City of Kent,,92.6,21.8,71.4,0.655,0,0,109
+Federal Way School District,Somali,141,conservative,2,2,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,84.6,28.2,67.7,0.48,0,0,141
+Auburn School District,Vietnamese,136,conservative,2,2,2,10,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,81.6,27.2,65.3,0.48,0,0,136
+Tukwila School District,Vietnamese,136,conservative,2,2,2,11,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,81.6,27.2,65.3,0.48,0,0,136
+Kent School District,Farsi,135,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,81.0,27.0,64.8,0.48,0,0,135
+Tukwila School District,Dari,134,conservative,2,2,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,80.4,26.8,64.3,0.48,0,0,134
+Federal Way School District,Vietnamese,132,conservative,2,2,2,10,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,79.2,26.4,63.4,0.48,0,0,132
+Kent School District,Khmer,124,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,74.4,24.8,59.5,0.48,0,0,124
+Renton School District,Somali,115,conservative,2,2,2,6,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Renton School District; Washington Healthplanfinder,69.0,23.0,55.2,0.48,0,0,115
+Tukwila School District,Somali,131,conservative,2,2,3,6,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder,78.6,0.0,55.0,0.42,0,0,131
+Kent School District,Burmese,114,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,68.4,22.8,54.7,0.48,0,0,114
+Renton School District,Chinese-Mandarin,108,conservative,2,2,2,9,0,Renton School District,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Renton School District,64.8,21.6,51.8,0.48,0,0,108
+Kent School District,Nepali,78,conservative,1,1,2,0,0,City of Kent,,66.3,15.6,51.1,0.655,0,0,78
+Renton School District,Russian,105,conservative,2,2,2,10,0,Renton School District,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Renton School District,63.0,21.0,50.4,0.48,0,0,105
+Renton School District,Pashto,103,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,61.8,20.6,49.4,0.48,0,0,103
+Renton School District,Ukrainian,103,conservative,2,2,2,4,0,Renton School District,King County Library System; Public Health Seattle and King County; Renton School District; Washington Healthplanfinder,61.8,20.6,49.4,0.48,0,0,103
+Highline School District,Pashto,94,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,56.4,18.8,45.1,0.48,0,0,94
+Auburn School District,Arabic,90,conservative,2,2,2,5,0,Auburn School District,Auburn School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,54.0,18.0,43.2,0.48,0,0,90
+Kent School District,Chinese-Mandarin,85,conservative,2,2,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,51.0,17.0,40.8,0.48,0,0,85
+Renton School District,Arabic,72,conservative,2,2,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,43.2,14.4,34.6,0.481,0,0,72
+Auburn School District,Somali,71,conservative,2,2,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,42.6,14.2,34.1,0.48,0,0,71
+Federal Way School District,Arabic,71,conservative,2,2,2,5,0,Federal Way School District,Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,42.6,14.2,34.1,0.48,0,0,71
+Kent School District,French,71,conservative,2,2,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,42.6,14.2,34.1,0.48,0,0,71
+Tukwila School District,Burmese,78,conservative,2,2,3,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,46.8,0.0,32.8,0.421,0,0,78
+Federal Way School District,Farsi,68,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,40.8,13.6,32.6,0.479,0,0,68
+Highline School District,French,67,conservative,2,2,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,40.2,13.4,32.2,0.481,0,0,67
+Federal Way School District,French,67,conservative,2,2,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,40.2,13.4,32.2,0.481,0,0,67
+Tukwila School District,Pashto,67,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,40.2,13.4,32.2,0.481,0,0,67
+Kent School District,Kosraean,31,conservative,0,0,0,0,0,City of Auburn,,31.0,31.0,31.0,1.0,31,31,31
+Renton School District,Portuguese,64,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,38.4,12.8,30.7,0.48,0,0,64
+Kent School District,Hindi,63,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,37.8,12.6,30.2,0.479,0,0,63
+Renton School District,Tagalog,63,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,37.8,12.6,30.2,0.479,0,0,63
+Kent School District,Marshallese,62,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,37.2,12.4,29.8,0.481,0,0,62
+Tukwila School District,Arabic,59,conservative,2,2,2,5,0,Tukwila School District,King County Library System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder; WashingtonLawHelp,35.4,11.8,28.3,0.48,0,0,59
+Highline School District,Arabic,58,conservative,2,2,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,34.8,11.6,27.8,0.479,0,0,58
+Auburn School District,Tagalog,56,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,33.6,11.2,26.9,0.48,0,0,56
+Renton School District,Punjabi,56,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,33.6,11.2,26.9,0.48,0,0,56
+Highline School District,Tigrinya,54,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,32.4,10.8,25.9,0.48,0,0,54
+Tukwila School District,French,54,conservative,2,2,2,4,0,Tukwila School District,MultiCare Health System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder,32.4,10.8,25.9,0.48,0,0,54
+Federal Way School District,Korean,54,conservative,2,2,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,32.4,10.8,25.9,0.48,0,0,54
+Renton School District,Farsi,52,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,31.2,10.4,25.0,0.481,0,0,52
+Kent School District,Chuukese,50,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,30.0,10.0,24.0,0.48,0,0,50
+Auburn School District,Khmer,49,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,29.4,9.8,23.5,0.48,0,0,49
+Highline School District,Farsi,46,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,27.6,9.2,22.1,0.48,0,0,46
+Highline School District,Khmer,45,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,27.0,9.0,21.6,0.48,0,0,45
+Kent School District,Samoan,43,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,25.8,8.6,20.6,0.479,0,0,43
+Kent School District,Urdu,31,conservative,1,1,2,0,0,City of Kent,,26.3,6.2,20.3,0.655,0,0,31
+Renton School District,Soninke,20,conservative,0,0,0,0,0,City of Renton,,20.0,20.0,20.0,1.0,20,20,20
+Renton School District,Tigrinya,41,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,24.6,8.2,19.7,0.48,0,0,41
+Auburn School District,Kurdish,29,conservative,1,1,2,0,0,City of Auburn,,24.6,5.8,19.0,0.655,0,0,29
+Federal Way School District,Haitian Creole,29,conservative,1,1,2,0,0,Public Health Seattle and King County,,24.6,5.8,19.0,0.655,0,0,29
+Kent School District,Portuguese,39,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,23.4,7.8,18.7,0.479,0,0,39
+Renton School District,Romanian,38,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,22.8,7.6,18.2,0.479,0,0,38
+Highline School District,Portuguese,37,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,22.2,7.4,17.8,0.481,0,0,37
+Federal Way School District,Punjabi,36,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,21.6,7.2,17.3,0.481,0,0,36
+Auburn School District,Turkish,26,conservative,1,1,2,0,0,City of Auburn,,22.1,5.2,17.0,0.654,0,0,26
+Kent School District,Swahili,35,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,21.0,7.0,16.8,0.48,0,0,35
+Highline School District,Punjabi,35,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,21.0,7.0,16.8,0.48,0,0,35
+Renton School District,Khmer,35,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,21.0,7.0,16.8,0.48,0,0,35
+Renton School District,Oromo,35,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,21.0,7.0,16.8,0.48,0,0,35
+Federal Way School District,Chinese-Mandarin,34,conservative,2,2,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,20.4,6.8,16.3,0.479,0,0,34
+Auburn School District,Lao,33,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,19.8,6.6,15.8,0.479,0,0,33
+Auburn School District,Samoan,33,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,19.8,6.6,15.8,0.479,0,0,33
+Auburn School District,Korean,32,conservative,2,2,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,19.2,6.4,15.4,0.481,0,0,32
+Highline School District,Russian,32,conservative,2,2,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,19.2,6.4,15.4,0.481,0,0,32
+Auburn School District,Nepali,22,conservative,1,1,2,0,0,City of Auburn,,18.7,4.4,14.4,0.655,0,0,22
+Kent School District,Mien,14,conservative,0,0,0,0,0,City of Auburn,,14.0,14.0,14.0,1.0,14,14,14
+Kent School District,Romanian,29,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,17.4,5.8,13.9,0.479,0,0,29
+Renton School District,Hindi,29,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,17.4,5.8,13.9,0.479,0,0,29
+Tukwila School District,Nepali,29,conservative,2,2,2,1,0,City of Tukwila,City of Tukwila,17.4,5.8,13.9,0.479,0,0,29
+Auburn School District,Swahili,28,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,16.8,5.6,13.4,0.479,0,0,28
+Auburn School District,Tigrinya,28,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,16.8,5.6,13.4,0.479,0,0,28
+Highline School District,Ukrainian,28,conservative,2,2,2,3,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,16.8,5.6,13.4,0.479,0,0,28
+Federal Way School District,Portuguese,28,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,16.8,5.6,13.4,0.479,0,0,28
+Renton School District,Korean,28,conservative,2,2,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,16.8,5.6,13.4,0.479,0,0,28
+Auburn School District,Burmese,27,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,16.2,5.4,13.0,0.481,0,0,27
+Kent School District,Karen,13,conservative,0,0,0,0,0,City of Auburn,,13.0,13.0,13.0,1.0,13,13,13
+Kent School District,Palau,13,conservative,0,0,0,0,0,City of Auburn,,13.0,13.0,13.0,1.0,13,13,13
+Federal Way School District,Chinese-Cantonese,27,conservative,2,2,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,16.2,5.4,13.0,0.481,0,0,27
+Renton School District,Ilokano,13,conservative,0,0,0,0,0,City of Renton,,13.0,13.0,13.0,1.0,13,13,13
+Highline School District,Tagalog,26,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,15.6,5.2,12.5,0.481,0,0,26
+Kent School District,Ilokano,19,conservative,1,1,2,0,0,City of Kent,,16.1,3.8,12.4,0.653,0,0,19
+Auburn School District,French,25,conservative,2,2,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,15.0,5.0,12.0,0.48,0,0,25
+Kent School District,Tigrinya,25,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,15.0,5.0,12.0,0.48,0,0,25
+Renton School District,Cham,12,conservative,0,0,0,0,0,City of Renton,,12.0,12.0,12.0,1.0,12,12,12
+Kent School District,Kurdish,18,conservative,1,1,2,0,0,City of Kent,,15.3,3.6,11.8,0.656,0,0,18
+Tukwila School District,Tagalog,24,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,14.4,4.8,11.5,0.479,0,0,24
+Tukwila School District,Lingala,17,conservative,1,1,2,0,0,Public Health Seattle and King County,,14.4,3.4,11.1,0.653,0,0,17
+Federal Way School District,Swahili,23,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,13.8,4.6,11.0,0.478,0,0,23
+Kent School District,Korean,22,conservative,2,2,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,13.2,4.4,10.6,0.482,0,0,22
+Federal Way School District,Chuukese,22,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,13.2,4.4,10.6,0.482,0,0,22
+Federal Way School District,Marshallese,21,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,12.6,4.2,10.1,0.481,0,0,21
+Tukwila School District,Khmer,21,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,12.6,4.2,10.1,0.481,0,0,21
+Tukwila School District,Tigrinya,21,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,12.6,4.2,10.1,0.481,0,0,21
+Kent School District,Kirundi,10,conservative,0,0,0,0,0,City of Auburn,,10.0,10.0,10.0,1.0,10,10,10
+Kent School District,Maay Maay,10,conservative,0,0,0,0,0,City of Auburn,,10.0,10.0,10.0,1.0,10,10,10
+Highline School District,Amharic,164,conservative,3,3,2,4,2,City of Burien,City of Burien; International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,32.8,9.8,0.06,0,0,0
+Kent School District,Wolof,15,conservative,1,1,2,0,0,City of Kent,,12.8,3.0,9.8,0.653,0,0,15
+Highline School District,Lingala,15,conservative,1,1,2,0,0,City of Burien,,12.8,3.0,9.8,0.653,0,0,15
+Kent School District,Lao,20,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,12.0,4.0,9.6,0.48,0,0,20
+Highline School District,Oromo,20,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,12.0,4.0,9.6,0.48,0,0,20
+Auburn School District,Tongan,19,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,11.4,3.8,9.1,0.479,0,0,19
+Highline School District,Swahili,19,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,11.4,3.8,9.1,0.479,0,0,19
+Auburn School District,Kosraean,9,conservative,0,0,0,0,0,City of Auburn,,9.0,9.0,9.0,1.0,9,9,9
+Renton School District,Mien,9,conservative,0,0,0,0,0,City of Renton,,9.0,9.0,9.0,1.0,9,9,9
+Tukwila School District,Tedim,9,conservative,0,0,0,0,0,City of Tukwila,,9.0,9.0,9.0,1.0,9,9,9
+Federal Way School District,Khmer,18,conservative,2,2,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,10.8,3.6,8.6,0.478,0,0,18
+Federal Way School District,Tagalog,18,conservative,2,2,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,10.8,3.6,8.6,0.478,0,0,18
+Kent School District,Lingala,13,conservative,1,1,2,0,0,City of Kent,,11.0,2.6,8.5,0.654,0,0,13
+Highline School District,Burmese,17,conservative,2,2,2,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,10.2,3.4,8.2,0.482,0,0,17
+Renton School District,Japanese,17,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,10.2,3.4,8.2,0.482,0,0,17
+Renton School District,Swahili,17,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,10.2,3.4,8.2,0.482,0,0,17
+Kent School District,Fula,8,conservative,0,0,0,0,0,City of Auburn,,8.0,8.0,8.0,1.0,8,8,8
+Highline School District,Kosraean,8,conservative,0,0,0,0,0,City of Burien,,8.0,8.0,8.0,1.0,8,8,8
+Renton School District,Taishanese,8,conservative,0,0,0,0,0,City of Renton,,8.0,8.0,8.0,1.0,8,8,8
+Tukwila School District,Karen,8,conservative,0,0,0,0,0,City of Tukwila,,8.0,8.0,8.0,1.0,8,8,8
+Auburn School District,Farsi,16,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,9.6,3.2,7.7,0.481,0,0,16
+Auburn School District,Japanese,16,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,9.6,3.2,7.7,0.481,0,0,16
+Kent School District,Amharic,125,conservative,3,2,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,25.0,7.5,0.06,0,0,125
+Kent School District,Tongan,15,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,9.0,3.0,7.2,0.48,0,0,15
+Highline School District,Chuukese,15,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,9.0,3.0,7.2,0.48,0,0,15
+Federal Way School District,Lingala,11,conservative,1,1,2,0,0,Public Health Seattle and King County,,9.3,2.2,7.2,0.655,0,0,11
+Federal Way School District,Turkish,11,conservative,1,1,2,0,0,Public Health Seattle and King County,,9.3,2.2,7.2,0.655,0,0,11
+Highline School District,Tedim,7,conservative,0,0,0,0,0,City of Burien,,7.0,7.0,7.0,1.0,7,7,7
+Kent School District,Telugu,10,conservative,1,1,2,0,0,City of Kent,,8.5,2.0,6.5,0.65,0,0,10
+Highline School District,Haitian Creole,10,conservative,1,1,2,0,0,City of Burien,,8.5,2.0,6.5,0.65,0,0,10
+Renton School District,Turkish,10,conservative,1,1,2,0,0,Public Health Seattle and King County,,8.5,2.0,6.5,0.65,0,0,10
+Kent School District,Oromo,13,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,7.8,2.6,6.2,0.477,0,0,13
+Kent School District,Thai,13,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,7.8,2.6,6.2,0.477,0,0,13
+Federal Way School District,Samoan,13,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,7.8,2.6,6.2,0.477,0,0,13
+Auburn School District,Ayula-Bambara,6,conservative,0,0,0,0,0,City of Auburn,,6.0,6.0,6.0,1.0,6,6,6
+Kent School District,Taishanese,6,conservative,0,0,0,0,0,City of Auburn,,6.0,6.0,6.0,1.0,6,6,6
+Kent School District,Bengali,9,conservative,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Cebuano,9,conservative,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Kinyarwanda,9,conservative,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Uzbek,9,conservative,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Gujarati,9,conservative,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Telugu,9,conservative,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Wolof,9,conservative,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Tukwila School District,Bosnian,9,conservative,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Auburn School District,Portuguese,12,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,7.2,2.4,5.8,0.483,0,0,12
+Highline School District,Chinese-Mandarin,11,conservative,2,2,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,6.6,2.2,5.3,0.482,0,0,11
+Highline School District,Nepali,11,conservative,2,1,2,1,0,City of Burien,City of Tukwila,6.6,2.2,5.3,0.482,0,0,11
+Renton School District,French,11,conservative,2,2,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,6.6,2.2,5.3,0.482,0,0,11
+Renton School District,Lao,11,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,6.6,2.2,5.3,0.482,0,0,11
+Tukwila School District,Farsi,11,conservative,2,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,6.6,2.2,5.3,0.482,0,0,11
+Tukwila School District,Oromo,11,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,6.6,2.2,5.3,0.482,0,0,11
+Tukwila School District,Russian,11,conservative,2,2,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,6.6,2.2,5.3,0.482,0,0,11
+Tukwila School District,Samoan,11,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,6.6,2.2,5.3,0.482,0,0,11
+Auburn School District,Dinka,8,conservative,1,1,2,0,0,City of Auburn,,6.8,1.6,5.2,0.65,0,0,8
+Kent School District,Karenni,5,conservative,0,0,0,0,0,City of Auburn,,5.0,5.0,5.0,1.0,5,5,5
+Auburn School District,Mandingo,5,conservative,0,0,0,0,0,City of Auburn,,5.0,5.0,5.0,1.0,5,5,5
+Highline School District,Cham,5,conservative,0,0,0,0,0,City of Burien,,5.0,5.0,5.0,1.0,5,5,5
+Auburn School District,Chinese-Mandarin,10,conservative,2,2,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,6.0,2.0,4.8,0.48,0,0,10
+Auburn School District,Hindi,10,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,6.0,2.0,4.8,0.48,0,0,10
+Highline School District,Chinese-Cantonese,10,conservative,2,2,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,6.0,2.0,4.8,0.48,0,0,10
+Highline School District,Marshallese,10,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,6.0,2.0,4.8,0.48,0,0,10
+Renton School District,American Sign Language,10,conservative,2,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,6.0,2.0,4.8,0.48,0,10,10
+Renton School District,Chuukese,10,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,6.0,2.0,4.8,0.48,0,0,10
+Renton School District,Tamil,10,conservative,2,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),6.0,2.0,4.8,0.48,0,0,10
+Kent School District,Hmong,7,conservative,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Auburn School District,Ilokano,7,conservative,1,1,2,0,0,City of Auburn,,6.0,1.4,4.6,0.657,0,0,7
+Kent School District,Indonesian,7,conservative,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Kent School District,Malayalam,7,conservative,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Auburn School District,Urdu,7,conservative,1,1,2,0,0,City of Auburn,,6.0,1.4,4.6,0.657,0,0,7
+Highline School District,Hindi,9,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,5.4,1.8,4.3,0.478,0,0,9
+Federal Way School District,American Sign Language,9,conservative,2,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,5.4,1.8,4.3,0.478,0,9,9
+Renton School District,Burmese,9,conservative,2,2,2,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,5.4,1.8,4.3,0.478,0,0,9
+Auburn School District,Fula,4,conservative,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Kent School District,Kikuyu,4,conservative,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Auburn School District,Maay Maay,4,conservative,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Auburn School District,Mien,4,conservative,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Kent School District,Yap,4,conservative,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Highline School District,Soninke,4,conservative,0,0,0,0,0,City of Burien,,4.0,4.0,4.0,1.0,4,4,4
+Federal Way School District,Kosraean,4,conservative,0,0,0,0,0,City of Des Moines,,4.0,4.0,4.0,1.0,4,4,4
+Renton School District,Amharic,67,conservative,3,2,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,13.4,4.0,0.06,0,0,67
+Kent School District,Dinka,6,conservative,1,1,2,0,0,City of Kent,,5.1,1.2,3.9,0.65,0,0,6
+Federal Way School District,Dinka,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Federal Way School District,Mongolian,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Albanian,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Bengali,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Hmong,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Lingala,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Luganda,6,conservative,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Kent School District,Japanese,8,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,4.8,1.6,3.8,0.475,0,0,8
+Kent School District,Tamil,8,conservative,2,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),4.8,1.6,3.8,0.475,0,0,8
+Highline School District,Samoan,8,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,4.8,1.6,3.8,0.475,0,0,8
+Renton School District,Nepali,8,conservative,2,1,2,1,0,City of Renton,City of Tukwila,4.8,1.6,3.8,0.475,0,0,8
+Tukwila School District,Chuukese,8,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,4.8,1.6,3.8,0.475,0,0,8
+Auburn School District,American Sign Language,7,conservative,2,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,4.2,1.4,3.4,0.486,0,7,7
+Kent School District,American Sign Language,7,conservative,2,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,4.2,1.4,3.4,0.486,0,7,7
+Auburn School District,Thai,7,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,4.2,1.4,3.4,0.486,0,0,7
+Highline School District,Thai,7,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,4.2,1.4,3.4,0.486,0,0,7
+Renton School District,Marshallese,7,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,4.2,1.4,3.4,0.486,0,0,7
+Tukwila School District,Chinese-Cantonese,7,conservative,2,2,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,4.2,1.4,3.4,0.486,0,0,7
+Auburn School District,Cebuano,5,conservative,1,1,2,0,0,City of Auburn,,4.2,1.0,3.3,0.66,0,0,5
+Kent School District,Chamorro,5,conservative,1,1,2,0,0,City of Kent,,4.2,1.0,3.3,0.66,0,0,5
+Highline School District,Bengali,5,conservative,1,1,2,0,0,City of Burien,,4.2,1.0,3.3,0.66,0,0,5
+Highline School District,Uzbek,5,conservative,1,1,2,0,0,City of Burien,,4.2,1.0,3.3,0.66,0,0,5
+Renton School District,Urdu,5,conservative,1,1,2,0,0,Public Health Seattle and King County,,4.2,1.0,3.3,0.66,0,0,5
+Kent School District,Bangala,3,conservative,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Auburn School District,Chinese-Taiwanese,3,conservative,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Auburn School District,Moore,3,conservative,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Kent School District,Rohingya,3,conservative,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Kent School District,Soninke,3,conservative,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Highline School District,Maya-Quiche,3,conservative,0,0,0,0,0,City of Burien,,3.0,3.0,3.0,1.0,3,3,3
+Highline School District,Tarasco,3,conservative,0,0,0,0,0,City of Burien,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Akateko,3,conservative,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Kakwa,3,conservative,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Rohingya,3,conservative,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Renton School District,Chin,3,conservative,0,0,0,0,0,City of Renton,,3.0,3.0,3.0,1.0,3,3,3
+Renton School District,Chinese-Taiwanese,3,conservative,0,0,0,0,0,City of Renton,,3.0,3.0,3.0,1.0,3,3,3
+Tukwila School District,Fula,3,conservative,0,0,0,0,0,City of Tukwila,,3.0,3.0,3.0,1.0,3,3,3
+Auburn School District,Chuukese,6,conservative,2,2,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,3.6,1.2,2.9,0.483,0,0,6
+Federal Way School District,Tigrinya,6,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,3.6,1.2,2.9,0.483,0,0,6
+Tukwila School District,Punjabi,6,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,3.6,1.2,2.9,0.483,0,0,6
+Tukwila School District,Swahili,6,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,3.6,1.2,2.9,0.483,0,0,6
+Auburn School District,Haitian Creole,4,conservative,1,1,2,0,0,City of Auburn,,3.4,0.8,2.6,0.65,0,0,4
+Auburn School District,Kinyarwanda,4,conservative,1,1,2,0,0,City of Auburn,,3.4,0.8,2.6,0.65,0,0,4
+Kent School District,Nuer,4,conservative,1,1,2,0,0,City of Kent,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Bosnian,4,conservative,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Gujarati,4,conservative,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Kinyarwanda,4,conservative,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Urdu,4,conservative,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Federal Way School District,Urdu,4,conservative,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Renton School District,Cebuano,4,conservative,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Renton School District,Marathi,4,conservative,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Tukwila School District,Kinyarwanda,4,conservative,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Tukwila School District,Turkish,4,conservative,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Kent School District,Aguacateco,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Bulgarian,3,conservative,1,1,2,0,0,City of Kent,,2.5,0.6,2.0,0.667,0,0,3
+Kent School District,Cham,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Chin,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Chinese-Taiwanese,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Eritai,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Fallani,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Hausa,3,conservative,1,1,2,0,0,City of Kent,,2.5,0.6,2.0,0.667,0,0,3
+Kent School District,Kmhmu,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Mandingo,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Mandinka,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Pere,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Serbo-Croation,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Sinhalese,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Sotho,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Tajiki,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Tarasco,2,conservative,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Fallani,2,conservative,0,0,0,0,0,City of Burien,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Fula,2,conservative,0,0,0,0,0,City of Burien,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Mam,3,conservative,1,1,2,0,0,City of Burien,,2.5,0.6,2.0,0.667,0,0,3
+Federal Way School District,Kikuyu,2,conservative,0,0,0,0,0,City of Des Moines,,2.0,2.0,2.0,1.0,2,2,2
+Federal Way School District,Taishanese,2,conservative,0,0,0,0,0,City of Des Moines,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Armenian,3,conservative,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Chinese-Fukienese,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Dinka,3,conservative,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Egyptian-Arabic,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Fula,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,"Greek, Modern",2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Hawaiian,3,conservative,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Kongo,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Kurdish,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mandinka,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Marquesan,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mixteco,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mongolian,3,conservative,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Purepecha,2,conservative,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Cham,2,conservative,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Ilokano,2,conservative,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Kirundi,2,conservative,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Uzbek,3,conservative,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Federal Way School District,Burmese,4,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,2.4,0.8,1.9,0.475,0,0,4
+Federal Way School District,Hindi,4,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,2.4,0.8,1.9,0.475,0,0,4
+Federal Way School District,Oromo,4,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,2.4,0.8,1.9,0.475,0,0,4
+Renton School District,Tongan,4,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,2.4,0.8,1.9,0.475,0,0,4
+Tukwila School District,Lao,4,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,2.4,0.8,1.9,0.475,0,0,4
+Tukwila School District,Marshallese,4,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,2.4,0.8,1.9,0.475,0,0,4
+Tukwila School District,Amharic,30,conservative,3,2,2,4,1,Tukwila School District,International Community Health Services; King County Library System; Tukwila School District; Washington Healthplanfinder,0.0,6.0,1.8,0.06,0,0,30
+Federal Way School District,Amharic,29,conservative,3,2,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,5.8,1.7,0.059,0,0,29
+Auburn School District,Romanian,3,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,1.8,0.6,1.4,0.467,0,0,3
+Highline School District,Korean,3,conservative,2,2,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,1.8,0.6,1.4,0.467,0,0,3
+Federal Way School District,Tongan,3,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.8,0.6,1.4,0.467,0,0,3
+Renton School District,Samoan,3,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.8,0.6,1.4,0.467,0,0,3
+Renton School District,Thai,3,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.8,0.6,1.4,0.467,0,0,3
+Tukwila School District,Thai,3,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.8,0.6,1.4,0.467,0,0,3
+Tukwila School District,Tongan,3,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.8,0.6,1.4,0.467,0,0,3
+Tukwila School District,Ukrainian,3,conservative,2,2,2,3,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,1.8,0.6,1.4,0.467,0,0,3
+Kent School District,Albanian,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Bosnian,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Dutch,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Ewe,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Hawaiian,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Hungarian,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Igbo,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Igbo,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Italian,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Latvian,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Luganda,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Malayalam,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Mongolian,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Polish,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Twi,2,conservative,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Wolof,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Yoruba,2,conservative,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Highline School District,Bambara,2,conservative,1,1,2,0,0,City of Burien,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Bengali,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Bulgarian,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Cebuano,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Chamorro,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Gujarati,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Indonesian,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Kinyarwanda,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Kurdish,2,conservative,1,0,2,0,0,City of Des Moines,,1.7,0.4,1.3,0.65,0,2,2
+Federal Way School District,Malayalam,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Nepali,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Twi,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Wolof,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Estonian,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Indonesian,2,conservative,1,1,2,0,0,City of Renton,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Kazakh,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Malayalam,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Nuer,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Shona,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Tukwila School District,Chamorro,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Tukwila School District,Hawaiian,2,conservative,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Amharic,17,conservative,3,2,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,3.4,1.0,0.059,0,0,17
+Kent School District,Carolinian,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Chinese-Cantonese,2,conservative,2,2,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,1.2,0.4,1.0,0.5,0,0,2
+Kent School District,German,2,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,1.2,0.4,1.0,0.5,0,0,2
+Auburn School District,Kakwa,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Karen,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Krahn,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Krahn,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Moldavian,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,"Nahuatl, Guerrero region",1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Sao,1,conservative,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Chin,1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Eritai,1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,"Greek, Modern",1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Karen,1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Lao,2,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,1.2,0.4,1.0,0.5,0,0,2
+Highline School District,Mien,1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Palau,1,conservative,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Tongan,2,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.2,0.4,1.0,0.5,0,0,2
+Federal Way School District,Bangala,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Chin,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Chinese-Taiwanese,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Herero,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Japanese,2,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,1.2,0.4,1.0,0.5,0,0,2
+Federal Way School District,Karen,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Kru,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Mandingo,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Moore,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Pashai,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Soninke,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Tedim,1,conservative,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Thai,2,conservative,2,2,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,1.2,0.4,1.0,0.5,0,0,2
+Renton School District,Bassa,1,conservative,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,German,2,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,1.2,0.4,1.0,0.5,0,0,2
+Renton School District,Kirgiz,1,conservative,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Maya-Quiche,1,conservative,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Serbo-Croation,1,conservative,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Chinese-Taiwanese,1,conservative,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Fallani,1,conservative,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Kikuyu,1,conservative,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Soninke,1,conservative,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Acholi,1,conservative,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Azerbaijani,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Ga,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Gujarati,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Haitian Creole,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Hausa,1,conservative,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Italian,1,conservative,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Kannada,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Krio,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Malay,1,conservative,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Mam,1,conservative,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Nuer,1,conservative,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Albanian,1,conservative,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Ilokano,1,conservative,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Tibetan,1,conservative,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Turkish,1,conservative,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Azerbaijani,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Dutch,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Ilokano,1,conservative,1,0,2,0,0,City of Des Moines,,0.8,0.2,0.7,0.7,0,1,1
+Federal Way School District,Malay,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Polish,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Azerbaijani,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Bosnian,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Bulgarian,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Catalan,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Haitian Creole,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Italian,1,conservative,1,1,2,0,0,City of Renton,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Kannada,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Malay,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Slovenian,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Bengali,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Dinka,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Haitian Creole,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Krio,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Malay,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Malayalam,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Twi,1,conservative,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,German,1,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Auburn School District,Oromo,1,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Highline School District,American Sign Language,1,conservative,2,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,1,1
+Highline School District,Romanian,1,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Federal Way School District,Lao,1,conservative,2,2,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Federal Way School District,Romanian,1,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Federal Way School District,Tamil,1,conservative,2,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),0.6,0.2,0.5,0.5,0,0,1
+Tukwila School District,Hindi,1,conservative,2,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Tukwila School District,Romanian,1,conservative,2,2,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.6,0.2,0.5,0.5,0,0,1
+Highline School District,Spanish,5408,optimistic,3,3,2,12,0,City of Burien,City of Burien; City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System,0.0,1081.6,324.5,0.06,0,0,0
+Kent School District,Spanish,3724,optimistic,3,3,2,11,0,Public Health Seattle and King County,City of Auburn; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,0.0,744.8,223.4,0.06,0,0,0
+Federal Way School District,Spanish,3480,optimistic,3,3,2,11,0,Federal Way School District,DSHS Basic Food (SNAP); Eastside Legal Assistance Program; Federal Way School District; International Community Health Services; King County Library System; NW Immigrant Rights Project,0.0,696.0,208.8,0.06,0,0,0
+Auburn School District,Spanish,3432,optimistic,3,3,2,12,0,Auburn School District,Auburn School District; City of Auburn; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System,0.0,686.4,205.9,0.06,0,0,0
+Renton School District,Spanish,2695,optimistic,3,3,2,12,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,0.0,539.0,161.7,0.06,0,0,0
+Kent School District,Turkish,109,optimistic,1,1,2,0,0,City of Kent,,92.6,21.8,71.4,0.655,0,0,109
+Kent School District,Dari,962,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,192.4,57.7,0.06,0,0,0
+Federal Way School District,Dari,863,optimistic,3,3,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,172.6,51.8,0.06,0,0,0
+Kent School District,Nepali,78,optimistic,1,1,2,0,0,City of Kent,,66.3,15.6,51.1,0.655,0,0,78
+Auburn School District,Ukrainian,737,optimistic,3,3,2,5,0,Auburn School District,Auburn School District; City of Auburn; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,147.4,44.2,0.06,0,0,0
+Auburn School District,Dari,679,optimistic,3,3,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,135.8,40.7,0.06,0,0,0
+Renton School District,Vietnamese,635,optimistic,3,3,2,11,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,127.0,38.1,0.06,0,0,0
+Kent School District,Ukrainian,537,optimistic,3,3,2,4,0,Public Health Seattle and King County,City of Auburn; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,107.4,32.2,0.06,0,0,0
+Kent School District,Vietnamese,535,optimistic,3,3,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,107.0,32.1,0.06,0,0,0
+Kent School District,Kosraean,31,optimistic,0,0,0,0,0,City of Auburn,,31.0,31.0,31.0,1.0,31,31,31
+Kent School District,Punjabi,500,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,100.0,30.0,0.06,0,0,0
+Highline School District,Vietnamese,459,optimistic,3,3,2,11,0,City of Burien,City of Burien; City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest,0.0,91.8,27.5,0.06,0,0,0
+Kent School District,Somali,405,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,81.0,24.3,0.06,0,0,0
+Federal Way School District,Ukrainian,373,optimistic,3,3,2,4,0,Federal Way School District,Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,74.6,22.4,0.06,0,0,0
+Kent School District,Russian,352,optimistic,3,3,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,70.4,21.1,0.06,0,0,0
+Kent School District,Pashto,351,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,70.2,21.1,0.06,0,0,0
+Auburn School District,Marshallese,342,optimistic,3,3,2,3,0,Auburn School District,Auburn School District; Public Health Seattle and King County; WashingtonLawHelp,0.0,68.4,20.5,0.06,0,0,0
+Kent School District,Urdu,31,optimistic,1,1,2,0,0,City of Kent,,26.3,6.2,20.3,0.655,0,0,31
+Renton School District,Soninke,20,optimistic,0,0,0,0,0,City of Renton,,20.0,20.0,20.0,1.0,20,20,20
+Auburn School District,Kurdish,29,optimistic,1,1,2,0,0,City of Auburn,,24.6,5.8,19.0,0.655,0,0,29
+Federal Way School District,Haitian Creole,29,optimistic,1,1,2,0,0,Public Health Seattle and King County,,24.6,5.8,19.0,0.655,0,0,29
+Federal Way School District,Pashto,283,optimistic,3,3,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,56.6,17.0,0.06,0,0,0
+Auburn School District,Turkish,26,optimistic,1,1,2,0,0,City of Auburn,,22.1,5.2,17.0,0.654,0,0,26
+Kent School District,Arabic,270,optimistic,3,3,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,54.0,16.2,0.06,0,0,0
+Auburn School District,Nepali,22,optimistic,1,1,2,0,0,City of Auburn,,18.7,4.4,14.4,0.655,0,0,22
+Kent School District,Mien,14,optimistic,0,0,0,0,0,City of Auburn,,14.0,14.0,14.0,1.0,14,14,14
+Auburn School District,Pashto,229,optimistic,3,3,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,45.8,13.7,0.06,0,0,0
+Kent School District,Karen,13,optimistic,0,0,0,0,0,City of Auburn,,13.0,13.0,13.0,1.0,13,13,13
+Kent School District,Palau,13,optimistic,0,0,0,0,0,City of Auburn,,13.0,13.0,13.0,1.0,13,13,13
+Renton School District,Ilokano,13,optimistic,0,0,0,0,0,City of Renton,,13.0,13.0,13.0,1.0,13,13,13
+Highline School District,Somali,215,optimistic,3,3,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,43.0,12.9,0.06,0,0,0
+Kent School District,Ilokano,19,optimistic,1,1,2,0,0,City of Kent,,16.1,3.8,12.4,0.653,0,0,19
+Highline School District,Dari,203,optimistic,3,3,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,40.6,12.2,0.06,0,0,0
+Renton School District,Cham,12,optimistic,0,0,0,0,0,City of Renton,,12.0,12.0,12.0,1.0,12,12,12
+Renton School District,Dari,199,optimistic,3,3,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,39.8,11.9,0.06,0,0,0
+Federal Way School District,Russian,197,optimistic,3,3,2,10,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,39.4,11.8,0.06,0,0,0
+Kent School District,Kurdish,18,optimistic,1,1,2,0,0,City of Kent,,15.3,3.6,11.8,0.656,0,0,18
+Renton School District,Chinese-Cantonese,189,optimistic,3,3,2,6,0,Renton School District,DSHS Basic Food (SNAP); King County Library System; Renton School District; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,37.8,11.3,0.06,0,0,0
+Tukwila School District,Lingala,17,optimistic,1,1,2,0,0,Public Health Seattle and King County,,14.4,3.4,11.1,0.653,0,0,17
+Auburn School District,Russian,176,optimistic,3,3,2,10,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,35.2,10.6,0.06,0,0,0
+Kent School District,Chinese-Cantonese,177,optimistic,3,3,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,35.4,10.6,0.06,0,0,0
+Kent School District,Kirundi,10,optimistic,0,0,0,0,0,City of Auburn,,10.0,10.0,10.0,1.0,10,10,10
+Kent School District,Maay Maay,10,optimistic,0,0,0,0,0,City of Auburn,,10.0,10.0,10.0,1.0,10,10,10
+Kent School District,Tagalog,166,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,33.2,10.0,0.06,0,0,0
+Highline School District,Amharic,164,optimistic,3,3,2,4,2,City of Burien,City of Burien; International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,32.8,9.8,0.06,0,0,0
+Kent School District,Wolof,15,optimistic,1,1,2,0,0,City of Kent,,12.8,3.0,9.8,0.653,0,0,15
+Highline School District,Lingala,15,optimistic,1,1,2,0,0,City of Burien,,12.8,3.0,9.8,0.653,0,0,15
+Tukwila School District,Portuguese,157,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,31.4,9.4,0.06,0,0,0
+Auburn School District,Punjabi,152,optimistic,3,3,2,3,0,Auburn School District,Auburn School District; Public Health Seattle and King County; Washington Healthplanfinder,0.0,30.4,9.1,0.06,0,0,0
+Auburn School District,Kosraean,9,optimistic,0,0,0,0,0,City of Auburn,,9.0,9.0,9.0,1.0,9,9,9
+Renton School District,Mien,9,optimistic,0,0,0,0,0,City of Renton,,9.0,9.0,9.0,1.0,9,9,9
+Tukwila School District,Tedim,9,optimistic,0,0,0,0,0,City of Tukwila,,9.0,9.0,9.0,1.0,9,9,9
+Federal Way School District,Somali,141,optimistic,3,3,2,5,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,28.2,8.5,0.06,0,0,0
+Kent School District,Lingala,13,optimistic,1,1,2,0,0,City of Kent,,11.0,2.6,8.5,0.654,0,0,13
+Auburn School District,Vietnamese,136,optimistic,3,3,2,10,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,27.2,8.2,0.06,0,0,0
+Tukwila School District,Vietnamese,136,optimistic,3,3,2,11,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,27.2,8.2,0.06,0,0,0
+Kent School District,Farsi,135,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,27.0,8.1,0.06,0,0,135
+Tukwila School District,Dari,134,optimistic,3,3,2,5,0,Public Health Seattle and King County,City of Tukwila; DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,26.8,8.0,0.06,0,0,0
+Kent School District,Fula,8,optimistic,0,0,0,0,0,City of Auburn,,8.0,8.0,8.0,1.0,8,8,8
+Highline School District,Kosraean,8,optimistic,0,0,0,0,0,City of Burien,,8.0,8.0,8.0,1.0,8,8,8
+Renton School District,Taishanese,8,optimistic,0,0,0,0,0,City of Renton,,8.0,8.0,8.0,1.0,8,8,8
+Tukwila School District,Karen,8,optimistic,0,0,0,0,0,City of Tukwila,,8.0,8.0,8.0,1.0,8,8,8
+Federal Way School District,Vietnamese,132,optimistic,3,3,2,10,0,Federal Way School District,DSHS Basic Food (SNAP); Federal Way School District; International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County,0.0,26.4,7.9,0.06,0,0,0
+Kent School District,Amharic,125,optimistic,3,3,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,25.0,7.5,0.06,0,0,0
+Kent School District,Khmer,124,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,24.8,7.4,0.06,0,0,0
+Federal Way School District,Lingala,11,optimistic,1,1,2,0,0,Public Health Seattle and King County,,9.3,2.2,7.2,0.655,0,0,11
+Federal Way School District,Turkish,11,optimistic,1,1,2,0,0,Public Health Seattle and King County,,9.3,2.2,7.2,0.655,0,0,11
+Highline School District,Tedim,7,optimistic,0,0,0,0,0,City of Burien,,7.0,7.0,7.0,1.0,7,7,7
+Renton School District,Somali,115,optimistic,3,3,2,6,0,Renton School District,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Renton School District; Washington Healthplanfinder,0.0,23.0,6.9,0.06,0,0,0
+Kent School District,Burmese,114,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,22.8,6.8,0.06,0,0,0
+Renton School District,Chinese-Mandarin,108,optimistic,3,3,2,9,0,Renton School District,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Renton School District,0.0,21.6,6.5,0.06,0,0,0
+Kent School District,Telugu,10,optimistic,1,1,2,0,0,City of Kent,,8.5,2.0,6.5,0.65,0,0,10
+Highline School District,Haitian Creole,10,optimistic,1,1,2,0,0,City of Burien,,8.5,2.0,6.5,0.65,0,0,10
+Renton School District,Turkish,10,optimistic,1,1,2,0,0,Public Health Seattle and King County,,8.5,2.0,6.5,0.65,0,0,10
+Renton School District,Russian,105,optimistic,3,3,2,10,0,Renton School District,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Renton School District,0.0,21.0,6.3,0.06,0,0,0
+Renton School District,Pashto,103,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,20.6,6.2,0.06,0,0,0
+Renton School District,Ukrainian,103,optimistic,3,3,2,4,0,Renton School District,King County Library System; Public Health Seattle and King County; Renton School District; Washington Healthplanfinder,0.0,20.6,6.2,0.06,0,0,0
+Auburn School District,Ayula-Bambara,6,optimistic,0,0,0,0,0,City of Auburn,,6.0,6.0,6.0,1.0,6,6,6
+Kent School District,Taishanese,6,optimistic,0,0,0,0,0,City of Auburn,,6.0,6.0,6.0,1.0,6,6,6
+Kent School District,Bengali,9,optimistic,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Cebuano,9,optimistic,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Kinyarwanda,9,optimistic,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Kent School District,Uzbek,9,optimistic,1,1,2,0,0,City of Kent,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Gujarati,9,optimistic,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Telugu,9,optimistic,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Renton School District,Wolof,9,optimistic,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Tukwila School District,Bosnian,9,optimistic,1,1,2,0,0,Public Health Seattle and King County,,7.6,1.8,5.9,0.656,0,0,9
+Highline School District,Pashto,94,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,18.8,5.6,0.06,0,0,0
+Auburn School District,Arabic,90,optimistic,3,3,2,5,0,Auburn School District,Auburn School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,18.0,5.4,0.06,0,0,0
+Auburn School District,Dinka,8,optimistic,1,1,2,0,0,City of Auburn,,6.8,1.6,5.2,0.65,0,0,8
+Kent School District,Chinese-Mandarin,85,optimistic,3,3,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,17.0,5.1,0.06,0,0,0
+Kent School District,Karenni,5,optimistic,0,0,0,0,0,City of Auburn,,5.0,5.0,5.0,1.0,5,5,5
+Auburn School District,Mandingo,5,optimistic,0,0,0,0,0,City of Auburn,,5.0,5.0,5.0,1.0,5,5,5
+Highline School District,Cham,5,optimistic,0,0,0,0,0,City of Burien,,5.0,5.0,5.0,1.0,5,5,5
+Kent School District,Hmong,7,optimistic,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Auburn School District,Ilokano,7,optimistic,1,1,2,0,0,City of Auburn,,6.0,1.4,4.6,0.657,0,0,7
+Kent School District,Indonesian,7,optimistic,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Kent School District,Malayalam,7,optimistic,1,1,2,0,0,City of Kent,,6.0,1.4,4.6,0.657,0,0,7
+Auburn School District,Urdu,7,optimistic,1,1,2,0,0,City of Auburn,,6.0,1.4,4.6,0.657,0,0,7
+Auburn School District,Somali,71,optimistic,3,3,2,5,0,Auburn School District,Auburn School District; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,14.2,4.3,0.061,0,0,0
+Federal Way School District,Arabic,71,optimistic,3,3,2,5,0,Federal Way School District,Federal Way School District; King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,14.2,4.3,0.061,0,0,0
+Renton School District,Arabic,72,optimistic,3,3,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,14.4,4.3,0.06,0,0,0
+Kent School District,French,71,optimistic,3,3,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,14.2,4.3,0.061,0,0,0
+Federal Way School District,Farsi,68,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,13.6,4.1,0.06,0,0,68
+Highline School District,French,67,optimistic,3,3,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,13.4,4.0,0.06,0,0,0
+Federal Way School District,French,67,optimistic,3,3,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,13.4,4.0,0.06,0,0,0
+Tukwila School District,Pashto,67,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,13.4,4.0,0.06,0,0,0
+Auburn School District,Fula,4,optimistic,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Kent School District,Kikuyu,4,optimistic,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Auburn School District,Maay Maay,4,optimistic,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Auburn School District,Mien,4,optimistic,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Kent School District,Yap,4,optimistic,0,0,0,0,0,City of Auburn,,4.0,4.0,4.0,1.0,4,4,4
+Highline School District,Soninke,4,optimistic,0,0,0,0,0,City of Burien,,4.0,4.0,4.0,1.0,4,4,4
+Federal Way School District,Kosraean,4,optimistic,0,0,0,0,0,City of Des Moines,,4.0,4.0,4.0,1.0,4,4,4
+Renton School District,Amharic,67,optimistic,3,3,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,13.4,4.0,0.06,0,0,0
+Kent School District,Dinka,6,optimistic,1,1,2,0,0,City of Kent,,5.1,1.2,3.9,0.65,0,0,6
+Federal Way School District,Dinka,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Federal Way School District,Mongolian,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Albanian,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Bengali,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Hmong,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Lingala,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Renton School District,Luganda,6,optimistic,1,1,2,0,0,Public Health Seattle and King County,,5.1,1.2,3.9,0.65,0,0,6
+Kent School District,Hindi,63,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,12.6,3.8,0.06,0,0,63
+Renton School District,Portuguese,64,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,12.8,3.8,0.059,0,0,0
+Renton School District,Tagalog,63,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,12.6,3.8,0.06,0,0,0
+Kent School District,Marshallese,62,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,0.0,12.4,3.7,0.06,0,0,0
+Highline School District,Arabic,58,optimistic,3,3,2,4,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,11.6,3.5,0.06,0,0,0
+Tukwila School District,Arabic,59,optimistic,3,3,2,5,0,Tukwila School District,King County Library System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder; WashingtonLawHelp,0.0,11.8,3.5,0.059,0,0,0
+Auburn School District,Tagalog,56,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,11.2,3.4,0.061,0,0,0
+Renton School District,Punjabi,56,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,11.2,3.4,0.061,0,0,0
+Auburn School District,Cebuano,5,optimistic,1,1,2,0,0,City of Auburn,,4.2,1.0,3.3,0.66,0,0,5
+Kent School District,Chamorro,5,optimistic,1,1,2,0,0,City of Kent,,4.2,1.0,3.3,0.66,0,0,5
+Highline School District,Bengali,5,optimistic,1,1,2,0,0,City of Burien,,4.2,1.0,3.3,0.66,0,0,5
+Highline School District,Uzbek,5,optimistic,1,1,2,0,0,City of Burien,,4.2,1.0,3.3,0.66,0,0,5
+Renton School District,Urdu,5,optimistic,1,1,2,0,0,Public Health Seattle and King County,,4.2,1.0,3.3,0.66,0,0,5
+Highline School District,Tigrinya,54,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,10.8,3.2,0.059,0,0,0
+Tukwila School District,French,54,optimistic,3,3,2,4,0,Tukwila School District,MultiCare Health System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder,0.0,10.8,3.2,0.059,0,0,0
+Federal Way School District,Korean,54,optimistic,3,3,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,10.8,3.2,0.059,0,0,0
+Renton School District,Farsi,52,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,10.4,3.1,0.06,0,0,52
+Kent School District,Bangala,3,optimistic,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Auburn School District,Chinese-Taiwanese,3,optimistic,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Kent School District,Chuukese,50,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,10.0,3.0,0.06,0,0,0
+Auburn School District,Moore,3,optimistic,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Kent School District,Rohingya,3,optimistic,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Kent School District,Soninke,3,optimistic,0,0,0,0,0,City of Auburn,,3.0,3.0,3.0,1.0,3,3,3
+Highline School District,Maya-Quiche,3,optimistic,0,0,0,0,0,City of Burien,,3.0,3.0,3.0,1.0,3,3,3
+Highline School District,Tarasco,3,optimistic,0,0,0,0,0,City of Burien,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Akateko,3,optimistic,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Kakwa,3,optimistic,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Federal Way School District,Rohingya,3,optimistic,0,0,0,0,0,City of Des Moines,,3.0,3.0,3.0,1.0,3,3,3
+Renton School District,Chin,3,optimistic,0,0,0,0,0,City of Renton,,3.0,3.0,3.0,1.0,3,3,3
+Renton School District,Chinese-Taiwanese,3,optimistic,0,0,0,0,0,City of Renton,,3.0,3.0,3.0,1.0,3,3,3
+Tukwila School District,Fula,3,optimistic,0,0,0,0,0,City of Tukwila,,3.0,3.0,3.0,1.0,3,3,3
+Auburn School District,Khmer,49,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,9.8,2.9,0.059,0,0,0
+Highline School District,Farsi,46,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,9.2,2.8,0.061,0,0,46
+Highline School District,Khmer,45,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,9.0,2.7,0.06,0,0,0
+Auburn School District,Haitian Creole,4,optimistic,1,1,2,0,0,City of Auburn,,3.4,0.8,2.6,0.65,0,0,4
+Auburn School District,Kinyarwanda,4,optimistic,1,1,2,0,0,City of Auburn,,3.4,0.8,2.6,0.65,0,0,4
+Kent School District,Nuer,4,optimistic,1,1,2,0,0,City of Kent,,3.4,0.8,2.6,0.65,0,0,4
+Kent School District,Samoan,43,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,8.6,2.6,0.06,0,0,0
+Highline School District,Bosnian,4,optimistic,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Gujarati,4,optimistic,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Kinyarwanda,4,optimistic,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Highline School District,Urdu,4,optimistic,1,1,2,0,0,City of Burien,,3.4,0.8,2.6,0.65,0,0,4
+Federal Way School District,Urdu,4,optimistic,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Renton School District,Cebuano,4,optimistic,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Renton School District,Marathi,4,optimistic,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Tukwila School District,Kinyarwanda,4,optimistic,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Tukwila School District,Turkish,4,optimistic,1,1,2,0,0,Public Health Seattle and King County,,3.4,0.8,2.6,0.65,0,0,4
+Renton School District,Tigrinya,41,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,8.2,2.5,0.061,0,0,0
+Kent School District,Portuguese,39,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.8,2.3,0.059,0,0,0
+Renton School District,Romanian,38,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.6,2.3,0.061,0,0,0
+Highline School District,Portuguese,37,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.4,2.2,0.059,0,0,0
+Federal Way School District,Punjabi,36,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.2,2.2,0.061,0,0,0
+Kent School District,Swahili,35,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,7.0,2.1,0.06,0,0,0
+Highline School District,Punjabi,35,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.0,2.1,0.06,0,0,0
+Renton School District,Khmer,35,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,7.0,2.1,0.06,0,0,0
+Renton School District,Oromo,35,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,7.0,2.1,0.06,0,0,0
+Kent School District,Aguacateco,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Bulgarian,3,optimistic,1,1,2,0,0,City of Kent,,2.5,0.6,2.0,0.667,0,0,3
+Kent School District,Cham,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Chin,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Chinese-Taiwanese,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Eritai,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Fallani,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Hausa,3,optimistic,1,1,2,0,0,City of Kent,,2.5,0.6,2.0,0.667,0,0,3
+Kent School District,Kmhmu,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Lao,33,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,6.6,2.0,0.061,0,0,0
+Kent School District,Mandingo,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Mandinka,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Pere,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Auburn School District,Samoan,33,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,6.6,2.0,0.061,0,0,0
+Kent School District,Serbo-Croation,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Sinhalese,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Sotho,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Tajiki,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Kent School District,Tarasco,2,optimistic,0,0,0,0,0,City of Auburn,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Fallani,2,optimistic,0,0,0,0,0,City of Burien,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Fula,2,optimistic,0,0,0,0,0,City of Burien,,2.0,2.0,2.0,1.0,2,2,2
+Highline School District,Mam,3,optimistic,1,1,2,0,0,City of Burien,,2.5,0.6,2.0,0.667,0,0,3
+Federal Way School District,Chinese-Mandarin,34,optimistic,3,3,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,6.8,2.0,0.059,0,0,0
+Federal Way School District,Kikuyu,2,optimistic,0,0,0,0,0,City of Des Moines,,2.0,2.0,2.0,1.0,2,2,2
+Federal Way School District,Taishanese,2,optimistic,0,0,0,0,0,City of Des Moines,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Armenian,3,optimistic,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Chinese-Fukienese,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Dinka,3,optimistic,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Egyptian-Arabic,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Fula,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,"Greek, Modern",2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Hawaiian,3,optimistic,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Kongo,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Kurdish,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mandinka,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Marquesan,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mixteco,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Renton School District,Mongolian,3,optimistic,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Renton School District,Purepecha,2,optimistic,0,0,0,0,0,City of Renton,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Cham,2,optimistic,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Ilokano,2,optimistic,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Kirundi,2,optimistic,0,0,0,0,0,City of Tukwila,,2.0,2.0,2.0,1.0,2,2,2
+Tukwila School District,Uzbek,3,optimistic,1,1,2,0,0,Public Health Seattle and King County,,2.5,0.6,2.0,0.667,0,0,3
+Auburn School District,Korean,32,optimistic,3,3,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,6.4,1.9,0.059,0,0,0
+Highline School District,Russian,32,optimistic,3,3,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,6.4,1.9,0.059,0,0,0
+Tukwila School District,Amharic,30,optimistic,3,3,2,4,1,Tukwila School District,International Community Health Services; King County Library System; Tukwila School District; Washington Healthplanfinder,0.0,6.0,1.8,0.06,0,0,0
+Kent School District,Romanian,29,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.8,1.7,0.059,0,0,0
+Auburn School District,Swahili,28,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,5.6,1.7,0.061,0,0,0
+Auburn School District,Tigrinya,28,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.6,1.7,0.061,0,0,0
+Highline School District,Ukrainian,28,optimistic,3,3,2,3,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.6,1.7,0.061,0,0,0
+Federal Way School District,Amharic,29,optimistic,3,3,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,5.8,1.7,0.059,0,0,0
+Federal Way School District,Portuguese,28,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.6,1.7,0.061,0,0,0
+Renton School District,Hindi,29,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,5.8,1.7,0.059,0,0,29
+Renton School District,Korean,28,optimistic,3,3,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,5.6,1.7,0.061,0,0,0
+Tukwila School District,Nepali,29,optimistic,3,3,2,1,0,City of Tukwila,City of Tukwila,0.0,5.8,1.7,0.059,0,0,0
+Auburn School District,Burmese,27,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,5.4,1.6,0.059,0,0,0
+Highline School District,Tagalog,26,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,5.2,1.6,0.062,0,0,0
+Federal Way School District,Chinese-Cantonese,27,optimistic,3,3,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,5.4,1.6,0.059,0,0,0
+Auburn School District,French,25,optimistic,3,3,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.0,1.5,0.06,0,0,0
+Kent School District,Tigrinya,25,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,5.0,1.5,0.06,0,0,0
+Federal Way School District,Swahili,23,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,4.6,1.4,0.061,0,0,0
+Tukwila School District,Tagalog,24,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,4.8,1.4,0.058,0,0,0
+Kent School District,Albanian,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Bosnian,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Dutch,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Ewe,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Hawaiian,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Hungarian,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Igbo,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Igbo,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Italian,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Korean,22,optimistic,3,3,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,4.4,1.3,0.059,0,0,0
+Kent School District,Latvian,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Luganda,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Malayalam,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Mongolian,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Polish,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Kent School District,Twi,2,optimistic,1,1,2,0,0,City of Kent,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Wolof,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Auburn School District,Yoruba,2,optimistic,1,1,2,0,0,City of Auburn,,1.7,0.4,1.3,0.65,0,0,2
+Highline School District,Bambara,2,optimistic,1,1,2,0,0,City of Burien,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Bengali,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Bulgarian,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Cebuano,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Chamorro,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Chuukese,22,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,4.4,1.3,0.059,0,0,0
+Federal Way School District,Gujarati,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Indonesian,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Kinyarwanda,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Kurdish,2,optimistic,1,0,2,0,0,City of Des Moines,,1.7,0.4,1.3,0.65,0,2,2
+Federal Way School District,Malayalam,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Marshallese,21,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,0.0,4.2,1.3,0.062,0,0,0
+Federal Way School District,Nepali,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Twi,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Federal Way School District,Wolof,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Estonian,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Indonesian,2,optimistic,1,1,2,0,0,City of Renton,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Kazakh,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Malayalam,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Nuer,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Renton School District,Shona,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Tukwila School District,Chamorro,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Tukwila School District,Hawaiian,2,optimistic,1,1,2,0,0,Public Health Seattle and King County,,1.7,0.4,1.3,0.65,0,0,2
+Tukwila School District,Khmer,21,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,4.2,1.3,0.062,0,0,0
+Tukwila School District,Tigrinya,21,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,4.2,1.3,0.062,0,0,0
+Kent School District,Lao,20,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,4.0,1.2,0.06,0,0,0
+Highline School District,Oromo,20,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,4.0,1.2,0.06,0,0,0
+Auburn School District,Tongan,19,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,3.8,1.1,0.058,0,0,0
+Highline School District,Swahili,19,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,3.8,1.1,0.058,0,0,0
+Federal Way School District,Khmer,18,optimistic,3,3,2,4,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder; WashingtonLawHelp,0.0,3.6,1.1,0.061,0,0,0
+Federal Way School District,Tagalog,18,optimistic,3,3,2,4,0,King County Metro,King County Metro; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,3.6,1.1,0.061,0,0,0
+Auburn School District,Amharic,17,optimistic,3,3,2,3,1,King County Library System,International Community Health Services; King County Library System; Washington Healthplanfinder,0.0,3.4,1.0,0.059,0,0,0
+Kent School District,Carolinian,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Farsi,16,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,3.2,1.0,0.062,0,0,16
+Auburn School District,Japanese,16,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,3.2,1.0,0.062,0,0,0
+Auburn School District,Kakwa,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Karen,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,Krahn,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Krahn,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Moldavian,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Auburn School District,"Nahuatl, Guerrero region",1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Sao,1,optimistic,0,0,0,0,0,City of Auburn,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Burmese,17,optimistic,3,3,2,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,0.0,3.4,1.0,0.059,0,0,0
+Highline School District,Chin,1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Eritai,1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,"Greek, Modern",1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Karen,1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Mien,1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Highline School District,Palau,1,optimistic,0,0,0,0,0,City of Burien,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Bangala,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Chin,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Chinese-Taiwanese,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Herero,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Karen,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Kru,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Mandingo,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Moore,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Pashai,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Soninke,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Federal Way School District,Tedim,1,optimistic,0,0,0,0,0,City of Des Moines,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Bassa,1,optimistic,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Japanese,17,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,3.4,1.0,0.059,0,0,0
+Renton School District,Kirgiz,1,optimistic,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Maya-Quiche,1,optimistic,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Serbo-Croation,1,optimistic,0,0,0,0,0,City of Renton,,1.0,1.0,1.0,1.0,1,1,1
+Renton School District,Swahili,17,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,3.4,1.0,0.059,0,0,0
+Tukwila School District,Chinese-Taiwanese,1,optimistic,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Fallani,1,optimistic,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Kikuyu,1,optimistic,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Tukwila School District,Soninke,1,optimistic,0,0,0,0,0,City of Tukwila,,1.0,1.0,1.0,1.0,1,1,1
+Kent School District,Tongan,15,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,3.0,0.9,0.06,0,0,0
+Highline School District,Chuukese,15,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,3.0,0.9,0.06,0,0,0
+Kent School District,Oromo,13,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,2.6,0.8,0.062,0,0,0
+Kent School District,Thai,13,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,2.6,0.8,0.062,0,0,0
+Federal Way School District,Samoan,13,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,2.6,0.8,0.062,0,0,0
+Auburn School District,Acholi,1,optimistic,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Azerbaijani,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Ga,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Gujarati,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Haitian Creole,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Hausa,1,optimistic,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Italian,1,optimistic,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Kannada,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Krio,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Kent School District,Malay,1,optimistic,1,1,2,0,0,City of Kent,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Mam,1,optimistic,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Nuer,1,optimistic,1,1,2,0,0,City of Auburn,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Portuguese,12,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,2.4,0.7,0.058,0,0,0
+Highline School District,Albanian,1,optimistic,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Chinese-Mandarin,11,optimistic,3,3,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,2.2,0.7,0.064,0,0,0
+Highline School District,Ilokano,1,optimistic,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Nepali,11,optimistic,3,1,2,1,0,City of Burien,City of Tukwila,0.0,2.2,0.7,0.064,0,0,11
+Highline School District,Tibetan,1,optimistic,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Highline School District,Turkish,1,optimistic,1,1,2,0,0,City of Burien,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Azerbaijani,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Dutch,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Ilokano,1,optimistic,1,0,2,0,0,City of Des Moines,,0.8,0.2,0.7,0.7,0,1,1
+Federal Way School District,Malay,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Federal Way School District,Polish,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Azerbaijani,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Bosnian,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Bulgarian,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Catalan,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,French,11,optimistic,3,3,2,3,0,Public Health Seattle and King County,MultiCare Health System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,2.2,0.7,0.064,0,0,0
+Renton School District,Haitian Creole,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Italian,1,optimistic,1,1,2,0,0,City of Renton,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Kannada,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Lao,11,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,2.2,0.7,0.064,0,0,0
+Renton School District,Malay,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Renton School District,Slovenian,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Bengali,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Dinka,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Farsi,11,optimistic,3,1,2,3,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP); Washington Healthplanfinder; WashingtonLawHelp,0.0,2.2,0.7,0.064,0,0,11
+Tukwila School District,Haitian Creole,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Krio,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Malay,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Malayalam,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Tukwila School District,Oromo,11,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,2.2,0.7,0.064,0,0,0
+Tukwila School District,Russian,11,optimistic,3,3,2,9,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,2.2,0.7,0.064,0,0,0
+Tukwila School District,Samoan,11,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,2.2,0.7,0.064,0,0,0
+Tukwila School District,Twi,1,optimistic,1,1,2,0,0,Public Health Seattle and King County,,0.8,0.2,0.7,0.7,0,0,1
+Auburn School District,Chinese-Mandarin,10,optimistic,3,3,2,8,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; King County Library System; Northwest Harvest; Public Health Seattle and King County; Sound Transit,0.0,2.0,0.6,0.06,0,0,0
+Auburn School District,Hindi,10,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,2.0,0.6,0.06,0,0,10
+Highline School District,Chinese-Cantonese,10,optimistic,3,3,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,2.0,0.6,0.06,0,0,0
+Highline School District,Marshallese,10,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,0.0,2.0,0.6,0.06,0,0,0
+Renton School District,American Sign Language,10,optimistic,3,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,2.0,0.6,0.06,0,10,10
+Renton School District,Chuukese,10,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,2.0,0.6,0.06,0,0,0
+Renton School District,Tamil,10,optimistic,3,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),0.0,2.0,0.6,0.06,0,0,10
+Kent School District,Japanese,8,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,1.6,0.5,0.062,0,0,0
+Kent School District,Tamil,8,optimistic,3,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),0.0,1.6,0.5,0.062,0,0,8
+Highline School District,Hindi,9,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,1.8,0.5,0.056,0,0,9
+Highline School District,Samoan,8,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,1.6,0.5,0.062,0,0,0
+Federal Way School District,American Sign Language,9,optimistic,3,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,1.8,0.5,0.056,0,9,9
+Renton School District,Burmese,9,optimistic,3,3,2,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,0.0,1.8,0.5,0.056,0,0,0
+Renton School District,Nepali,8,optimistic,3,1,2,1,0,City of Renton,City of Tukwila,0.0,1.6,0.5,0.062,0,0,8
+Tukwila School District,Chuukese,8,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,1.6,0.5,0.062,0,0,0
+Auburn School District,American Sign Language,7,optimistic,3,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,1.4,0.4,0.057,0,7,7
+Kent School District,American Sign Language,7,optimistic,3,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,1.4,0.4,0.057,0,7,7
+Auburn School District,Chuukese,6,optimistic,3,3,2,2,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County,0.0,1.2,0.4,0.067,0,0,0
+Auburn School District,Thai,7,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,1.4,0.4,0.057,0,0,0
+Highline School District,Thai,7,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,1.4,0.4,0.057,0,0,0
+Federal Way School District,Tigrinya,6,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,1.2,0.4,0.067,0,0,0
+Renton School District,Marshallese,7,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,0.0,1.4,0.4,0.057,0,0,0
+Tukwila School District,Chinese-Cantonese,7,optimistic,3,3,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,1.4,0.4,0.057,0,0,0
+Tukwila School District,Punjabi,6,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,1.2,0.4,0.067,0,0,0
+Tukwila School District,Swahili,6,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,1.2,0.4,0.067,0,0,0
+Auburn School District,Romanian,3,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.6,0.2,0.067,0,0,0
+Highline School District,Korean,3,optimistic,3,3,2,6,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); International Community Health Services; Public Health Seattle and King County; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,0.6,0.2,0.067,0,0,0
+Federal Way School District,Burmese,4,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.8,0.2,0.05,0,0,0
+Federal Way School District,Hindi,4,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.8,0.2,0.05,0,0,4
+Federal Way School District,Oromo,4,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.8,0.2,0.05,0,0,0
+Federal Way School District,Tongan,3,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.6,0.2,0.067,0,0,0
+Renton School District,Samoan,3,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.6,0.2,0.067,0,0,0
+Renton School District,Thai,3,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.6,0.2,0.067,0,0,0
+Renton School District,Tongan,4,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.8,0.2,0.05,0,0,0
+Tukwila School District,Lao,4,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.8,0.2,0.05,0,0,0
+Tukwila School District,Marshallese,4,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; WashingtonLawHelp,0.0,0.8,0.2,0.05,0,0,0
+Tukwila School District,Thai,3,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.6,0.2,0.067,0,0,0
+Tukwila School District,Tongan,3,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.6,0.2,0.067,0,0,0
+Tukwila School District,Ukrainian,3,optimistic,3,3,2,3,0,Public Health Seattle and King County,King County Library System; Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.6,0.2,0.067,0,0,0
+Auburn School District,Chinese-Cantonese,2,optimistic,3,3,2,5,0,King County Library System,DSHS Basic Food (SNAP); King County Library System; Sound Transit; Washington Healthplanfinder; WashingtonLawHelp,0.0,0.4,0.1,0.05,0,0,0
+Auburn School District,German,1,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,1
+Kent School District,German,2,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.4,0.1,0.05,0,0,2
+Auburn School District,Oromo,1,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,0
+Highline School District,American Sign Language,1,optimistic,3,0,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,1,1
+Highline School District,Lao,2,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.4,0.1,0.05,0,0,0
+Highline School District,Romanian,1,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,0
+Highline School District,Tongan,2,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.4,0.1,0.05,0,0,0
+Federal Way School District,Japanese,2,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.4,0.1,0.05,0,0,0
+Federal Way School District,Lao,1,optimistic,3,3,2,3,0,Public Health Seattle and King County,DSHS Basic Food (SNAP); Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,0
+Federal Way School District,Romanian,1,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,0
+Federal Way School District,Tamil,1,optimistic,3,1,2,1,0,DSHS Basic Food (SNAP),DSHS Basic Food (SNAP),0.0,0.2,0.1,0.1,0,0,1
+Federal Way School District,Thai,2,optimistic,3,3,2,1,0,Public Health Seattle and King County,Public Health Seattle and King County,0.0,0.4,0.1,0.05,0,0,0
+Renton School District,German,2,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.4,0.1,0.05,0,0,2
+Tukwila School District,Hindi,1,optimistic,3,1,2,1,0,Washington Healthplanfinder,Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,1
+Tukwila School District,Romanian,1,optimistic,3,3,2,2,0,Public Health Seattle and King County,Public Health Seattle and King County; Washington Healthplanfinder,0.0,0.2,0.1,0.1,0,0,0
+Tukwila School District,Spanish,830,optimistic,3,3,3,12,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); Eastside Legal Assistance Program; International Community Health Services; King County Library System; NW Immigrant Rights Project,0.0,0.0,0.0,0.0,0,0,0
+Tukwila School District,Somali,131,optimistic,3,3,3,6,0,Tukwila School District,City of Tukwila; DSHS Basic Food (SNAP); King County Library System; Public Health Seattle and King County; Tukwila School District; Washington Healthplanfinder,0.0,0.0,0.0,0.0,0,0,0
+Tukwila School District,Burmese,78,optimistic,3,3,3,2,0,Public Health Seattle and King County,City of Tukwila; Public Health Seattle and King County,0.0,0.0,0.0,0.0,0,0,0
