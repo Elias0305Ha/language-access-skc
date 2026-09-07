@@ -196,12 +196,31 @@ This is not a quality opinion, it is an identification of what the page is. §5.
 
 A human translation that reads badly still meets the tier 3 test, which asks whether a human produced or reviewed it, not whether they did it well. Downgrading on quality would also introduce a bias worse than the one it removes: quality can only be judged in languages someone on the project reads, in practice Amharic. Penalising poor Amharic while unverifiable Punjabi, Khmer and Marshallese keep tier 3 would punish the one language subject to expert scrutiny.
 
-*Applications, 2026-09-05, both by native-speaker review:*
+*Applications so far, all Amharic, all by native-speaker review:*
 
-| Agency | Language | Verdict | Effect |
+| Date | Agency | Verdict | Effect |
 |---|---|---|---|
-| City of Burien | Amharic | `human` | tier 3 upheld |
-| King County | Amharic | `machine` | tier 3 → tier 1 |
+| 2026-09-05 | City of Burien | `human` | tier 3 upheld |
+| 2026-09-05 | King County | `machine` | tier 3 → tier 1 |
+| 2026-09-06 | Eastside Legal Assistance Program | `machine` | already tier 1, no change |
+| 2026-09-07 | **Washington Healthplanfinder** | **`human`, exemplar** | tier 3 upheld |
+
+**Two of four named Amharic offerings turned out to be machine output.** That ratio is the single most important number for interpreting every unverified tier 3 in this dataset.
+
+### 5.10.1 The reference case
+
+Washington Healthplanfinder is recorded as the project's **exemplar**. The native-speaker verdict was not merely "human" but "translated perfectly, surprisingly good, an example for everyone."
+
+What it does, concretely, and what every other agency could copy:
+
+- Genuine in-language body text, not a translated page title over English content
+- A translated PDF of the substantive document
+- A support phone number, with the instruction for using it written **in that language**
+- 26 languages, including Amharic, Dari, Tigrinya, Oromo, Pashto, Punjabi, Khmer, Lao and ASL
+
+This matters beyond scoring. Every other finding in this project describes a failure, and a reader can always answer a failure with "this is hard." The exemplar removes that answer. A Washington State agency serving the same residents, under the same budget rules, in the same languages, does it well.
+
+**So the gaps documented here are choices, not constraints.** Cite this row whenever that claim is made.
 
 Burien's Amharic pages cover the public safety levy, immigration resources and emergency information. Those are consequential documents in the same category as the school placement letters this project is built around, and no school district in the study area publishes their equivalent in Amharic.
 

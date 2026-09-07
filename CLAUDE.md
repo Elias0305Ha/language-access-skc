@@ -254,6 +254,29 @@ Highline's own homepage names Amharic, Punjabi, Arabic and Khmer among its most 
 
 That contradiction, inside one district's own website, is the sharpest single example in the dataset.
 
+## The exemplar, and why it matters more than any single gap
+
+**Washington Healthplanfinder** is the reference case for what adequate looks like. Native-speaker verdict on its Amharic, 2026-09-07: *"translated perfectly, surprisingly good, an example for everyone."*
+
+It publishes **26 languages**, each with genuine in-language text, a translated PDF, and the support number **1-855-923-4633** explained in that language. Amharic, Dari, Tigrinya, Oromo, Pashto, Punjabi, Khmer, Lao, Somali, ASL.
+
+Compare **DSHS form 14-001**, the food assistance application: **12 languages**. Same state, largely the same clients.
+
+**Use this in the memo.** Every other finding in the project describes a failure, and a failure can always be answered with "this is hard." The exemplar removes that answer. A Washington State agency, same budget rules, same residents, same languages, does it well. The gaps are therefore choices, not constraints.
+
+### The verification ratio
+
+Four Amharic offerings have been read by a native speaker:
+
+| Agency | Verdict |
+|---|---|
+| Washington Healthplanfinder | human, exemplary |
+| City of Burien | human |
+| King County | **machine** |
+| Eastside Legal Assistance Program | **machine** |
+
+**Two of four named Amharic offerings were machine output.** That ratio is how every unverified tier 3 in this dataset should be read, and it belongs in the README.
+
 ## Open items
 
 - Pick the memo recipient. King County Office of Equity and Social Justice, OSPI's multilingual education office, a city council, or a nonprofit. This changes which numbers lead and should be decided before Phase 4 finishes.
