@@ -2,7 +2,7 @@
 
 **To:** King County Language Access Program, Office of Equity and Social Justice
 `kcla@kingcounty.gov` · 206-477-6608
-**From:** Elias Hailu
+**From:** Elias Hakenso · Resident, SeaTac · `erdunoelias@gmail.com`
 **Date:** 2026-09-07
 **Attached:** public dataset, 51 agencies, 6,272 scored rows, every row with an evidence URL
 
