@@ -1,0 +1,24 @@
+city,district_name,district_geoid,pct_of_city_in_district
+Auburn,Auburn School District,5300300,89.4
+Auburn,Kent School District,5303960,5.1
+Auburn,Federal Way School District,5302820,3.7
+Burien,Highline School District,5303540,99.8
+Burien,Tukwila School District,5308130,0.2
+Des Moines,Highline School District,5303540,69.8
+Des Moines,Federal Way School District,5302820,30.2
+Federal Way,Federal Way School District,5302820,100.0
+Kent,Kent School District,5303960,84.6
+Kent,Federal Way School District,5302820,8.1
+Kent,Renton School District,5307230,3.3
+Kent,Highline School District,5303540,1.4
+Kent,Auburn School District,5300300,0.7
+Renton,Renton School District,5307230,92.9
+Renton,Kent School District,5303960,2.7
+SeaTac,Highline School District,5303540,95.8
+SeaTac,Kent School District,5303960,2.8
+SeaTac,Renton School District,5307230,0.7
+SeaTac,Tukwila School District,5308130,0.6
+Tukwila,Tukwila School District,5308130,57.1
+Tukwila,Renton School District,5307230,21.6
+Tukwila,Highline School District,5303540,5.3
+Tukwila,Kent School District,5303960,4.0
