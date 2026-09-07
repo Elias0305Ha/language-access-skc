@@ -1,0 +1,12 @@
+scenario,no_written_anywhere,no_local_document_optimistic,no_local_document_conservative,total_gap_score_optimistic,worst_language,second_worst,rank_corr_vs_baseline,top10_languages_shared_with_baseline
+baseline,393,1760,36611,3018.1,Spanish,Dari,1.0,10
+scope_flat_all_equal,393,1258,36343,3018.1,Spanish,Dari,1.0,10
+scope_steep_local_only,393,1760,36611,3018.1,Spanish,Dari,1.0,10
+trust_all_tier3,393,1760,1760,3018.1,Spanish,Dari,1.0,10
+assume_unverified_is_machine,393,1760,36611,3018.1,Spanish,Dari,1.0,10
+written_and_oral_equal,393,1760,36611,4287.3,Spanish,Dari,0.984,8
+written_only,393,1760,36611,1109.1,Turkish,Nepali,0.266,3
+oral_weighted_heavier,393,1760,36611,9591.3,Spanish,Dari,0.952,7
+tier2_counted_as_adequate,393,1760,36611,3018.1,Spanish,Dari,1.0,10
+city_overlap_any,376,1760,36611,2965.8,Spanish,Dari,0.999,9
+city_overlap_strict_25pct,393,1760,36611,3030.0,Spanish,Dari,1.0,10
