@@ -48,7 +48,9 @@ School-sector demand and supply, joined into a gap table.
 - 60-row supply inventory, six districts by top ten languages, every row carrying an evidence URL and capture date
 - Gap table reporting three separate measures
 
-**Headline result: 1,428 families have no written provision in their language.** Eleven district-language pairs score a flat 1.00 severity, meaning nothing written and nothing oral. Highline owns five of them.
+**Headline result: 1,428 families have no written provision in their language.** Eleven district-language pairs score a flat 1.00 severity, meaning nothing written and nothing oral. **Highline owns six of them**, Renton three, Federal Way two.
+
+*Corrected 2026-09-07: this note previously read "five" for Highline. Recounted from `outputs/gap_index_phase1.csv`: Highline 6 (Amharic, Pashto, French, Arabic, Tigrinya, Farsi), Renton 3, Federal Way 2.*
 
 ### Phase 2: complete
 

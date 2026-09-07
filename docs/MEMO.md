@@ -65,6 +65,8 @@ Across all seven sectors and 51 agencies measured, **393 families have no writte
 
 Physical service points tell the same story. **Kent School District has 962 Dari-speaking families and not one library branch or transit service point serving Dari.**
 
+The author lives in SeaTac, whose city website carries 6,719 pages and none in a language other than English, and inside Highline School District, which accounts for six of the eleven district-language pairs scoring maximum severity in this dataset. The Amharic quality checks in this project were made first-hand for that reason.
+
 ## Limitations, stated plainly
 
 - Demand comes from OSPI and therefore covers only households with a K-12 student. Adults without school-age children are not counted.
