@@ -304,6 +304,14 @@ python src/probe_agency_sites.py       # incremental
 python src/build_health_inventory.py
 ```
 
+Phase 4, gap index:
+
+```
+python src/build_master_inventory.py           # unify all 7 sectors
+python src/build_city_district_crosswalk.py    # spatial city <-> district
+python src/build_gap_index.py                  # the index, both readings
+```
+
 **Detection caveat carried forward.** Slug-based detection
 (`…/emergency_information_amharic`) is how governments name translated
 pages. Nonprofits often use locale path prefixes (`…/fa-af/…`) instead.
