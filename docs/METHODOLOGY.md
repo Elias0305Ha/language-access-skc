@@ -312,6 +312,8 @@ python src/build_city_district_crosswalk.py    # spatial city <-> district
 python src/build_gap_index.py                  # the index, both readings
 python src/compare_kc_tier_map.py              # the memo's central exhibit
 PYTHONPATH=src python src/sensitivity_analysis.py
+python src/fetch_transit_stops.py              # GTFS service points
+python src/build_access_map_layers.py          # map layers, access deserts
 ```
 
 **Detection caveat carried forward.** Slug-based detection

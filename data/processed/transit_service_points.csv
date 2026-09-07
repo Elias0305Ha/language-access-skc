@@ -1,0 +1,345 @@
+agency_id,agency_name,sector,location_id,location_name,location_type,lat,lon,gtfs_location_type,capture_date,source_url
+kcmetro,King County Metro,transit,kcmetro-10911,U District Station - Bay 3,transit_center_or_park_ride,47.6612053,-122.313477,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-11358,U District Station - Bay 2,transit_center_or_park_ride,47.6613388,-122.313614,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-16100,Aurora Village Transit Center - Bay 10,transit_center_or_park_ride,47.7742424,-122.342407,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-16101,Aurora Village Transit Center - Bay 1,transit_center_or_park_ride,47.7745056,-122.341988,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-16103,Aurora Village Transit Center - Bay 3,transit_center_or_park_ride,47.7745056,-122.340881,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-16430,Roosevelt Station - Bay 1,transit_center_or_park_ride,47.6757507,-122.316673,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-16440,Roosevelt Station - Bay 5,transit_center_or_park_ride,47.675457,-122.317467,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-21141,Olson-Myers Way Park And Ride,transit_center_or_park_ride,47.5196114,-122.336197,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-21945,Kent Des Moines Park And Ride,transit_center_or_park_ride,47.3917961,-122.287567,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-23421,Roosevelt Station - Bay 4,transit_center_or_park_ride,47.6767235,-122.317482,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-23561,Roosevelt Station - Bay 3,transit_center_or_park_ride,47.6771355,-122.315582,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-35317,Northgate Station - Bay 1,transit_center_or_park_ride,47.7028084,-122.328423,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-35318,Northgate Station - Bay 4,transit_center_or_park_ride,47.7023087,-122.328026,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-35319,Northgate Station - Bay 3,transit_center_or_park_ride,47.7015343,-122.328011,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-35911,Judkins Park Station - Bay 1,transit_center_or_park_ride,47.5901718,-122.307289,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-35922,Judkins Park Station - Bay 2,transit_center_or_park_ride,47.5906944,-122.307465,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-36940,Roosevelt Station - Bay 2,transit_center_or_park_ride,47.6758881,-122.315994,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-42576,Twin Lakes Park & Ride - Bay 2,transit_center_or_park_ride,47.2944527,-122.359009,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-42961,Kent Des Moines Station - Bay 5,transit_center_or_park_ride,47.3898811,-122.295448,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-45301,Renton Transit Center - Bay 5,transit_center_or_park_ride,47.4809074,-122.20813,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-45303,Renton Transit Center - Bay 6,transit_center_or_park_ride,47.4801102,-122.20813,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-45305,Renton Transit Center - Bay 7,transit_center_or_park_ride,47.4798775,-122.20813,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46463,Renton Transit Center - Bay 10,transit_center_or_park_ride,47.4800987,-122.207756,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46464,Renton Transit Center - Bay 9,transit_center_or_park_ride,47.4805031,-122.207756,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46465,Renton Transit Center - Bay 8,transit_center_or_park_ride,47.4809685,-122.207756,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46476,Renton Transit Center - Bay 1,transit_center_or_park_ride,47.4807777,-122.208786,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46477,Renton Transit Center - Bay 2,transit_center_or_park_ride,47.4807777,-122.208549,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46478,Renton Transit Center - Bay 3,transit_center_or_park_ride,47.4804993,-122.208717,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-46479,Renton Transit Center - Bay 4,transit_center_or_park_ride,47.4804993,-122.208199,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-50011,Kent Des Moines Station - Bay 2,transit_center_or_park_ride,47.3894539,-122.294586,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-50013,Kent Des Moines Station - Bay 4,transit_center_or_park_ride,47.3896065,-122.29528,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-50014,Kent Des Moines Station - Bay 3,transit_center_or_park_ride,47.389595,-122.294868,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-50479,Kent Des Moines Station - Bay 6,transit_center_or_park_ride,47.3891869,-122.295967,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-52303,Burien Transit Center - Bay 3,transit_center_or_park_ride,47.4701042,-122.337067,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-52304,Burien Transit Center - Bay 4,transit_center_or_park_ride,47.4696922,-122.337288,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-52305,Burien Transit Center - Bay 5,transit_center_or_park_ride,47.4697571,-122.337097,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-52306,Burien Transit Center - Bay 6,transit_center_or_park_ride,47.4694099,-122.337318,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-53504,Kent-Des Moines Freeway Station,transit_center_or_park_ride,47.3912544,-122.292152,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-53541,Star Lake Station & S 270th St - Bay 1,transit_center_or_park_ride,47.3592911,-122.297684,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-53542,Star Lake Station & S 270th St - Bay 2,transit_center_or_park_ride,47.3594398,-122.297592,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-55938,South Renton Park & Ride - Bay 2,transit_center_or_park_ride,47.4724579,-122.213127,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57451,Kent Sounder Station - Bay 1,transit_center_or_park_ride,47.3850517,-122.232689,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57452,Kent Sounder Station - Bay 2,transit_center_or_park_ride,47.3848267,-122.232704,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57453,Kent Sounder Station - Bay 3,transit_center_or_park_ride,47.3845291,-122.232689,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57455,Kent Sounder Station - Bay 5,transit_center_or_park_ride,47.3848038,-122.23246,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57458,Kent Sounder Station - Bay 8,transit_center_or_park_ride,47.3838806,-122.232483,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57459,Kent Sounder Station - Bay 9,transit_center_or_park_ride,47.3834305,-122.232483,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57773,Auburn Transit Center - Bay 1,transit_center_or_park_ride,47.3062248,-122.232079,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57774,Auburn Transit Center - Bay 2,transit_center_or_park_ride,47.3057899,-122.232079,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57775,Auburn Transit Center - Bay 3,transit_center_or_park_ride,47.3054886,-122.232079,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57776,Auburn Transit Center - Bay 4,transit_center_or_park_ride,47.3052406,-122.232086,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-57892,Auburn Park And Ride - Bay 1,transit_center_or_park_ride,47.3210411,-122.22802,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-59842,South Renton Park & Ride - Bay 1,transit_center_or_park_ride,47.47258,-122.213837,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-59881,Tukwila Station Acs & S Longacres Way - Bay 1,transit_center_or_park_ride,47.4608307,-122.240807,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-59882,Tukwila Station Acs & S Longacres Way - Bay 2,transit_center_or_park_ride,47.4603806,-122.241188,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-59904,South Renton Park & Ride - Bay 3,transit_center_or_park_ride,47.4721756,-122.212746,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-60921,Tukwila International Blvd Station - Bay 1,transit_center_or_park_ride,47.4642067,-122.288452,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-60922,Tukwila International Blvd Station - Bay 2,transit_center_or_park_ride,47.4640274,-122.287933,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-60923,Tukwila International Blvd Station - Bay 3,transit_center_or_park_ride,47.4639206,-122.287628,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64545,Issaquah Highlands Park & Ride - Bay 1,transit_center_or_park_ride,47.5459557,-122.020042,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64555,Issaquah Transit Center - Bay 2,transit_center_or_park_ride,47.5422783,-122.062302,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64561,Issaquah Highlands Park & Ride - Bay 4,transit_center_or_park_ride,47.5455666,-122.019287,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64566,Issaquah Highlands Park & Ride - Bay 3,transit_center_or_park_ride,47.5457039,-122.019318,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64579,Issaquah Transit Center - Bay 1,transit_center_or_park_ride,47.5426216,-122.062263,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64592,Issaquah Transit Center - Bay 5,transit_center_or_park_ride,47.5422478,-122.062225,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-64593,Issaquah Transit Center - Bay 4,transit_center_or_park_ride,47.5424728,-122.06221,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-67014,Eastgate Park & Ride - Bay 1,transit_center_or_park_ride,47.5805092,-122.152657,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-67015,Eastgate Park & Ride Acs & 140th Ave SE - Bay 2,transit_center_or_park_ride,47.5805054,-122.152008,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-67652,Bellevue Transit Center - Bay 9,transit_center_or_park_ride,47.615509,-122.194725,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-67655,Bellevue Transit Center - Bay 8,transit_center_or_park_ride,47.6155014,-122.194389,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68001,Bellevue Transit Center - Bay 11,transit_center_or_park_ride,47.6155205,-122.196152,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68003,Bellevue Transit Center - Bay 3,transit_center_or_park_ride,47.6155052,-122.195358,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68005,Bellevue Transit Center - Bay 5,transit_center_or_park_ride,47.6155014,-122.19426,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68006,Bellevue Transit Center - Bay 6,transit_center_or_park_ride,47.6154938,-122.193909,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68007,Bellevue Transit Center - Bay 12,transit_center_or_park_ride,47.6153603,-122.19619,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68085,Wilburton Station - Bay 2,transit_center_or_park_ride,47.6172333,-122.184837,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68398,Redmond Technology Station - Bay 7,transit_center_or_park_ride,47.6447792,-122.132393,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-68498,Redmond Technology Station Bay 8 - Bay 8,transit_center_or_park_ride,47.6439857,-122.132187,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-69021,Bellevue Transit Center - Bay 10,transit_center_or_park_ride,47.615509,-122.195724,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71326,152nd Ave NE & Overlake Park&Ride,transit_center_or_park_ride,47.633709,-122.137604,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71328,Overlake Park & Ride,transit_center_or_park_ride,47.6331596,-122.136086,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71331,Overlake Park & Ride,transit_center_or_park_ride,47.6329613,-122.137802,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71345,Redmond Technology Station Acs & 156th Ave NE - Bay 4,transit_center_or_park_ride,47.6444016,-122.133202,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71346,Redmond Technology Station Acs - Bay 5,transit_center_or_park_ride,47.6447296,-122.13327,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71347,Redmond Technology Station Acs & 156th Ave NE - Bay 6,transit_center_or_park_ride,47.6450005,-122.133324,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71951,Redmond Transit Center - Bay 3,transit_center_or_park_ride,47.6765976,-122.123665,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71954,Redmond Transit Center - Bay 6,transit_center_or_park_ride,47.6767349,-122.123993,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71960,Redmond Transit Center - Bay 5,transit_center_or_park_ride,47.6768913,-122.124428,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-71961,Redmond Transit Center - Bay 4,transit_center_or_park_ride,47.6767311,-122.12513,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-72477,Downtown Redmond Station - Bay 2,transit_center_or_park_ride,47.6715317,-122.11834,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-72478,Downtown Redmond Station - Bay 3,transit_center_or_park_ride,47.6720924,-122.119255,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-72479,Downtown Redmond Station - Bay 4,transit_center_or_park_ride,47.6723862,-122.120308,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-72492,Marymoor Village Station - Bay 2,transit_center_or_park_ride,47.6677933,-122.107521,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-72494,Marymoor Village Station - Bay 4,transit_center_or_park_ride,47.6678581,-122.1073,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-73227,Redmond Transit Center - Bay 1,transit_center_or_park_ride,47.6765938,-122.124939,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-73812,Kirkland Transit Center - Bay 1,transit_center_or_park_ride,47.6763,-122.203323,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-73814,Kirkland Transit Center - Bay 2,transit_center_or_park_ride,47.6768913,-122.203346,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-73816,Kirkland Transit Center - Bay 3,transit_center_or_park_ride,47.6758537,-122.203468,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-73818,Kirkland Transit Center - Bay 4,transit_center_or_park_ride,47.6765175,-122.203552,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-74230,Totem Lake Transit Center - Bay 3,transit_center_or_park_ride,47.7143059,-122.17981,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-74232,Totem Lake Transit Center - Bay 2,transit_center_or_park_ride,47.7145042,-122.180359,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-74234,Totem Lake Transit Center - Bay 1,transit_center_or_park_ride,47.7146454,-122.180496,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-74450,South Kirkland Park & Ride,transit_center_or_park_ride,47.6438522,-122.196693,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-74721,Kingsgate Park & Ride,transit_center_or_park_ride,47.7164536,-122.187599,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-75992,Woodinville Park And Ride,transit_center_or_park_ride,47.757122,-122.151436,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-75995,Woodinville Park And Ride,transit_center_or_park_ride,47.7567825,-122.151398,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-76372,NE Bothell Way & Kenmore Park & Ride,transit_center_or_park_ride,47.7571831,-122.241859,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-76374,Kenmore Park & Ride & NE Bothell Way,transit_center_or_park_ride,47.7584076,-122.241295,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-76376,Kenmore Park & Ride & 73rd Ave NE,transit_center_or_park_ride,47.759201,-122.243057,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81243,Shoreline North/185th Station - Bay 3,transit_center_or_park_ride,47.7642708,-122.322342,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81245,Shoreline North/185th Station - Bay 4,transit_center_or_park_ride,47.7637901,-122.322464,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81299,Shoreline South/148th Station - Bay 1,transit_center_or_park_ride,47.7367439,-122.325256,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81301,Shoreline South/148th Station - Bay 2,transit_center_or_park_ride,47.7361488,-122.325119,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81303,Shoreline South/148th Station - Bay 3,transit_center_or_park_ride,47.7357445,-122.324867,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81755,Bear Creek Park And Ride,transit_center_or_park_ride,47.6736107,-122.10096,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-81982,Van Ry Blvd & Mountlake Terrace Station,transit_center_or_park_ride,47.7812538,-122.315254,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-82687,I-405 & Totem Lake Freeway Station - Bay 1,transit_center_or_park_ride,47.7153549,-122.185791,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-82878,I-405 & Totem Lake Freeway Station - Bay 2,transit_center_or_park_ride,47.7154274,-122.185509,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-8401,Rainier Ave S & Mount Baker Transit Center - Bay 1,transit_center_or_park_ride,47.577507,-122.297401,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-8402,Mount Baker Transit Center - Bay 2,transit_center_or_park_ride,47.5775909,-122.297127,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-8403,Mount Baker Transit Center - Bay 3,transit_center_or_park_ride,47.5776863,-122.297073,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-84263,South Bellevue Station Bus Plaza - Bay 1,transit_center_or_park_ride,47.5867043,-122.190422,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-84264,South Bellevue Station Bus Plaza - Bay 2,transit_center_or_park_ride,47.5869598,-122.19059,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-84292,South Bellevue Station Bus Plaza - Bay 3,transit_center_or_park_ride,47.5869789,-122.19133,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85254,Mountlake Terrace Station - Bay 1,transit_center_or_park_ride,47.7855072,-122.31501,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85531,Federal Way Downtown Station - Bay 1,transit_center_or_park_ride,47.3170509,-122.303543,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85532,Federal Way Downtown Station - Bay 2,transit_center_or_park_ride,47.3168335,-122.30368,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85538,Federal Way Downtown Station - Bay 8,transit_center_or_park_ride,47.3166771,-122.303558,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85539,Federal Way Downtown Station - Bay 9,transit_center_or_park_ride,47.3169327,-122.303398,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85540,Federal Way Downtown Station - Bay 10,transit_center_or_park_ride,47.3171043,-122.303299,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85541,Federal Way Downtown Station - Bay 11,transit_center_or_park_ride,47.316452,-122.30323,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85542,Federal Way Downtown Station - Bay 12,transit_center_or_park_ride,47.3151779,-122.305496,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85543,Federal Way Downtown Station - Bay 13,transit_center_or_park_ride,47.3150368,-122.30439,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-85630,Bellevue Transit Center - Bay 1,transit_center_or_park_ride,47.6156883,-122.196411,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-9134,U District Station - Bay 4,transit_center_or_park_ride,47.6600723,-122.313255,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-9582,U District Station - Bay 5,transit_center_or_park_ride,47.6596832,-122.313065,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-9587,U District Station - Bay 1,transit_center_or_park_ride,47.6598778,-122.314117,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+kcmetro,King County Metro,transit,kcmetro-98750,Redmond Transit Center - Bay 2,transit_center_or_park_ride,47.6765938,-122.124161,0,2026-09-07,https://metro.kingcounty.gov/GTFS/google_transit.zip
+sound_transit,Sound Transit,transit,sound_transit-C03,Westlake,station,47.611572,-122.33672,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00001,Westlake Station Entrance A1,transit_center_or_park_ride,47.61202,-122.335911,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00002,Westlake Station Entrance A2 Elevator,transit_center_or_park_ride,47.611883,-122.336856,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00003,Westlake Station Entrance B,transit_center_or_park_ride,47.611551,-122.337323,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00004,Westlake Station Entrance C1,transit_center_or_park_ride,47.610987,-122.338358,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00005,Westlake Station Entrance C2,transit_center_or_park_ride,47.610822,-122.338292,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00006,Westlake Station Entrance A1 Elevator,transit_center_or_park_ride,47.61193,-122.336606,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00007,Westlake Station Entrance C2 Elevator,transit_center_or_park_ride,47.610987,-122.337915,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C03-E-00008,Westlake Station Entrance C1 Elevator,transit_center_or_park_ride,47.611126,-122.338028,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C05,Symphony,station,47.60781,-122.33602,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C05-E-00001,Symphony Station Entrance A1,transit_center_or_park_ride,47.607918,-122.335873,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C05-E-00002,Symphony Station Entrance A2,transit_center_or_park_ride,47.607829,-122.336208,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C05-E-00003,Symphony Station Entrance B,transit_center_or_park_ride,47.607651,-122.336886,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C05-E-00004,Symphony Station Entrance C,transit_center_or_park_ride,47.607111,-122.335548,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07,Pioneer Square,station,47.60256,-122.331216,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07-E-00001,Pioneer Square Station Entrance A Elevator at 3rd Avenue,transit_center_or_park_ride,47.602995,-122.331479,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07-E-00002,Pioneer Square Station Entrance A Escalator at Cherry Street,transit_center_or_park_ride,47.603318,-122.331742,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07-E-00003,Pioneer Square Station Entrance B James Street,transit_center_or_park_ride,47.602642,-122.331904,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07-E-00004,Pioneer Square Station Entrance C Elevator at 3rd Ave/Prefontaine Park,transit_center_or_park_ride,47.601977,-122.330945,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C07-E-00005,Pioneer Square Station Entrance C Stairs at Yesler Way,transit_center_or_park_ride,47.601837,-122.331234,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C09,Int'l Dist/Chinatown,station,47.598355,-122.327992,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C09-E-00001,International District Station Entrance A northeast,transit_center_or_park_ride,47.598962,-122.3279,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C09-E-00002,International District Station Entrance A northwest,transit_center_or_park_ride,47.598961,-122.328137,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C09-E-00003,International District Station Entrance B southeast,transit_center_or_park_ride,47.598137,-122.327875,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C09-E-00004,International District Station Entrance B southwest,transit_center_or_park_ride,47.598139,-122.328135,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C13,Stadium,station,47.591108,-122.327172,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C13-E-00001,Stadium Station Entrance,transit_center_or_park_ride,47.592231,-122.327185,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C15,SODO,station,47.581074,-122.32739,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C15-E-00003,SODO Station East Entrance,transit_center_or_park_ride,47.580625,-122.32729,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C15-E-00004,SODO Station West Entrance,transit_center_or_park_ride,47.580625,-122.327475,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C19,Beacon Hill,station,47.579328,-122.311533,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C19-E-00001,Beacon Hill Station Entrance,transit_center_or_park_ride,47.579273,-122.311854,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C23,Mount Baker,station,47.57655,-122.297679,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C23-E-00001,Mount Baker Station East Entrance,transit_center_or_park_ride,47.576716,-122.297689,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C23-E-00002,Mount Baker Station North Entrance,transit_center_or_park_ride,47.57705,-122.298069,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C23-E-00003,Mount Baker Station South Entrance,transit_center_or_park_ride,47.576085,-122.297331,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C23-E-00004,Mount Baker Station West Entrance,transit_center_or_park_ride,47.576541,-122.297849,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C25,Columbia City,station,47.559733,-122.292692,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C25-E-00001,Columbia City Station North Entrance,transit_center_or_park_ride,47.560662,-122.29337,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C25-E-00002,Columbia City Station North Entrance,transit_center_or_park_ride,47.560662,-122.293214,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C25-E-00003,Columbia City Station South Entrance,transit_center_or_park_ride,47.558818,-122.292203,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C25-E-00004,Columbia City Station South Entrance,transit_center_or_park_ride,47.558836,-122.292059,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C27,Othello,station,47.537987,-122.281563,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C27-E-00001,Othello Station North Entrance,transit_center_or_park_ride,47.538737,-122.282037,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C27-E-00002,Othello Station North Entrance,transit_center_or_park_ride,47.538749,-122.281893,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C27-E-00003,Othello Station South Entrance,transit_center_or_park_ride,47.537269,-122.28128,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C27-E-00004,Othello Station South Entrance,transit_center_or_park_ride,47.537271,-122.281127,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C29,Rainier Beach,station,47.522394,-122.279391,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C29-E-00001,Rainier Beach Station Entrance,transit_center_or_park_ride,47.523099,-122.279212,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C35,Tukwila Int'l Blvd,station,47.464031,-122.287996,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C35-E-00001,Tukwila International Blvd Station Entrance,transit_center_or_park_ride,47.464192,-122.288005,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-C37,SeaTac/Airport,station,47.445381,-122.296898,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E01,Judkins Park,station,47.590299,-122.304508,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E07,Mercer Island,station,47.588198,-122.233232,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E09,South Bellevue,station,47.586556,-122.190396,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E09-E-00001,South Bellevue Station Entrance A,transit_center_or_park_ride,47.586996,-122.190532,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E09-E-00002,South Bellevue Station Entrance B,transit_center_or_park_ride,47.585996,-122.189886,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E11,East Main,station,47.608188,-122.191147,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E11-E-00001,East Main Station Entrance A,transit_center_or_park_ride,47.608673,-122.191096,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E11-E-00002,East Main Station Entrance B,transit_center_or_park_ride,47.607464,-122.19102,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E15,Bellevue Downtown,station,47.615223,-122.192084,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E15-E-00001,Bellevue Downtown Station Entrance A,transit_center_or_park_ride,47.615227,-122.191039,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E15-E-00002,Bellevue Downtown Station Entrance B1 stairs and escalator,transit_center_or_park_ride,47.615303,-122.192746,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E15-E-00003,Bellevue Downtown Station Entrance B2 Elevators,transit_center_or_park_ride,47.615414,-122.192906,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E15-E-00004,Bellevue Downtown Station Entrance B2 Elevators,transit_center_or_park_ride,47.615183,-122.1929,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E19,Wilburton,station,47.617967,-122.183762,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E19-E-00001,Wilburton Station Entrance A,transit_center_or_park_ride,47.618459,-122.183932,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E19-E-00002,Wilburton Station Entrance B,transit_center_or_park_ride,47.617474,-122.183918,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E21,Spring District,station,47.623773,-122.178573,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E21-E-00001,Spring District Station Entrance A1 Elevator North,transit_center_or_park_ride,47.623845,-122.178595,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E21-E-00002,Spring District Station Entrance A2 North,transit_center_or_park_ride,47.623845,-122.178595,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E21-E-00003,Spring District Station Entrance A2 South,transit_center_or_park_ride,47.62376,-122.178299,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E21-E-00004,Spring District Station Entrance A1 Elevator South,transit_center_or_park_ride,47.62376,-122.178299,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E23,BelRed,station,47.624448,-122.16564,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E23-E-00001,BelRed Station Entrance A,transit_center_or_park_ride,47.624493,-122.164668,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E23-E-00002,BelRed Station Entrance A,transit_center_or_park_ride,47.624392,-122.16467,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E23-E-00003,BelRed Station Entrance B,transit_center_or_park_ride,47.624512,-122.166857,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E23-E-00004,BelRed Station Entrance B,transit_center_or_park_ride,47.624414,-122.166859,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E25,Overlake Village,station,47.63631,-122.13892,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E25-E-00001,Overlake Village Station Entrance A,transit_center_or_park_ride,47.636713,-122.138212,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E25-E-00002,Overlake Village Station Entrance B,transit_center_or_park_ride,47.635823,-122.139506,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E27,Redmond Technology,station,47.644842,-122.133628,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E27-E-00001,Redmond Technology Station Entrance A,transit_center_or_park_ride,47.645542,-122.133635,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E27-E-00002,Redmond Technology Station Entrance B1,transit_center_or_park_ride,47.644179,-122.133521,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E27-E-00003,Redmond Technology Station Entrance B2,transit_center_or_park_ride,47.643996,-122.133475,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E27-E-00004,Redmond Technology Station Entrance C,transit_center_or_park_ride,47.64405,-122.133445,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E29,Marymoor Village,station,47.667263,-122.1098,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-E31,Downtown Redmond,station,47.671645,-122.11848,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS16440,Roosevelt Station - Bay 5,transit_center_or_park_ride,47.675457,-122.317467,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS23561,Roosevelt Station - Bay 3,transit_center_or_park_ride,47.677135,-122.315582,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS35318,Northgate Station - Bay 4,transit_center_or_park_ride,47.702309,-122.328026,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS9587,U District Station - Bay 1,transit_center_or_park_ride,47.659878,-122.314117,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_C35_T1,Tukwila Intl Blvd Station Bay 2,transit_center_or_park_ride,47.464027,-122.287933,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_C35_T2,Tukwila Intl Blvd Station Bay 3,transit_center_or_park_ride,47.463921,-122.287628,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E07_T1,Mercer Island Station - Bay 1,transit_center_or_park_ride,47.588642,-122.232317,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E09_T1,South Bellevue Station Bus Plaza - Bay 1,transit_center_or_park_ride,47.586687,-122.19043,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E09_T2,South Bellevue Station Bus Plaza - Bay 3,transit_center_or_park_ride,47.587005,-122.191327,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E27_T1,Redmond Technology Station Bay 4,transit_center_or_park_ride,47.644391,-122.133148,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E27_T2,Redmond Technology Station Bay 5,transit_center_or_park_ride,47.644569,-122.133036,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E29_T1,Marymoor Village Station Bay 4,transit_center_or_park_ride,47.667849,-122.107281,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E29_T2,Marymoor Village Station Bay 2,transit_center_or_park_ride,47.667787,-122.107527,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E31_T1,Downtown Redmond Station Bay 3,transit_center_or_park_ride,47.672103,-122.119262,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_E31_T2,Downtown Redmond Station Bay 2,transit_center_or_park_ride,47.671521,-122.118354,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N11_T1,Northgate Station Bay 2,transit_center_or_park_ride,47.702012,-122.328377,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N11_T2,Northgate Station Bay 4,transit_center_or_park_ride,47.702307,-122.327992,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N15_T1,Shoreline South/148th Station Bay 3,transit_center_or_park_ride,47.735717,-122.324873,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N15_T2,Shoreline South/148th Station Bay 2,transit_center_or_park_ride,47.736055,-122.325088,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N17_T1,Shoreline North/185th Station Bay 1,transit_center_or_park_ride,47.76383,-122.322712,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N17_T2,Shoreline North/185th Station Bay 3,transit_center_or_park_ride,47.764084,-122.322414,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N19_T1,Mountlake Terrace Fwy Station Bay 7,transit_center_or_park_ride,47.787566,-122.316282,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N19_T2,Mountlake Terrace Fwy Station Bay 6,transit_center_or_park_ride,47.78723,-122.316408,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N23_T1,Lynnwood City Center Station Bay A5,transit_center_or_park_ride,47.816293,-122.295833,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_N23_T2,Lynnwood City Center Station Bay D3,transit_center_or_park_ride,47.815878,-122.296312,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_S03_T1,Kent Des Moines Station - Bay 2,transit_center_or_park_ride,47.389469,-122.294583,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_S03_T2,Kent Des Moines Station - Bay 3,transit_center_or_park_ride,47.389587,-122.294833,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_S05_T1,Star Lake Station - Bay 1,transit_center_or_park_ride,47.359421,-122.297804,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-LS_S05_T2,Star Lake Station - Bay 4,transit_center_or_park_ride,47.35915,-122.297231,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N03,Capitol Hill,station,47.61906,-122.320195,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N03-E-00001,Capitol Hill Station Broadway Entrance,transit_center_or_park_ride,47.618426,-122.321062,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N03-E-00002,Capitol Hill Station Broadway/E John St Entrance,transit_center_or_park_ride,47.619784,-122.320597,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N03-E-00003,Capitol Hill Station E Denny Way Entrance,transit_center_or_park_ride,47.618634,-122.320275,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N05,Univ of Washington,station,47.649815,-122.303763,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N05-E-00001,University of Washington Station Center Entrance,transit_center_or_park_ride,47.649847,-122.303788,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N05-E-00002,University of Washington Station Center Entrance,transit_center_or_park_ride,47.649877,-122.303943,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N05-E-00003,University of Washington Station North Entrance at pedestrian bridge,transit_center_or_park_ride,47.649965,-122.303864,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N05-E-00004,University of Washington Station South Entrance,transit_center_or_park_ride,47.649666,-122.303938,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N07,U District,station,47.660301,-122.314132,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N07-E-00001,U District Station Entrance A,transit_center_or_park_ride,47.660794,-122.314171,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N07-E-00002,U District Station Entrance B,transit_center_or_park_ride,47.659893,-122.314026,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N07-E-00003,U District Station Entrance B,transit_center_or_park_ride,47.660005,-122.31419,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N09,Roosevelt,station,47.676595,-122.315976,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N09-E-00001,Roosevelt Station Entrance A,transit_center_or_park_ride,47.677141,-122.315893,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N09-E-00002,Roosevelt Station Entrance B,transit_center_or_park_ride,47.676058,-122.315877,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N11,Northgate,station,47.703028,-122.32829,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N11-E-00001,Northgate Station Entrance A,transit_center_or_park_ride,47.703391,-122.328258,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N11-E-00002,Northgate Station Entrance B1,transit_center_or_park_ride,47.702793,-122.32834,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N11-E-00003,Northgate Station Entrance B2,transit_center_or_park_ride,47.70232,-122.328125,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N11-E-00005,Northgate Station Elevator Entrance,transit_center_or_park_ride,47.702624,-122.32828,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N13,Pinehurst,station,47.724043,-122.323851,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N15,Shoreline South/148th,station,47.736095,-122.325227,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N15-E-00001,Shoreline South/148th Station Entrance A,transit_center_or_park_ride,47.736453,-122.32547,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N15-E-00002,Shoreline South/148th Station Entrance B,transit_center_or_park_ride,47.735736,-122.325016,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17,Shoreline North/185th,station,47.764067,-122.322889,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00001,Shoreline North/185th Station Entrance A,transit_center_or_park_ride,47.764844,-122.322616,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00002,Shoreline North/185th Station Entrance A,transit_center_or_park_ride,47.764843,-122.322847,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00003,Shoreline North/185th Station Entrance A1,transit_center_or_park_ride,47.764796,-122.322669,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00004,Shoreline North/185th Station Entrance B,transit_center_or_park_ride,47.763482,-122.322953,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00005,Shoreline North/185th Station Entrance B,transit_center_or_park_ride,47.763499,-122.323118,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N17-E-00006,Shoreline North/185th Station Entrance B1,transit_center_or_park_ride,47.763605,-122.322914,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N19,Mountlake Terrace,station,47.785057,-122.314788,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N19-E-00001,Mountlake Terrace Station Entrance A,transit_center_or_park_ride,47.785316,-122.3148,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N19-E-00002,Mountlake Terrace Station Entrance B,transit_center_or_park_ride,47.784626,-122.314791,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N23,Lynnwood City Center,station,47.815637,-122.294779,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N23-E-00001,Lynnwood City Center Station Entrance A,transit_center_or_park_ride,47.815848,-122.294404,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-N23-E-00002,Lynnwood City Center Station Entrance B,transit_center_or_park_ride,47.815292,-122.295357,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S01,Angle Lake,station,47.422703,-122.297714,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S01-E-00001,Angle Lake Station North Entrance,transit_center_or_park_ride,47.42309,-122.297838,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S01-E-00002,Angle Lake Station South Entrance,transit_center_or_park_ride,47.422264,-122.297765,2,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S03,Kent Des Moines,station,47.389552,-122.294399,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S05,Star Lake,station,47.359388,-122.297391,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S07,Federal Way Downtown,station,47.315903,-122.303829,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SN02,Edmonds Station,station,47.811152,-122.384373,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SN03,Mukilteo Station,station,47.94837,-122.301052,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SN04,Everett Station,station,47.974947,-122.197257,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS01,King Street Station,station,47.597702,-122.329456,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS02,Tukwila Sounder Station,station,47.460199,-122.24043,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS03,Kent Sounder Station,station,47.384154,-122.233033,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS04,Auburn Station,station,47.306411,-122.232257,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS05,Sumner Station,station,47.201287,-122.244813,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS06,Puyallup Station,station,47.192717,-122.295675,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS07,Tacoma Dome Station,station,47.239571,-122.427024,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS08,South Tacoma Station,station,47.203491,-122.485552,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-SS09,Lakewood Station,station,47.153189,-122.499103,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_AU_NB,Auburn Station,transit_center_or_park_ride,47.306299,-122.232137,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_AU_SB,Auburn Station,transit_center_or_park_ride,47.306299,-122.232375,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_ED,Edmonds Station,transit_center_or_park_ride,47.811152,-122.384373,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_EV,Everett Station,transit_center_or_park_ride,47.974947,-122.197257,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_KE_NB,Kent Sounder Station,transit_center_or_park_ride,47.384022,-122.232903,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_KE_SB,Kent Sounder Station,transit_center_or_park_ride,47.384257,-122.233151,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_KS,King Street Station,transit_center_or_park_ride,47.597702,-122.329456,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_KS_T3,King Street Station,transit_center_or_park_ride,47.597722,-122.329503,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_KS_T9,King Street Station,transit_center_or_park_ride,47.597694,-122.329909,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_LW,Lakewood Station,transit_center_or_park_ride,47.153189,-122.499103,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_MU,Mukilteo Station,transit_center_or_park_ride,47.94911,-122.29903,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_MU_T2,Mukilteo Station,transit_center_or_park_ride,47.949061,-122.298703,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_PU_NB,Puyallup Station,transit_center_or_park_ride,47.192634,-122.295644,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_PU_SB,Puyallup Station,transit_center_or_park_ride,47.192736,-122.295349,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_ST,South Tacoma Station,transit_center_or_park_ride,47.203491,-122.485552,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_SU_NB,Sumner Station,transit_center_or_park_ride,47.201418,-122.244497,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_SU_SB,Sumner Station,transit_center_or_park_ride,47.201218,-122.245037,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_TD,Tacoma Dome Station,transit_center_or_park_ride,47.239443,-122.428193,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_TD_T2,Tacoma Dome Station,transit_center_or_park_ride,47.239378,-122.42787,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_TK_NB,Tukwila Sounder Station,transit_center_or_park_ride,47.460527,-122.240293,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-S_TK_SB,Tukwila Sounder Station,transit_center_or_park_ride,47.460432,-122.240507,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T05,Union Station,station,47.244865,-122.436623,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T05-T1,Union Station,transit_center_or_park_ride,47.244915,-122.436616,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T05-T2,Union Station,transit_center_or_park_ride,47.24477,-122.436628,0,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T07,Convention Center,station,47.249496,-122.438552,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T09,Theater District,station,47.252534,-122.439239,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T13,Old City Hall,station,47.257746,-122.440421,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T15,S 4th,station,47.261319,-122.442723,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T17,Stadium District,station,47.263869,-122.448999,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T19,Tacoma General,station,47.260083,-122.453564,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T21,6th Ave,station,47.256925,-122.452848,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T23,Hilltop District,station,47.251758,-122.451665,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
+sound_transit,Sound Transit,transit,sound_transit-T25,St Joseph,station,47.24528,-122.450187,1,2026-09-07,https://gtfs.sound.obaweb.org/prod/40_gtfs.zip
