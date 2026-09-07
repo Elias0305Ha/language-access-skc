@@ -277,9 +277,40 @@ Four Amharic offerings have been read by a native speaker:
 
 **Two of four named Amharic offerings were machine output.** That ratio is how every unverified tier 3 in this dataset should be read, and it belongs in the README.
 
+## The memo recipient: decided 2026-09-07
+
+**King County Language Access Program**, Office of Equity and Social Justice.
+Intake: `kcla@kingcounty.gov`, 206-477-6608.
+
+**Why them, and not OSPI or a city.** They administer **King County Code Chapter 2.15**, which is law, not policy. KCC 2.15.030.B requires every King County agency to hold a Language Assistance Plan covering *"translation of webpages, automated phone messages, and informational signage"* into the County's top six languages, based on the County's tier map.
+
+The findings land on that clause by clause:
+
+| KCC 2.15.030.B requires | Measured in this project |
+|---|---|
+| translation of **webpages** | Seven King County locale paths (`/es-ES`, `/so-SO`, …) serve English content; 71 of 77 sampled pairs byte-identical to English. Its Amharic is machine translation, native-speaker verified. |
+| **automated phone messages** | Metro's interpreter line is option 1 on the general call centre number, advertised in English only, and closed weekends and holidays. |
+| informational signage | **Not measurable by this method. Say so explicitly.** |
+
+So the ask is not "please care." It is "here is a measured compliance gap in your own code, with evidence URLs."
+
+### What this scopes IN and OUT, stated honestly
+
+King County has authority over **Metro, Public Health, DCHS, DJA** and county contractors. It does **not** control the six school districts, the eight cities, DSHS, or WashingtonLawHelp.
+
+So the memo structure is:
+1. **Lead with King County's own agencies.** These are the compliance findings.
+2. **Use the other sectors as regional context**, showing the county is neither an outlier nor a leader.
+3. **Close with Washington Healthplanfinder as the model**, deliberately a *state* agency so the comparison is not a peer insult, and one whose Amharic a native speaker called exemplary.
+
+### Phase 4 tasks this creates
+
+- **Find the County's "tier map" and its top six languages.** If the top six do not match measured need in South King County, that is a finding against the ordinance's own benchmark. Not yet located; not on the language access page or in the sitemap.
+- **Locate published Language Assistance Plans** for Metro and Public Health. KCC 2.15.030.B requires them to exist.
+- Rank the gap index with King County agencies separable from the rest.
+
 ## Open items
 
-- Pick the memo recipient. King County Office of Equity and Social Justice, OSPI's multilingual education office, a city council, or a nonprofit. This changes which numbers lead and should be decided before Phase 4 finishes.
 - Archive evidence URLs at web.archive.org for the rows the memo names.
 - `DATA_DICTIONARY.md` written 2026-09-05. Keep it current as each sector lands.
 - Bring `school_inventory.csv` onto the library schema: add `agency_id` and `assignment_method='manual'`. Additive, no rescoring.
