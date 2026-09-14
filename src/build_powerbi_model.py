@@ -137,8 +137,13 @@ MEASURES = r"""// Power BI measures for Language Access in South King County
 Families =
 SUM ( dim_language[families_total] )
 
+// fact_gap stores every district-language pair TWICE, once per reading.
+// A bare SUM therefore double counts: 73,550 against a true 36,775.
+// Family counts are identical in both readings (the reading column changes
+// how provision is scored, not how many people exist), so either filter is
+// correct; filtering is simply how the double count is stopped.
 Families in Selection =
-SUM ( fact_gap[families] )
+CALCULATE ( SUM ( fact_gap[families] ), fact_gap[reading] = "optimistic" )
 
 // ---------- provision ----------
 // A tier 3 is a human-translated document. Everything below it is a
@@ -192,11 +197,32 @@ CALCULATE (
     fact_gap[reading] = "conservative"
 )
 
-// The honest headline: a range, not a point estimate.
+// DO NOT put this on a card as the headline. It spans 1,760 to 36,611,
+// which is 5% to 99.6% of the study population, and a range that wide
+// reads as "no idea" rather than "careful". Keep it for a tooltip or an
+// appendix, and show the two numbers separately on the page instead.
+// See BUILD_GUIDE, Page 1.
 No Local Document Range =
 VAR Lo = [Families With No Local Document (Optimistic)]
 VAR Hi = [Families With No Local Document (Conservative)]
 RETURN FORMAT ( Lo, "#,0" ) & " to " & FORMAT ( Hi, "#,0" ) & " families"
+
+// The two facts the range was trying to compress, stated separately.
+// One is a measurement; the other is an uncertainty. They are different
+// kinds of thing and a single card cannot carry both.
+Tier 3 Claims =
+CALCULATE ( COUNTROWS ( fact_provision ), fact_provision[written_tier] = 3 )
+
+Tier 3 Claims Verified =
+CALCULATE (
+    COUNTROWS ( fact_provision ),
+    fact_provision[written_tier] = 3,
+    fact_provision[tier_verified] = "verified_human"
+)
+
+Verification Status =
+FORMAT ( [Tier 3 Claims] - [Tier 3 Claims Verified], "#,0" )
+    & " of " & FORMAT ( [Tier 3 Claims], "#,0" ) & " never read"
 
 // ---------- access ----------
 Service Points =

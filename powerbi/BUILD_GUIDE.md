@@ -118,17 +118,32 @@ chart below.
 **Stat tiles** (visual type: **Card**). No chart, because a single number does not
 need a plot.
 
-| Card | Measure |
-|---|---|
-| Families measured | `Families in Selection` |
-| No written provision anywhere | `Families With No Written Provision` |
-| No local document | `No Local Document Range` |
-| Tier-3 claims unverified | `Unverified Tier 3 Share` |
+| Card | Measure | Shows |
+|---|---|---|
+| Families measured | `Families in Selection` | 36,775 |
+| No written provision anywhere | `Families With No Written Provision` | 393 |
+| No local translated document | `Families With No Local Document (Optimistic)` | 1,760 |
+| Tier-3 claims never read | `Verification Status` | 153 of 155 |
 
-The third card deliberately shows a **range**, not a number. If a reviewer asks
-why, the answer is that 153 of 155 tier-3 claims have never been read by someone
-who reads the language, so a single number would be false precision. Put that
-sentence in a text box under the card.
+**Do not put `No Local Document Range` on a card.** It reads
+*"1,760 to 36,611 families"*, which is 5% to 99.6% of the study population. A
+range that wide does not communicate care, it communicates that nothing is
+known, and it hides the mechanism that produces it.
+
+The two facts it was trying to compress are different kinds of thing, so give
+each its own card. Card three is a **measurement**: if every claim of a
+translated document is accurate, 1,760 families still have none locally. Card
+four is an **uncertainty**: almost none of those claims has been checked.
+
+Then one text box, directly beneath, saying how they connect:
+
+> 153 of the 155 claimed human-translated documents have never been read by
+> someone who reads that language. Of the four that were checked, two turned out
+> to be machine translation. If unverified claims are set aside entirely, the
+> 1,760 figure rises to 36,611.
+
+That paragraph is the honest version. It gives the reader the low number, the
+reason to doubt it, and the high number, in that order, and it stays legible.
 
 **Chart** (visual type: **Clustered bar chart**, horizontal):
 - Y axis: `dim_language[language]`
@@ -223,6 +238,7 @@ columns district, language, families, sorted descending.
 - No chart has two y-axes anywhere.
 - Every colour means the same thing on every page.
 - Every visual using the aqua has data labels turned on.
-- Both the optimistic and conservative numbers appear somewhere on page 1. Never
-  publish one without the other.
+- Page 1 carries the measured figure (1,760), the verification count
+  (153 of 155), and the text box that connects them. Never the optimistic
+  number alone, and never the raw range on a card.
 - The access-desert caveat text box is present on page 4.
