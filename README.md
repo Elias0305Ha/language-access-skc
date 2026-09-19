@@ -2,7 +2,12 @@
 
 **Where do people speak a language at home that the public services around them do not actually serve?**
 
-![Language Access in South King County dashboard](images/page1-what-the-data-says.png)
+| | |
+|---|---|
+| ![What the data says](images/page1-what-the-data-says.png) | ![The ordinance](images/page2-the-ordinance.png) |
+| ![Who provides what](images/page3-who-provides-what.png) | ![Where you can walk in](images/page4-where-you-can-walk-in.png) |
+
+*Four pages: the headline figures, the ordinance exhibit, the cross-sector matrix, and the access-desert map.*
 
 This project answers that question for six school districts in South King County, Washington, by measuring two things separately and then subtracting one from the other:
 
@@ -10,25 +15,6 @@ This project answers that question for six school districts in South King County
 - **Supply.** 51 public agencies across seven sectors, 6,272 scored (agency, language) pairs, every one carrying an evidence URL and a capture date.
 
 Every number below is reproducible from the frozen source data in this repository.
-
-```mermaid
-flowchart LR
-    A["DEMAND<br/>OSPI 2024-25<br/>36,775 families<br/>140 languages<br/>6 school districts"]
-    B["SUPPLY<br/>51 agencies, 7 sectors<br/>6,272 scored pairs<br/>written / oral / collection"]
-    C["GAP INDEX<br/>district x language<br/>optimistic + conservative"]
-    D["Tier map exhibit"]
-    E["Access deserts"]
-    F["Power BI, 4 pages"]
-    G["Memo to King County"]
-
-    A --> C
-    B --> C
-    C --> D
-    C --> E
-    C --> F
-    D --> G
-    E --> G
-```
 
 ---
 
@@ -73,6 +59,27 @@ The ask that follows is narrow: re-rank the tier map against current data. The o
 **Washington Healthplanfinder** publishes health coverage information in **26 languages**, including Dari, Pashto, Tigrinya, Oromo, Amharic, Somali, Punjabi, Khmer, Lao and American Sign Language. Each carries real in-language text, a translated PDF, and the support line explained in that language. Its Amharic was reviewed by a native speaker for this project and called exemplary.
 
 Same state, same residents, same procurement rules. The gaps documented here are choices.
+
+---
+
+```mermaid
+flowchart LR
+    A["DEMAND<br/>OSPI 2024-25<br/>36,775 families<br/>140 languages<br/>6 school districts"]
+    B["SUPPLY<br/>51 agencies, 7 sectors<br/>6,272 scored pairs<br/>written / oral / collection"]
+    C["GAP INDEX<br/>district x language<br/>optimistic + conservative"]
+    D["Tier map exhibit"]
+    E["Access deserts"]
+    F["Power BI, 4 pages"]
+    G["Memo to King County"]
+
+    A --> C
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+    D --> G
+    E --> G
+```
 
 ---
 
@@ -164,11 +171,6 @@ Schools were hand-scored. **Every other sector is `assignment_method = derived`*
 ## The dashboard
 
 Four pages in Power BI, built on a star schema in `powerbi/`.
-
-| | |
-|---|---|
-| ![What the data says](images/page1-what-the-data-says.png) | ![The ordinance](images/page2-the-ordinance.png) |
-| ![Who provides what](images/page3-who-provides-what.png) | ![Where you can walk in](images/page4-where-you-can-walk-in.png) |
 
 1. **What the data says** — the headline figures and the verification caveat that qualifies them
 2. **The ordinance** — the tier map exhibit, with unlisted languages flagged
