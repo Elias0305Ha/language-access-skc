@@ -2,12 +2,33 @@
 
 **Where do people speak a language at home that the public services around them do not actually serve?**
 
+![Language Access in South King County dashboard](images/page1-what-the-data-says.png)
+
 This project answers that question for six school districts in South King County, Washington, by measuring two things separately and then subtracting one from the other:
 
 - **Demand.** 36,775 families, 140 home languages, from Washington State's 2024-25 school enrollment data.
 - **Supply.** 51 public agencies across seven sectors, 6,272 scored (agency, language) pairs, every one carrying an evidence URL and a capture date.
 
 Every number below is reproducible from the frozen source data in this repository.
+
+```mermaid
+flowchart LR
+    A["DEMAND<br/>OSPI 2024-25<br/>36,775 families<br/>140 languages<br/>6 school districts"]
+    B["SUPPLY<br/>51 agencies, 7 sectors<br/>6,272 scored pairs<br/>written / oral / collection"]
+    C["GAP INDEX<br/>district x language<br/>optimistic + conservative"]
+    D["Tier map exhibit"]
+    E["Access deserts"]
+    F["Power BI, 4 pages"]
+    G["Memo to King County"]
+
+    A --> C
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+    D --> G
+    E --> G
+```
 
 ---
 
@@ -144,6 +165,11 @@ Schools were hand-scored. **Every other sector is `assignment_method = derived`*
 
 Four pages in Power BI, built on a star schema in `powerbi/`.
 
+| | |
+|---|---|
+| ![What the data says](images/page1-what-the-data-says.png) | ![The ordinance](images/page2-the-ordinance.png) |
+| ![Who provides what](images/page3-who-provides-what.png) | ![Where you can walk in](images/page4-where-you-can-walk-in.png) |
+
 1. **What the data says** — the headline figures and the verification caveat that qualifies them
 2. **The ordinance** — the tier map exhibit, with unlisted languages flagged
 3. **Who provides what** — a language-by-sector matrix, plus what kind of provision each sector actually offers
@@ -157,7 +183,8 @@ It opens in the free Power BI Desktop and carries the four pages, the DAX measur
 
 ---
 
-## Repository layout
+<details>
+<summary><b>Repository layout</b></summary>
 
 ```
 data/raw/          frozen API responses and source files, never edited
@@ -172,7 +199,10 @@ src/               one script, one job
 
 Every downloaded file is frozen in `data/raw/` and every fetch script skips a file already on disk. Sources revise their published data. Without a frozen copy you cannot tell whether a changed number came from your code or from theirs.
 
-## Reproducing this
+</details>
+
+<details>
+<summary><b>Reproducing this</b></summary>
 
 ```bash
 pip install pandas requests geopandas beautifulsoup4 python-dotenv
@@ -208,6 +238,8 @@ python src/build_powerbi_model.py
 ```
 
 Requires a Census API key in `.env` as `CENSUS_API_KEY`. Run `python src/check_key.py` to verify it. The full sequence is safe to re-run and makes no network requests on a second pass.
+
+</details>
 
 ## Is the result stable?
 
