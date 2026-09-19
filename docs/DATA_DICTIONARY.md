@@ -422,7 +422,7 @@ Places where KCLS's own page contradicts itself. The collections page states its
 - Bring `school_inventory.csv` onto the library schema: add `agency_id` and `assignment_method='manual'`. Additive, no rescoring.
 - Blind re-score of a 10-row sample of the school inventory, for an inter-rater reliability figure. Addresses the single-coder weakness.
 - Archive evidence URLs at web.archive.org for the rows the memo names.
-- Five sectors remaining: transit, city government, legal aid, food assistance, health clinics.
+- ~~Five sectors remaining~~ **All seven sectors complete.** 51 agencies: food 12, health 12, legal 10, city 8, schools 6, transit 2, library 1.
 
 ---
 
@@ -431,3 +431,179 @@ Places where KCLS's own page contradicts itself. The collections page states its
 Run order is in `METHODOLOGY.md` §9. Every fetch script skips a file already on disk, so the full sequence is safe to rerun and makes no network requests on a second run.
 
 Requires a Census API key in `.env` as `CENSUS_API_KEY`, plus `pandas`, `geopandas` and `beautifulsoup4`.
+
+---
+
+## 12. The Power BI star schema
+
+Added 2026-09-18. Sections 1 to 11 describe the Phase 1 to 3 working
+tables. This section describes the eight CSVs in `powerbi/`, written by
+`src/build_powerbi_model.py`. They are the published dataset.
+
+### Why a star schema
+
+Facts hold measurements, dimensions hold the things measurements are
+about. Every dimension joins to every fact one-to-many in a single
+direction. This is not decoration: Power BI's filter propagation only
+behaves predictably when the model is shaped this way, and a slicer on
+`dim_district` reaching three different fact tables is exactly what the
+report needs.
+
+### The two readings, and the trap in them
+
+**Every district-language pair appears TWICE in `fact_gap`,** once per
+`reading`:
+
+| reading | What it assumes |
+|---|---|
+| `optimistic` | Every tier-3 claim is taken at face value. |
+| `conservative` | Any tier 3 not marked `verified_human` is demoted to tier 2. |
+
+The demotion target is 2, not 1, set by `unverified_tier3_as` in
+`build_gap_index.py`. The reasoning: of four Amharic offerings read by a
+native speaker, two were machine output. So 2 sits between trusting the
+claim (3) and assuming the worst (1).
+
+**Why two readings exist at all.** 155 tier-3 claims are in the dataset.
+Two have been read by someone who reads the language. The truth is a
+range. One number would be false precision.
+
+**The trap.** Because every pair is stored twice, a bare
+`SUM(fact_gap[families])` double counts: 73,550 against a true 36,775.
+**Every measure in `measures.dax` filters to one reading.** If you write
+a new measure, filter it too.
+
+### fact_gap
+
+Grain: one row per district x language x reading.
+
+| Column | Meaning |
+|---|---|
+| `district`, `language` | Keys to `dim_district`, `dim_language` |
+| `families` | OSPI families, this district, this language |
+| `reading` | `optimistic` or `conservative` |
+| `best_written_tier` | Best written tier from **any** agency reaching this district |
+| `best_written_tier_local_only` | Best written tier from **local** agencies only. See below. |
+| `best_oral_tier` | Best oral tier from any reaching agency |
+| `agencies_at_tier3`, `providers_at_tier3`, `best_provider` | Who, and how many |
+| `verified_tier3` | Of those tier-3 claims, how many are `verified_human` |
+| `written_gap` | `families * shortfall_written[best_written_tier]` |
+| `oral_gap` | `families * shortfall_oral[best_oral_tier]` |
+| `gap_score` | `0.7 * written_gap + 0.3 * oral_gap` |
+| `severity` | `gap_score / families` |
+| `families_no_written_anywhere` | Families where best written tier is 0 anywhere |
+| `families_no_local_written` | Families where the local written tier is 0 |
+| `families_no_local_document` | Families where the local written tier is below 3 |
+
+**Shortfall scales**, from `DEFAULT_PARAMS`:
+
+```
+shortfall_written = {3: 0.0, 2: 0.60, 1: 0.85, 0: 1.0}
+shortfall_oral    = {3: 0.0, 2: 0.20, 1: 0.70, 0: 1.0}
+w_written = 0.7,  w_oral = 0.3
+```
+
+The two scales differ on purpose. Written tier 2 still leaves a family
+without a document, so it carries 0.60 of the shortfall. Oral tier 2
+means a person can actually reach a human, which is most of what oral
+access is, so it carries only 0.20.
+
+**`gap_score` versus `severity`.** `gap_score` is volume-sensitive: how
+many people are underserved. `severity` divides it back out by
+`families`, so it is population-independent: how badly this pair is
+served, 0 to 1. A pair at severity 1.00 has nothing written and nothing
+oral. Rank by `gap_score` to prioritise; read `severity` to describe.
+
+**"Local"** means reach weight >= `scope_weight["city"] * 0.5` = 0.45 at
+baseline: the district itself (1.0) or a city substantially inside it
+(0.90 x overlap). It excludes county (0.70), regional (0.50) and state
+(0.35). The point is that a family is not credited with a statewide
+website that no local agency points them to. **Known issue: this
+threshold moves when a sensitivity scenario changes the city weight.
+See CLAUDE.md known weakness 8.**
+
+### fact_provision
+
+Grain: one row per agency x language. 6,272 rows.
+
+`agency_id`, `language`, `sector`, `written_tier`, `oral_tier`,
+`collection_tier`, `pathway_type`, `translated_page_count`,
+`quality_verdict`, `tier_verified`, `assignment_method`, `evidence_url`,
+`capture_date`.
+
+- `pathway_type`: `in_language_document`, `machine_widget`, or `none`.
+  These are the three identity colours on report page 3.
+- `tier_verified`: blank, `unverified`, `verified_human`, or
+  `verified_machine`. The conservative reading tests for
+  `verified_human`. **No school row can currently hold it. See CLAUDE.md
+  known weakness 10.**
+- `assignment_method`: `manual` for schools, `derived` everywhere else.
+
+### fact_access_desert
+
+Grain: district x language. `service_points_serving_language`,
+`is_access_desert`, `example_points`, `sectors_covered`.
+
+Built from library branches and transit service points only, because
+those are the only sectors publishing machine-readable locations.
+**Report page 4 must carry that caveat.** The figure is a floor.
+
+### fact_service_point and bridge_point_language
+
+95 physical locations with `lat`/`lon`, and the bridge that links them to
+languages. A branch holds several language collections and a language is
+held at several branches: a many-to-many. Power BI handles many-to-many
+badly if you join the two tables directly, so the bridge sits between
+them and both sides stay one-to-many.
+
+### dim_language
+
+`language`, `families_total`, `kc_tier`, `kc_status`, `on_tier_map`,
+`demand_rank`.
+
+- `families_total` is OSPI demand summed across the six districts. It is
+  0 for languages that appear in supply but have no measured demand;
+  those rows exist so provision rows do not orphan.
+- `kc_tier`, `kc_status`, `on_tier_map` come from King County Appendix C
+  via `src/compare_kc_tier_map.py`. `kc_status` is one of
+  `translation REQUIRED`, `translation recommended`,
+  `translation encouraged`, `NOT ON THE TIER MAP`.
+- **`kc_tier` is a rank, not a quantity. Never sum it.**
+
+### dim_agency and dim_district
+
+`dim_agency`: `agency_id`, `agency_name`, `sector`, `service_scope`,
+`king_county_authority`, `languages_scored`, `languages_at_tier3`,
+`assessment`, `assessed`.
+
+`king_county_authority` is true for exactly `kcmetro` and `health_dph`.
+KCLS is excluded deliberately: it is a separate taxing district with its
+own board, so KCC 2.15 does not bind it. This set is asserted in
+`build_master_inventory.py`, not derived, and the memo's compliance claim
+rests on it.
+
+`dim_district`: `district`, `cities_overlapping`, `families_total`,
+`languages_reported`.
+
+### Relationships
+
+All one-to-many, single direction, dimension to fact.
+
+```
+dim_language[language]           1 -> *  fact_provision[language]
+dim_language[language]           1 -> *  fact_gap[language]
+dim_language[language]           1 -> *  fact_access_desert[language]
+dim_language[language]           1 -> *  bridge_point_language[language]
+dim_agency[agency_id]            1 -> *  fact_provision[agency_id]
+dim_agency[agency_id]            1 -> *  fact_service_point[agency_id]
+dim_district[district]           1 -> *  fact_gap[district]
+dim_district[district]           1 -> *  fact_access_desert[district]
+fact_service_point[location_id]  1 -> *  bridge_point_language[location_id]
+```
+
+**There is no path from `dim_district` to `fact_provision`.** Provision is
+keyed by agency, not geography; the district link is made by the reach
+calculation inside `build_gap_index.py`, not by a model relationship. So
+any measure built on `fact_provision` will not respond to a district
+slicer. Report page 1's verification card is labelled "all districts"
+for exactly this reason.

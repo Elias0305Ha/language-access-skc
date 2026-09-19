@@ -60,23 +60,20 @@ Census integration and the apportionment validation.
 
 Written up in `docs/METHODOLOGY.md`.
 
-### Phase 3: in progress, 3 of 6 sectors done
+### Phase 3: complete
 
-**RESUME HERE: legal aid is the next sector.** Add its agencies to the
-`AGENCIES` list in `src/probe_agency_sites.py` and run it, then write
-`src/build_legal_inventory.py` modelled on `build_city_inventory.py`.
-The profiler is reusable; do not write new fetchers per sector.
-
-Multi-sector supply inventory. **All seven sectors**, sequenced cheapest first:
+Multi-sector supply inventory. **All seven sectors done.** 51 agencies in
+`dim_agency.csv`: food 12, health 12, legal 10, city 8, schools 6,
+transit 2, library 1.
 
 1. ~~Library (King County Library System)~~ **done, 2026-09-03**
 2. ~~Transit (King County Metro, Sound Transit)~~ **done, 2026-09-05**
 3. ~~City government (eight cities)~~ **done, 2026-09-05**
-4. Legal aid
-5. Food assistance
-6. Health clinics (most decentralised, most expensive, goes last)
+4. ~~Legal aid~~ **done**
+5. ~~Food assistance~~ **done**
+6. ~~Health clinics~~ **done**
 
-Ships the public dataset on GitHub with a data dictionary.
+The dataset is built. It is not yet on GitHub and there is no README.
 
 **Library sector result.** 51 KCLS locations pulled from their own JSON API with coordinates included, 22 inside the study area, assigned to districts by point-in-polygon against Census TIGER polygons. 140 scored language rows in `data/inventory/library_inventory.csv`.
 
@@ -120,9 +117,29 @@ Rule 5.10 now separates `machine` (identification, changes the tier) from `poor`
 
 **Elias explicitly rejected cutting this to three sectors and was right to.** The cross-sector comparison is a finding in itself, and the access-desert map needs point density. Do not re-propose narrowing it.
 
-### Phases 4 and 5
+### Phase 4: complete
 
-Geocoding, distance analysis, access deserts, gap index, sensitivity analysis. Then Power BI, memo, README, publish.
+Master inventory, gap index, access deserts, tier-map comparison.
+
+- `src/build_master_inventory.py` concatenates the per-sector inventories,
+  assigns `service_scope` and `tier_verified`.
+- `src/build_gap_index.py` scores every district-language pair in two
+  readings, optimistic and conservative. Tuning constants at the top.
+- `src/build_access_map_layers.py` builds the service-point layers.
+- `src/compare_kc_tier_map.py` joins measured demand to King County's
+  Appendix C tier map. **The tier map was located**: the PDF is frozen at
+  `data/raw/kingcounty_language_tiers_appendixC.pdf`.
+- `src/audit_kingcounty_locales.py` tests whether the County's seven
+  translated locale paths carry translated content. They mostly do not.
+
+### Phase 5: in progress
+
+- `src/sensitivity_analysis.py` sweeps 11 scenarios. Written up below.
+- `src/build_powerbi_model.py` writes the star schema into `powerbi/`.
+- `docs/MEMO.md` is written, recipient decided, not yet sent.
+- **Power BI report: pages 1 and 2 built. Pages 3 and 4 not started.**
+  Spec in `powerbi/BUILD_GUIDE.md` section 5.
+- Not done: README, GitHub remote, publish to Power BI Service.
 
 ---
 
@@ -130,13 +147,20 @@ Geocoding, distance analysis, access deserts, gap index, sensitivity analysis. T
 
 **Study area is six districts.** Charter and tribal schools excluded, noted as a limitation.
 
-**Tiers are assigned per (agency, language) pair, in two modes.** `written_tier` and `oral_tier`, each 0 to 3. Never one tier for an agency as a whole. The mode split exists because Renton publishes documents in "Chinese" without naming a variety: written Chinese serves both Cantonese and Mandarin readers, interpreters do not.
+**Tiers are assigned per (agency, language) pair, in three modes.** `written_tier`, `oral_tier` and `collection_tier`, each 0 to 3. Never one tier for an agency as a whole. The written/oral split exists because Renton publishes documents in "Chinese" without naming a variety: written Chinese serves both Cantonese and Mandarin readers, interpreters do not. `collection_tier` is library-only and uses a reduced scale; it is blank elsewhere and that is correct, not missing data.
 
-**Tier 2 requires that the request pathway be reachable in that language.** An English-only page saying interpreters are available in any language does not count. This is the most consequential rule in the project. Full reasoning in `docs/CLASSIFICATION_RULE.md` section 5.
+**Tier 2 requires that the request pathway be reachable in that language.** An English-only page saying interpreters are available in any language does not count. This is the most consequential rule in the project. Full reasoning in `docs/CLASSIFICATION_RULE.md` **section 4**. (Section 5 is the decided edge cases. Earlier versions of this file cited section 5 and were wrong.)
 
-**Machine translation counts for discovery, not for documents.** A Google Translate widget can satisfy the pathway test (someone can find the email address) but never produces tier 3 (it cannot translate PDFs).
+**Machine translation counts for discovery, not for documents.** A widget never produces tier 3; it cannot translate PDFs.
 
-**Consequence to remember:** an unrestricted Google Translate widget covers 135+ languages, so tier 2 becomes nearly free for any agency running the default. Tier 2 does not discriminate. The gap index therefore weights the 2-to-3 step more heavily than 0-to-2.
+**The widget alone does NOT earn tier 2.** This file previously said it did, and that was wrong. `src/build_city_inventory.py` implements the stricter and correct rule:
+
+- `written_tier` 1: no in-language page, but the widget covers the language.
+- `oral_tier` 2: the widget covers the language **AND** the city publishes at least one interpreter or language-access page.
+
+The second condition is the point. A widget can only make discoverable something that is already on the page. A city with no interpreter offer anywhere has nothing for the widget to reveal, so it stays below tier 2.
+
+**Consequence to remember:** an unrestricted widget covers 135+ languages, so for any agency that *does* publish an access page, tier 2 is nearly free. Tier 2 discriminates weakly. The gap index therefore weights the 2-to-3 step more heavily than 0-to-2.
 
 **Ambiguous language labels stay unresolved and counted, not guessed.** "Ethiopic" is a writing system, not a language. It is left unassigned rather than folded into Amharic.
 
@@ -172,11 +196,16 @@ Two things worth knowing before touching Census data again:
 data/raw/          frozen API responses and source files, never edited
 data/reference/    hand-maintained lookups (language crosswalk, variable lists)
 data/processed/    derived tables
-data/inventory/    the supply inventory, hand-scored
-docs/              CLASSIFICATION_RULE.md, METHODOLOGY.md
+data/inventory/    per-sector supply inventories, one CSV per sector
+docs/              CLASSIFICATION_RULE.md, METHODOLOGY.md, DATA_DICTIONARY.md, MEMO.md
 outputs/           gap index, validation results, maps
+powerbi/           star schema CSVs, measures.dax, BUILD_GUIDE.md
 src/               one script, one job
 ```
+
+**`data/inventory/` is not all hand-scored.** Schools are `manual`. Every
+other sector is `assignment_method = derived`: applied by code to frozen
+evidence and exactly reproducible. See `docs/CLASSIFICATION_RULE.md` 6.1.
 
 ### Scripts
 
@@ -195,6 +224,22 @@ src/               one script, one job
 | `fetch_pums.py` | PUMS person records, five PUMAs | |
 | `fetch_districts.py` | C16001 at school district level | |
 | `validate_apportionment.py` | The Phase 2 test | |
+| `fetch_kingcounty_sitemap.py` | Freezes kingcounty.gov sitemap URLs | |
+| `probe_agency_sites.py` | Reusable site profiler, all sectors | Do not write new fetchers per sector |
+| `audit_kingcounty_locales.py` | Tests the 7 County locale paths for real content | Skips if output on disk |
+| `build_kcls_inventory.py` | Library sector | `derived` |
+| `build_transit_inventory.py` | Transit sector | `derived` |
+| `build_city_inventory.py` | City sector | `derived`, holds the widget/pathway rule |
+| `build_legal_inventory.py` | Legal aid sector | `derived` |
+| `build_food_inventory.py` | Food assistance sector | `derived` |
+| `build_health_inventory.py` | Health sector | `derived` |
+| `build_master_inventory.py` | Concatenates all sectors, assigns scope and `tier_verified` | |
+| `build_city_district_crosswalk.py` | City-to-district area overlap | Feeds the reach weights |
+| `build_gap_index.py` | Phase 4 gap index, two readings | **Tuning constants at the top** |
+| `build_access_map_layers.py` | Service points and access deserts | |
+| `compare_kc_tier_map.py` | Demand vs King County Appendix C | Memo's central exhibit |
+| `sensitivity_analysis.py` | Sweeps 11 scenarios | Must run from repo root |
+| `build_powerbi_model.py` | Writes the star schema to `powerbi/` | |
 
 ---
 
@@ -220,11 +265,27 @@ src/               one script, one job
 
 ## Known weaknesses, stated so nobody rediscovers them as surprises
 
-1. **Single coder.** All 60 tier assignments come from one person with no inter-rater reliability statistic. A blind re-score of a 10-row sample would fix this cheaply and has not been done.
+1. **Single coder.** Every judgment call in the project comes from one person with no inter-rater reliability statistic. This matters less than it did at Phase 1: schools are still `manual`, but every other sector is `derived`, applied by code to frozen evidence. What remains subjective is the rule itself and the `quality_verdict` readings. A blind re-score of a 10-row sample would still be cheap and has not been done.
 2. **Inventory depth.** Most districts were assessed from one or two pages. A reviewer could reasonably ask whether translated documents exist on a subpage nobody opened. The eleven severity-1.00 rows are the ones the memo will name and deserve a deeper pass plus archived evidence URLs.
 3. **Web inventory understates reality by design.** Services that exist but are not advertised online score as absent. Deliberate, per the pathway rule, but it is a bias.
 4. **Uneven assessment quality across languages.** Elias can judge whether Amharic text was human-written. For Chuukese or Punjabi the judgment rests on file type and provenance.
 5. **OSPI covers only families with school-age children.** This is the strongest alternative explanation for the Phase 2 error and the reason Test A exists.
+
+6. **Demand and supply are measured on different populations.** Provision covers 51 agencies in seven sectors. Family counts come only from OSPI. So a count attached to a food bank or a clinic is still a count of households with a K-12 student. Households without school-age children are absent from every number in this project. Read every family count as a floor.
+
+7. **OSPI records home language, not English proficiency.** King County's tier map ranks Limited English Proficiency population. The two are not interchangeable, and no claim in this project maps one onto the other. Where the memo puts them side by side it says so at the table.
+
+### Found in review, 2026-09-18. Not yet fixed.
+
+8. **`local_cut` moves with the sensitivity scenario.** In `build_gap_index.py`, `local_cut = scope_weight["city"] * 0.5`. When a scenario changes the city weight, the definition of "local" moves with it, so `families_no_local_document` is not comparable across scenarios even though `sensitivity_analysis.py` prints it side by side as if it were. Under `scope_flat_all_equal` the cut becomes 0.5 and county agencies at weight 1.0 start counting as local. The gap-score ranking result is unaffected; the local-document measure is. **That measure is on Power BI page 1.**
+
+9. **`scope_weight["district"]` is dead code.** The district weight is hardcoded to 1.0 at the reach step. So `scope_steep_local_only` and `scope_flat_all_equal` do not actually sweep the school sector, which is the only district-scope sector.
+
+10. **No school row can ever be `verified_human`.** `build_master_inventory.py` blanks `quality_verdict` for schools, and `tier_verified` is derived from it. Every school tier-3 claim is therefore permanently `unverified` and permanently demoted in the conservative reading. Schools are the only weight-1.0 sector, so the most locally relevant provision is structurally penalised and no amount of verification work can change it without a code change.
+
+11. **The sensitivity numbers in the docstring are prose, not assertions.** `sensitivity_analysis.py` states its results in the module docstring. Nothing recomputes or checks them. If the data changes they go stale silently.
+
+12. **The conservative reading never touches oral tiers.** `unverified_tier3_as` is applied to `written_tier` only. An unverified oral tier 3 is trusted in both readings, so the harsh case is understated.
 
 ---
 
@@ -290,7 +351,7 @@ The findings land on that clause by clause:
 
 | KCC 2.15.030.B requires | Measured in this project |
 |---|---|
-| translation of **webpages** | Seven King County locale paths (`/es-ES`, `/so-SO`, …) serve English content; 71 of 77 sampled pairs byte-identical to English. Its Amharic is machine translation, native-speaker verified. |
+| translation of **webpages** | Seven King County locale paths (`/es-ES`, `/so-SO`, …) serve English content; 71 of 77 sampled pairs carry main-content text identical to English after stripping chrome and markup. Its Amharic is machine translation, native-speaker verified. |
 | **automated phone messages** | Metro's interpreter line is option 1 on the general call centre number, advertised in English only, and closed weekends and holidays. |
 | informational signage | **Not measurable by this method. Say so explicitly.** |
 
@@ -307,13 +368,15 @@ So the memo structure is:
 
 ### Phase 4 tasks this creates
 
-- **Find the County's "tier map" and its top six languages.** If the top six do not match measured need in South King County, that is a finding against the ordinance's own benchmark. Not yet located; not on the language access page or in the sitemap.
+- ~~**Find the County's "tier map" and its top six languages.**~~ **Found.** Appendix C of INF-14-2-AEO, frozen at `data/raw/kingcounty_language_tiers_appendixC.pdf`. Twenty languages total: Spanish alone at tier 1, eight at tier 2, eleven at tier 3. Dari, Pashto and Marshallese appear nowhere on it. Joined to demand by `src/compare_kc_tier_map.py`.
 - **Locate published Language Assistance Plans** for Metro and Public Health. KCC 2.15.030.B requires them to exist.
 - Rank the gap index with King County agencies separable from the rest.
 
 ## Open items
 
+- **Preempt the Dari/Farsi objection in the memo.** Farsi is tier 3 on the map; Dari is absent. The first defence of the tier map will be that Dari speakers are served by Farsi materials. The answer is in the data: Farsi is 328 families, Dari is 3,040. A tier assigned on 328 people would be covering 3,368. Raise it before someone else does.
 - Archive evidence URLs at web.archive.org for the rows the memo names.
-- `DATA_DICTIONARY.md` written 2026-09-05. Keep it current as each sector lands.
+- `DATA_DICTIONARY.md` is v1.0 and documents only Phase 1 to 3 tables. It covers none of the star schema: `fact_gap`, `fact_provision`, `fact_access_desert`, `dim_language`, `dim_agency`, `dim_district`, `fact_service_point`, `bridge_point_language`. The memo attaches "a public dataset" and half of it has no dictionary.
 - Bring `school_inventory.csv` onto the library schema: add `agency_id` and `assignment_method='manual'`. Additive, no rescoring.
-- No README yet.
+- Power BI pages 3 and 4, then publish to Service.
+- No README yet. No GitHub remote yet.

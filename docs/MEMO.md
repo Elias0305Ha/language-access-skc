@@ -35,7 +35,7 @@ The Afghan evacuation was August 2021. The full-scale invasion of Ukraine was Fe
 | **Pashto** | **1,127** | **absent** |
 | **Marshallese** | **446** | **absent** |
 
-Source: OSPI 2024-25 languages spoken by students and families, Auburn, Federal Way, Highline, Kent, Renton and Tukwila.
+Source: OSPI 2024-25 languages spoken by students and families, Auburn, Federal Way, Highline, Kent, Renton and Tukwila. Counts are households with a K-12 student. The tier map ranks county-wide Limited English Proficiency population, a different measure on a different geography; this table shows scale and recency, not a like-for-like tier calculation.
 
 **Only Spanish sits in Tier 1, the single tier where translation is required.** That is 53.2% of families in the study area. The remaining **17,206 families, 46.8%**, speak a language for which translation is recommended, encouraged, or unmentioned.
 
@@ -43,7 +43,9 @@ Source: OSPI 2024-25 languages spoken by students and families, Auburn, Federal 
 
 Three measurements from County agencies, each with a source:
 
-- **King County publishes seven translated locale paths** (`/es-ES`, `/so-SO`, `/vi-VN`, `/ru-RU`, `/uk-UA`, `/ko-KR`, `/zh-CN`). Sampling 12 pages across all seven, **71 of 77 comparable page pairs are byte-identical to their English equivalent.** The six that differ are the homepage, differing only in the page title. The Somali homepage title is "Home".
+- **King County publishes seven translated locale paths** (`/es-ES`, `/so-SO`, `/vi-VN`, `/ru-RU`, `/uk-UA`, `/ko-KR`, `/zh-CN`). Sampling 12 pages across all seven, **71 of 77 comparable page pairs carry main-content text identical to their English equivalent.** The six that differ are the homepage, differing only in the page title. The Somali homepage title is "Home".
+
+  Method: 12 English paths were drawn from the County's own sitemap at a fixed stride, so the sample is reproducible without a stored random seed. Each path was fetched under `/en/` and under all seven locale prefixes. Script, style, navigation, header and footer were stripped, the `<main>` block extracted, markup removed and whitespace collapsed; the resulting strings were compared for exact equality. Comparing against the English page rather than running language detection avoids the failure mode where a detector reads a page as translated because of proper nouns. Captured and frozen in `data/raw/kingcounty_locale_audit.csv`. Script: `src/audit_kingcounty_locales.py`.
 - **King County's Amharic pages are machine translation**, identified by a native Amharic speaker. Twenty pages across DCHS and DJA.
 - **King County Metro publishes two translated pages**, one of which is a right-to-left UI component rather than rider content. Its interpreter line covering "nearly 200 languages" is advertised in English only, and is option 1 on the general call centre number, which is closed weekends and holidays. Buses are not.
 
