@@ -151,7 +151,9 @@ Four pages in Power BI, built on a star schema in `powerbi/`.
 
 > Live report: _link to be added_
 
-The `.pbix` file is in this repository and opens in the free Power BI Desktop.
+Download the report file: **[language-access-skc.pbix](language-access-skc.pbix)**
+
+It opens in the free Power BI Desktop and carries the four pages, the DAX measures, the relationships and the data. No account needed.
 
 ---
 
