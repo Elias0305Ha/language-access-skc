@@ -37,6 +37,8 @@ The Afghan evacuation was August 2021. The full-scale invasion of Ukraine was Fe
 
 Source: OSPI 2024-25 languages spoken by students and families, Auburn, Federal Way, Highline, Kent, Renton and Tukwila. Counts are households with a K-12 student. The tier map ranks county-wide Limited English Proficiency population, a different measure on a different geography; this table shows scale and recency, not a like-for-like tier calculation.
 
+One anticipated objection, answered with the County's own framing: Farsi sits at Tier 3 and Dari does not appear, and the two are closely related. If Dari speakers are considered served by Farsi materials, then a Tier 3 designation ranked on 328 families is in practice carrying 3,368. The designation was not made with that population in view, because that population was not there when the ranking was drawn.
+
 **Only Spanish sits in Tier 1, the single tier where translation is required.** That is 53.2% of families in the study area. The remaining **17,206 families, 46.8%**, speak a language for which translation is recommended, encouraged, or unmentioned.
 
 ## What that produces downstream

@@ -9,6 +9,18 @@
 
 *Four pages: the headline figures, the ordinance exhibit, the cross-sector matrix, and the access-desert map.*
 
+> ### Correction, October 2026
+>
+> **The original version of this analysis claimed that Dari and Pashto do not appear on King County's language tier map. That claim was wrong, and the County told me so.**
+>
+> I sent the memo in `docs/MEMO.md` to the King County Language Access Program. The Language Access Manager replied that the tiers have since been re-ranked using 2023-2024 data, that they are updated roughly every two years, and that **Dari and Pashto are now in Tier 2.** I accept that correction.
+>
+> What was true is narrower, and in one respect sharper. The 2018 appendix was the only version of the tier map I could find in several weeks of looking, because, in the County's own words, the current tiers "were moved to our employee intranet as part of broader web-content changes that shifted internal operational resources off the public site," and they "have continued to receive inquiries from community members and partners looking for this information."
+>
+> So the finding is no longer that the list is stale. It is that **KCC 2.15.030.B makes the tier map the legal benchmark for which documents must be translated, and that list is not currently published**, which means no resident, school district or community organization can check whether the ordinance is being met. The County says it is working to republish it.
+>
+> Everything in this project that does not depend on the tier map is unaffected: the 51-agency supply inventory, the locale-path audit, the machine-translation finding, the access-desert map, and the verification problem. The full exchange is in `docs/CORRESPONDENCE.md`.
+
 This project answers that question for six school districts in South King County, Washington, by measuring two things separately and then subtracting one from the other:
 
 - **Demand.** 36,775 families, 140 home languages, from Washington State's 2024-25 school enrollment data.
@@ -40,7 +52,7 @@ The Afghan evacuation was August 2021. The full-scale invasion of Ukraine was Fe
 | Somali | 1,078 | Tier 2, recommended |
 | **Marshallese** | **446** | **absent** |
 
-Dari is the second most common home language in the study area. It appears nowhere in the policy that decides who gets translated documents.
+Dari is the second most common home language in the study area and appears nowhere on this version of the map. **See the correction above: the County has since confirmed Dari and Pashto are on the current, unpublished tiers.** The table below reflects the only version of the tier map that is publicly available.
 
 **53.2% of families speak the one language where translation is required. The remaining 46.8%, 17,206 families, speak a language where it is recommended, encouraged, or unmentioned.**
 

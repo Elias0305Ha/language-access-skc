@@ -1,0 +1,55 @@
+TO: kcla@kingcounty.gov
+
+SUBJECT: Re: Language tier map: three of South King County's largest home languages are not on Appendix C
+
+BODY:
+
+Hi Cheryse,
+
+Thank you for the detailed reply, and for correcting the record. I will
+update my published analysis to reflect that Dari and Pashto are in Tier 2
+under the current tiers. That was the central claim in what I sent you and it
+was wrong.
+
+Three things, if you have the time.
+
+First, would you be willing to send me the current tier list directly? You
+mention it has moved to the employee intranet. I would like my corrected
+analysis to compare against the real list rather than the 2018 appendix, and
+I will hold it as you send it and cite it as you prefer.
+
+Second, Marshallese. You named Dari and Pashto, and I want to be careful not
+to assume either way about the rest. Marshallese is 446 families across the
+six South King County districts I looked at, and it is the most
+geographically concentrated language community in my data, heavily
+concentrated in Auburn. Is it on the current tiers?
+
+Third, and this is the part I would flag as a finding in its own right. I
+spent several weeks on this and the 2018 appendix was the only version I
+could locate. You mention you have continued to receive inquiries from
+community members and partners looking for the current information. KCC
+2.15.030.B makes the tier map the benchmark for which documents must be
+translated, so while the current list sits on the intranet, nobody outside
+the County can check whether the ordinance is being met. I am glad to hear
+you are working to republish it, and I would be happy to be a test case once
+it is up, since I now know exactly how hard it was to find.
+
+Separately, the rest of my analysis does not depend on the tier map and may
+still be useful to you. In particular:
+
+- King County publishes seven translated locale paths. In a reproducible
+  sample of twelve pages across all seven, 71 of 77 comparable page pairs
+  carried main-content text identical to the English page.
+- The County's Amharic pages across DCHS and DJA appear to be machine
+  translation. I read them myself; Amharic is my first language.
+- Of 95 physical service points I geocoded across libraries and transit,
+  Dari is served at 2 and Pashto, Tigrinya and Khmer at none.
+
+I am happy to send any of that in more detail, or to simply stay out of your
+way. Either is fine.
+
+Thank you again for taking the time to answer properly.
+
+Elias Hakenso
+erdunoelias@gmail.com
+https://github.com/Elias0305Ha/language-access-skc

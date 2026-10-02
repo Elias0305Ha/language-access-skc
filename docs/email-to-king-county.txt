@@ -1,0 +1,24 @@
+TO: kcla@kingcounty.gov
+
+SUBJECT: Language tier map: three of South King County's largest home languages are not on Appendix C
+
+BODY:
+
+Hello,
+
+I am a resident of SeaTac and a data analyst. I have spent the last few weeks measuring language access across South King County, and I found something in the County's own policy that I think your office would want to see.
+
+KCC 2.15.030.B requires County agencies to translate public communication materials into the top six languages "based on the County's tier map." That tier map is Appendix C of INF-14-2-AEO, and its header states it uses 2016 Census Update Data, most current as of October 2018.
+
+Current school enrollment data for six South King County districts shows Dari as the second most common home language after Spanish, at 3,040 families. Dari does not appear on the tier map. Neither does Pashto (1,127 families) nor Marshallese (446).
+
+My ask is narrow: re-rank the tier map against current data. That is one data refresh, already within your office's authority. The ordinance then applies to these languages with no further action.
+
+The full memo is attached. The underlying dataset covers 51 agencies across seven sectors with an evidence URL and capture date on every row, and it is public here:
+
+https://github.com/Elias0305Ha/language-access-skc
+
+I am happy to walk through the method or share the raw data in whatever form is most useful.
+
+Elias Hakenso
+erdunoelias@gmail.com
